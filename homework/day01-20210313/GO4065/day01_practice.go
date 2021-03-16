@@ -1,3 +1,6 @@
+// Author: kalidio
+// Date: 2021-03-16
+// Content: Day01 practice
 package main
 
 import (
@@ -11,7 +14,7 @@ func Multiplication() {
 	fmt.Println("2、打印乘法口诀")
 	for i := 1; i <= 9; i++ {
 		for j := 1; j <= i; j++ {
-			fmt.Printf("%d * %d = %d\t", j, i, j*i)
+			fmt.Printf("%d * %d = %-2d ", j, i, j*i)
 		}
 		fmt.Println()
 	}
@@ -22,49 +25,44 @@ func PlayGGame() {
 	fmt.Println("3,4、猜数字游戏")
 AGAIN:
 	var GuessNum int
-	var x string
-	c, max := 5, 100 // number of times, the maximum number
+	var Answer string
+	Times, MaxNum := 5, 10 // number of times, the maximum number
 	// initialize random number
 	rand.Seed(time.Now().UnixNano())
-	GameNum := rand.Intn(max) + 1
-REINPUT:
-	// loop
-	for {
-		fmt.Printf("Note: you have %d chances! ", c)
-		fmt.Printf("Please input your number(0 ~ %d):\t", max)
+	GameNum := rand.Intn(MaxNum) + 1
+	for { // loop
+		fmt.Printf("Note: you have %d chances! ", Times)
+		fmt.Printf("Please input your number(1 ~ %d): ", MaxNum)
+	REINPUT:
 		fmt.Scanf("%d\n", &GuessNum)
-		if GuessNum > max || GuessNum < 0 {
-			// illegal input
-			fmt.Println("You input is illegal, please re-input.\t")
+		// fmt.Printf("%d",GuessNum)
+		if GuessNum > MaxNum || GuessNum <= 0 { // illegal input
 			goto REINPUT
 		} else if GuessNum < GameNum {
 			fmt.Println("The number is too small!")
 		} else if GuessNum > GameNum {
 			fmt.Println("The number is too big!")
 		} else {
-			fmt.Println("Congratulations, you guessed it!")
-			// break   // do not loop the game
-			fmt.Print("Do you want to play again?(y/n)\t")
+			fmt.Println("You are so smart, you guessed it!")
+			// break   // if not loop the game
 		SELECT:
+			fmt.Print("Do you want to play again?(y/n): ")
 			// after guessing, can choose to continue the play
-			fmt.Scanf("%s", &x)
-			if x == "y" {
-				// TODO：输入 y 后，loop 已执行了一次问题，如下：
-				// Note: you have 5 chances! Please input your number:The number is too small!
-				// Note: you have 4 chances! Please input your number:
+			fmt.Scanf("%s", &Answer)
+			if Answer == "y" {
 				goto AGAIN
-			} else if x == "n" {
-				fmt.Println("The game is over.")
+			} else if Answer == "n" {
+				// fmt.Println("The game is over.")
 				break
 			} else {
-				fmt.Println("You input is illegal, please re-input.")
-				fmt.Print("Please re-input your choice:\t")
+				// fmt.Println("You input is illegal, please re-input.")
+				// fmt.Println()
 				goto SELECT
 			}
 		}
-		c--
-		if c == 0 {
-			fmt.Println("The game is over.")
+		Times--
+		if Times == 0 {
+			fmt.Println("What a pity! you almost guessed it, please try again.")
 			break
 			// if want to re-play the game, the same above.
 		}
@@ -100,6 +98,7 @@ func YhTriangle() {
 		fmt.Println()
 	}
 }
+
 func main() {
 	// 打印乘法口诀
 	Multiplication()
