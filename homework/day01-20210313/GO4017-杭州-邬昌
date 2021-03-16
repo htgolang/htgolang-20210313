@@ -1,10 +1,1 @@
-if not points:
-            return 0
-        points.sort(key=lambda balloon: balloon[1])
-        ans = 1
-        maxpoint = points[0][1]
-        for i in points:
-            if i[0] > maxpoint:
-                maxpoint = i[1]
-                ans += 1
-        return ans
+
