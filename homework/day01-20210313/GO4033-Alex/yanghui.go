@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	YanghuiTriangle(5)
+	yanghuiTriangle(5)
 }
 /*杨辉三角形
 百度百科的描述：https://baike.baidu.com/item/%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/215098?fr=aladdin
 */
-func YanghuiTriangle (num int) {
+func yanghuiTriangle (num int) {
 	//如果没指定层数，默认打印五层
 	if num == 0 {
 		num = 5
