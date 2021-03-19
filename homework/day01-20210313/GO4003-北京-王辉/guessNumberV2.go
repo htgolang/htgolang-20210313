@@ -28,8 +28,8 @@ START:
 		fmt.Printf("please input a int number(0~100)，有5次机会")
 		fmt.Scan(&guess_num)
 		if guess_num == correct_num {
-			fmt.Printf("正确结果是%的，你猜对了！\n", correct_num)
-			fmt.Println("是否继续猜数字")
+			fmt.Printf("正确结果是%d的，你猜对了！\n", correct_num)
+			fmt.Print("是否继续猜数字Y/y:")
 			fmt.Scan(&ack)
 			if ack == "Y" || ack == "y" {
 				times = 0

@@ -49,7 +49,7 @@ func guessNum() {
 		gameNum := rand.Intn(100)
 
 		// 打印实际答案，方便测试
-		fmt.Printf("游戏答案为：%s \n", gameNum)
+		fmt.Printf("游戏答案为：%d \n", gameNum)
 
 		gameRun(gameNum)
 
