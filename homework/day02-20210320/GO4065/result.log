@@ -1,0 +1,53 @@
+A 20
+B 3
+C 3
+D 1
+E 1
+F 1
+G 5
+I 23
+L 5
+M 4
+N 21
+O 3
+P 2
+S 4
+T 11
+W 15
+Y 2
+a 480
+b 99
+c 164
+d 226
+e 760
+f 180
+g 137
+h 348
+i 476
+j 19
+k 46
+l 282
+m 148
+n 388
+o 520
+p 77
+q 6
+r 343
+s 370
+t 588
+u 163
+v 71
+w 132
+x 5
+y 109
+z 6
+The index of the largest value in the slice is 2, and its value is 19 .
+The index of the second largest value in the slice is 3, and its value is 10 .
+The result is: [9 8 8 10 2 19]
+The result is: [9 8 8 2 10 19]
+Before sorting is:  [9 8 8 2 10 19]
+After sorting is:  [2 8 8 9 10 19]
+please input any number in the arrary [2 8 9 10 19] : 9
+The index of the value 8 is 2 . 
+please input any number in the arrary [2 8 8 9 10 19] : 30
+-1
