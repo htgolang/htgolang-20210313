@@ -6,12 +6,9 @@ import (
 )
 
 func main() {
-	txt, _ := ioutil.ReadFile("ihaveadream.txt")
-	//	fmt.Println(string(txt))
-	contents := make(map[string]int)
-	for _, v := range string(txt) {
-		contents[string(v)]++
+	data, err := ioutil.ReadFile("C:\Users\Administrator\go\ihaveadream.txt")
+	if err != nil {
+		fmt.Println("Reading error", err)
 	}
-	//	fmt.Printf("%T", contents)
-	fmt.Println(contents)
+	fmt.Println("Contents of file:", string(data))
 }
