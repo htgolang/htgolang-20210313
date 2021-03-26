@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"os"
 	"time"
 )
 
 func main() {
 	//生成一个100以内的随机数，方便测试
+START:
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	var randomsug int = r.Intn(100)
 	fmt.Println(randomsug)
@@ -23,24 +23,16 @@ func main() {
 		} else if cli_sug < randomsug {
 			fmt.Println("来嘛，大胆点")
 		} else {
-			fmt.Println("牛鼻哦！中奖了")
-			os.Exit(1)
+			fmt.Printf("牛鼻哦！中奖了,是否继续呀(y/n)?")
+			var is_continue string
+			fmt.Scan(&is_continue)
+			if is_continue == "y" {
+				//如果继续，则重置计数器
+				max_nums = 0
+				goto START
+			}
+			goto END
 		}
 	}
-
+END:
 }
-
-/*
-PS D:\go_obj\day01> go run .\randomsug.go
-29
-请输入你想中奖的神奇数字:88
-兄die,你猜的太大了
-请输入你想中奖的神奇数字:29
-牛鼻哦！中奖了
-exit status 1
-PS D:\go_obj\day01> go run .\randomsug.go
-33
-请输入你想中奖的神奇数字:33
-牛鼻哦！中奖了
-exit status 1
-*/

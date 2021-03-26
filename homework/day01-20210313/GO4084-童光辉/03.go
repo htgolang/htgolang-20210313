@@ -29,18 +29,3 @@ func main() {
 	}
 
 }
-
-/*
-PS D:\go_obj\day01> go run .\randomsug.go
-29
-请输入你想中奖的神奇数字:88
-兄die,你猜的太大了
-请输入你想中奖的神奇数字:29
-牛鼻哦！中奖了
-exit status 1
-PS D:\go_obj\day01> go run .\randomsug.go
-33
-请输入你想中奖的神奇数字:33
-牛鼻哦！中奖了
-exit status 1
-*/
