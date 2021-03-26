@@ -26,7 +26,7 @@ func traverseArticle(path string) map[string]int {
 }
 
 func main() {
-	path := "G:/go-work/src/github.com/test/test02/dream.txt"
+	path := "dream.txt"
 	ret := traverseArticle(path)
 	for k, v := range ret {
 		fmt.Println(k, v)

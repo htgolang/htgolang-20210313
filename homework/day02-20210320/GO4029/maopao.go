@@ -12,9 +12,9 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("%v", array)
+	fmt.Printf("%v\n", array)
 	//打印第一大
-	fmt.Printf("%v", array[len(array)-1])
+	fmt.Printf("%v\n", array[len(array)-1])
 	// 打印第二大
-	fmt.Printf("%v", array[len(array)-2])
+	fmt.Printf("%v\n", array[len(array)-2])
 }

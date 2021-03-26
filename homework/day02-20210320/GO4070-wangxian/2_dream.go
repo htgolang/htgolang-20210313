@@ -2,15 +2,16 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"os"
 )
 
 //文件路径
-var file_path = "c:\\gocode\\src\\02\\a_dream.txt"
+var file_path = "a_dream.txt"
 
 func main() {
 	//从文件读取内容
-	bytes_content, err := os.ReadFile(file_path)
+	bytes_content, err := ioutil.ReadFile(file_path)
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
