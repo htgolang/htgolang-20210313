@@ -14,7 +14,14 @@
 8. 在切片中查找元素(二分查找)
     []int{2, 8, 9, 10, 19}
 
+
     控制台输入 9 => 查找在切片中的位置
         不存在：-1
         存在：索引
 
+    7 => [2] 前 0 - 1 => [start + end]/2 => 0 => 1-1 => 1
+
+    start =0 end=5 => middle=2
+    start =0 end=middle-1 => middle=0
+    start=middle+1 end=end(1) => middle=1
+    start <= end (start > end结束)
