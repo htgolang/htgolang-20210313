@@ -18,7 +18,7 @@ var data = []map[string]string{
 
 func addUser() error {
 	var (
-		id, name, addr, tel, flag1 string
+		id, name, addr, tel, txt string
 		count                      int
 	)
 	for {
@@ -31,8 +31,8 @@ func addUser() error {
 		fmt.Printf("name：%s, addr：%s, tel：%s\n", name, addr, tel)
 		fmt.Print("是否确认(y/n)")
 		fmt.Scan(&flag1)
-		flag1 = strings.ToLower(strings.TrimSpace(flag1))
-		if flag1 == "y" {
+		txt = strings.ToLower(strings.TrimSpace(flag1))
+		if txt == "y" {
 			fmt.Println("正在提交数据")
 			index := len(data) + 1
 			id = strconv.Itoa(index)
@@ -45,7 +45,7 @@ func addUser() error {
 			fmt.Println("写入数据完成")
 			fmt.Printf("用户信息：\nname: %s, addr: %s, tel: %s\n",
 				data[index-1]["name"], data[index-1]["addr"], data[index-1]["tel"])
-		} else if flag1 == "n" {
+		} else if txt == "n" {
 			fmt.Println("请重新输入")
 			continue
 		} else {
@@ -58,11 +58,11 @@ func addUser() error {
 		}
 
 		fmt.Print("是否继续添加用户(y/n)")
-		fmt.Scan(&flag1)
-		flag1 = strings.ToLower(strings.TrimSpace(flag1))
-		if flag1 == "y" {
+		fmt.Scan(&txt)
+		txt = strings.ToLower(strings.TrimSpace(txt))
+		if txt == "y" {
 			continue
-		} else if flag1 == "n" {
+		} else if txt == "n" {
 			return nil
 		} else {
 			fmt.Println("输入有误从新输入(y/n)")
