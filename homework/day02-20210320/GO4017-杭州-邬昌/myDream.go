@@ -26,7 +26,7 @@ func main() {
 
 			//在map中查找，存在，计数加一，不存在，证明刚轮询到一次，计数等于1
 			v,ok:= map1[string(w)]
-            if ok{
+                if ok{
 
 				map1[string(w)] = v+1
 			}else {
