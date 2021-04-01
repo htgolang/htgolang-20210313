@@ -25,13 +25,13 @@ func main() {
 		if unicode.IsLetter(w){
 
 			//在map中查找，存在，计数加一，不存在，证明刚轮询到一次，计数等于1
-			v,ok:= map1[string(w)]
-                if ok{
+		   v,ok:= map1[string(w)]
+                   if ok{
 
-				map1[string(w)] = v+1
-			}else {
+			map1[string(w)] = v+1
+		   } else {
 
-				map1[string(w)] = 1
+			map1[string(w)] = 1
 			}
 		}
 
