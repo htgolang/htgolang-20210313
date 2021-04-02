@@ -27,43 +27,48 @@ func userAdd(userAddData map[string]string) {
 // 删除用户
 func userDel(userDelId string) {
 	userDelPlace, ok := findIdExists(userDelId)
-	if ok {
-		fmt.Printf("你要删除的的用户数据为：%v\n", userList[userDelPlace])
-		if userInputExecuted("确认要删除用户吗？：(yes/no ; default no)") {
-			userList = append(userList[:userDelPlace], userList[userDelPlace+1:]...)
-			fmt.Println(userList)
-		} else {
-			fmt.Println("输入错误，返回首页。")
-		}
-	} else {
+	if !ok {
 		fmt.Println("你输入的用户不存在！")
+		return
 	}
+
+	fmt.Printf("你要删除的的用户数据为：%v\n", userList[userDelPlace])
+	if !userInputExecuted("确认要删除用户吗？：(yes/no ; default no)") {
+		fmt.Println("输入错误，返回首页。")
+		return
+	}
+
+	userList = append(userList[:userDelPlace], userList[userDelPlace+1:]...)
+	fmt.Println(userList)
+
 }
 
 // 修改用户
 func userMod(userModId string) {
 	userModPlace, ok := findIdExists(userModId)
-	if ok {
-		fmt.Printf("你要修改的的用户数据为：%v\n", userList[userModPlace])
-		if userInputExecuted("确认要修改用户数据吗？：(yes/no ; default no)") {
-			userList[userModPlace] = userInput()
-			fmt.Println(userList)
-		} else {
-			fmt.Println("输入错误，返回首页。")
-		}
-	} else {
+	if !ok {
 		fmt.Println("你输入的用户不存在！")
+		return
 	}
+
+	fmt.Printf("你要修改的的用户数据为：%v\n", userList[userModPlace])
+	if !userInputExecuted("确认要修改用户数据吗？：(yes/no ; default no)") {
+		fmt.Println("输入错误，返回首页。")
+		return
+	}
+
+	userList[userModPlace] = userInput()
+	fmt.Println(userList)
 }
 
 // 检索数据返回
 func userQuery(userQueryData string) {
 	userQueryPlace, ok := findStrDataExists(userQueryData)
-	if ok {
-		fmt.Printf("查询到的用户数据为：\n%v\n", userList[userQueryPlace])
-	} else {
+	if !ok {
 		fmt.Println("未查询到你输入的信息。")
+		return
 	}
+	fmt.Printf("查询到的用户数据为：\n%v\n", userList[userQueryPlace])
 }
 
 // 查找用户ID是否存在，如果存在返回对应切片位置并返回true，不存在返回false。
