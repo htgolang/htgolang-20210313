@@ -12,9 +12,9 @@ func main() {
 	for leftIndex <= rightIndex {
 		middle := (leftIndex + rightIndex) / 2
 		if s[middle] > res {
-			rightIndex--
+			rightIndex = middle - 1
 		} else if s[middle] < res {
-			leftIndex++
+			leftIndex = middle + 1
 		} else {
 			fmt.Println(middle)
 			return
