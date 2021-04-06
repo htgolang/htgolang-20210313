@@ -21,17 +21,17 @@ func main() {
 	var map1 =make(map[string]int)
 
 	for _, w := range string(content) { // 遍历字符串
-        //通过unicode.IsLetter判断是否是字符
+                //通过unicode.IsLetter判断是否是字符
 		if unicode.IsLetter(w){
 
-			//在map中查找，存在，计数加一，不存在，证明刚轮询到一次，计数等于1
-			v,ok:= map1[string(w)]
-            if ok{
+		   //在map中查找，存在，计数加一，不存在，证明刚轮询到一次，计数等于1
+		   v,ok:= map1[string(w)]
+                   if ok{
 
-				map1[string(w)] = v+1
-			}else {
+			map1[string(w)] = v+1
+		   } else {
 
-				map1[string(w)] = 1
+			map1[string(w)] = 1
 			}
 		}
 
