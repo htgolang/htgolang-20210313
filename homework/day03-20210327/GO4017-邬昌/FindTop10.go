@@ -12,7 +12,7 @@ import (
 func main() {
 
 	// 通过ioutil 读取本地文件 “dream.txt” 内容，返回一个 byte 切片
-	content, err := ioutil.ReadFile("D:/go/Dream.txt")
+	content, err := ioutil.ReadFile("Dream.txt")
 	if err != nil {
 		fmt.Println("read file failed, err:", err)
 		return

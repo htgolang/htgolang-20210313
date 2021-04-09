@@ -1,14 +1,4 @@
-package main
-
-import (
-	"fmt"
-	"strings"
-)
-
-
-func main() {
-	var txt string
-	txt = `I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.
+I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.
 
 Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of bad captivity.
 
@@ -118,57 +108,4 @@ And when this happens, when we allow freedom ring, when we let it ring from ever
 
 Free at last! Free at last!
 
-Thank God Almighty, we are free at last!`
-
-	txt = strings.ToLower(txt)
-	//fmt.Println(strings.ToLower("Gopher"))
-	//fmt.Printf("%T\n",txt)
-
-// 	fmt.Println(txt)
-	dream := make(map[string]int)
-
-	for _, i := range txt {
-		//fmt.Println(string(i))
-		//只接受字母，string遍历后的值类型为int32
-		if (i >= 65 && i <= 90) || (i >= 97 && i <= 122){
-			//转成string格式作为map的key，与定义的类型匹配，或者定义dream的key类型为rune
-			v,ok := dream[string(i)]
-		if ok == true {
-			dream[string(i)] = v +1
-		} else {
-			dream[string(i)] = 1
-		}
-		}
-		
-		// if i == dream[i] {
-		// 	dream[i] +=1
-		// }else {
-		// 	dream[i] = 1
-		// }
-	}
-// 	for _,v := range txt {
-// 		v([]rune(v))
-// 		value,ok := dream["value"]
-// 		if ok == true {
-// 			v = v + 1
-// 		}else {
-// 			v = 1
-// 		}
-// }
-// 	for k,v := range dream {
-// 		fmt.Println(k,v)
-// 	}
-
-	for k,v := range dream {
-		fmt.Println(k,v)
-		fmt.Printf("%T,%T\n",k,v)
-	}
-
-	fmt.Printf("%T\n",dream)
-
-	
-	for k,v := range dream {
-		fmt.Println(k,v)
-	}
-
-}
+Thank God Almighty, we are free at last!

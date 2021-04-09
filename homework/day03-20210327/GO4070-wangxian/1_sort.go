@@ -28,7 +28,7 @@ func chatCount(file_path string) map[byte]int {
 
 func main() {
 	var s1 [][2]int
-	file_path := "D:\\mygocode\\day03\\a_dream.txt"
+	file_path := "a_dream.txt"
 	count_map := chatCount(file_path)
 
 	for k, v := range count_map {

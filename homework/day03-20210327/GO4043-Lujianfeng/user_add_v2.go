@@ -118,7 +118,8 @@ func modifyUser() {
 			fmt.Printf("是否确认修改 y/n: ")
 			fmt.Scan(&isModify)
 			if isModify == "y" {
-	//这块不太会写了，请教老师，谢谢！			
+	//这块不太会写了，请教老师，谢谢！	
+	// 这里判断id是否在，如果不在就说明不存在，如果在就调用添加函数继续添加
 				addUser[name]=name ,
 				addUser[sex]=sex ,
 				addUser[age]=age,
