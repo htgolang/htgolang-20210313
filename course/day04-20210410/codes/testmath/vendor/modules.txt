@@ -1,0 +1,4 @@
+# github.com/imsilence/math v1.0.2
+## explicit
+github.com/imsilence/math
+github.com/imsilence/math/pkg

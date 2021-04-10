@@ -1,0 +1,122 @@
+包，模块
+
+代码main => 分函数 => 分文件 => 分文件夹
+
+代码的整理（项目的组织方式）
+
+方案一. 1.11 之前
+gopath+vendor
+其他开源方案
+
+gopath
+    => GOPATH=> 配置一个或多个目录 linux => : windows => ;
+        代码必须放在GOPATH目录下
+        src => 源码
+        bin => 放二进制文件
+        pkg => 第三方包(经过编译过的.a文件)
+
+    vendor => 任何目录
+        go => 当前目录查找 vendor(无vendor或有vendor无包)-> 上一级目录 -> ... -> gopath vendor -> gopath -> 标准包 -> 报错
+
+    第三方别人开发的包 => github.com
+        => 下载
+        => gopath src
+
+    go工具
+    go build
+
+    go install 第三方包地址
+    go get 第三方包地址 github.com/imsilence/xxx
+        git工具
+        svn工具
+
+
+方案二. 1.11及之后(重点)
+GOMODULE
+
+GO111MODULE=on/off/auto
+on => 启用module
+off => 关闭module => gopath+vendor
+auto => 自动判断
+            依据: 代码不在GOPATH目录，目录存在go.mod文件 => module 否则为gopath+vendor
+
+GO 1.11 MODULE
+    初始化模块
+    go mod init 模块名称
+                cmdb => 简单 第三方包使用
+                github.com/imsilence/cmdb =>
+
+                github.com/imsilence/math
+
+                版本: git/svn => tag v0.x.x v1.x.x
+
+
+
+包：
+    包名 => 在同一个文件夹内包名必须一致
+    main包 => 编译为可执行的结果
+    若功能不需要编译为可执行程序 => 功能代码(第三方包) => 命名为非main => 可以任意定义 => 标识符规范 => 一般使用文件夹的名称
+    不在同一个包下面调用不同文件中定义的函数 =>
+        导入 目录路径
+        调用 包名.函数名称
+
+包(变量/函数)可见性
+    首字母大小写的问题
+
+    math
+    PI
+    Add()
+
+
+导入
+    绝对路径导入
+        gopath src 下的目录
+        gomod 同模块 模块名称/路径
+               第三方模块 第三方模块名称/路径
+    别名导入
+        导入多个包名相同（不同目录下）
+    下划线导入
+        包 初始化 init
+    相对路径导入 go mod中禁用
+    点导入
+
+
+可见性
+    只能在包内可以：包内可见, 变量名称小写
+    可以在包外使用: 包外可见, 变量名称大写
+
+
+Go程序的入口
+    init函数 => 首先init
+        main -> a(a->c),b(b->c) c init
+    main函数 => main包
+    main包 => 二进制程序 => 导入其他模块/其他包
+
+
+go mod replace
+    google.com/x/system => github.com/google/system [镜像包]
+    go mod edit --replace=google.com/x/system@version=github.com/google/system@version
+
+
+包:
+    标准
+    第三方
+
+
+    积累 + 思路
+
+    标准包:
+        golang.google.cn
+        go doc
+
+    第三方包:
+        https://pkg.go.dev/
+
+
+    base64
+        标准的
+            大小写英文字母数字+/
+            原始的
+            Padding 最后的结果3的倍数 不是3的倍数 ==补齐
+        URL的
+            大小写英文字母数字-_
