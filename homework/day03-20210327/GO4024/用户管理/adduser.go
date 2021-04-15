@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 )
-
+//添加用户
 var users = []map[string]string {
 	{
 		"id":"1",
@@ -45,9 +45,14 @@ func adduser() error {
 
 	//验证用户名不能重复
 
-	if name == "kk" {
-		return fmt.Errorf("用户名%s已存在",name)
+	for k,_ := range users {
+		if name == users[k]["name"] {
+			return fmt.Errorf("用户名%s已存在",name)
+		}
 	}
+	// if name == "kk" {
+	// 	return fmt.Errorf("用户名%s已存在",name)
+	// }
 	users = append(users,map[string]string{
 		"id": strconv.Itoa(genId()),
 		"name" : name,
