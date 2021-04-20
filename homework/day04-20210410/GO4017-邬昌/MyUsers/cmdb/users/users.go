@@ -37,7 +37,7 @@ func Input(str string) string  {
 	return text
 
 }
-func AddUser()([]map[string]string)  {
+func AddUser() {
 
 	fmt.Println("---执行添加用户操作---")
 	name :=Input("请输入用户名：")
@@ -48,7 +48,7 @@ func AddUser()([]map[string]string)  {
 		if value["name"] ==name{
 
 			fmt.Println("用户%s已存在，请重新创建！！！",name)
-			return users
+			fmt.Println(users)
 		}
 
 	}
@@ -60,42 +60,40 @@ func AddUser()([]map[string]string)  {
 		"tel":  tel,
 	})
 
-	return users
 }
 
 //删除用户
-func DeletUser()[]map[string]string {
+func DeletUser() {
 
 	fmt.Println("---执行删除操作---")
 	delid :=Input("请输入要删除的用户id：")
 
-	//遍历users查看是否存在key
-	for _,value :=range users{
-
-		fmt.Println("value",value["id"])
-
-		if delid ==value["id"]{
-			fmt.Println("用户信息为：",users)
-
-			str :=Input("请输入y/yes/Y/YES确认删除:")
-
-			if (str =="y" || str =="yes" || str =="Y" || str =="YES" ){
-
-				i,_:=strconv.Atoi(delid)
-				users = append(users[:i-1], users[i:]...)
-				fmt.Println("用户",value["name"],"被删除了！！！")
-				return users
-			}
-		}else {
-			fmt.Println("查无此人")
-		}
+	user,ok :=IfUserExist(delid)
+	if !ok{
+		fmt.Println("需要查找的用户不存在！！！")
+		return
 	}
 
-	return nil
+	fmt.Println("用户信息为：",users)
+
+	str :=Input("请输入y/yes/Y/YES确认删除:")
+
+	if (str =="y" || str =="yes" || str =="Y" || str =="YES" ){
+
+		i,_:=strconv.Atoi(delid)
+		users = append(users[:i-1], users[i:]...)
+		fmt.Println("用户",user["name"],"被删除了！！！")
+
+		fmt.Println(users)
+
+	}else {
+			fmt.Println("查无此人")
+		}
+
 }
 
 //查询用户
-func QueryUsers()[]map[string]string{
+func QueryUsers(){
 
 	fmt.Println("---执行查询用户操作---")
 	querystr :=Input("请输入要查询的用户名:")
@@ -103,60 +101,55 @@ func QueryUsers()[]map[string]string{
 	for _,value :=range users{
 		if value["name"] ==querystr{
 
-			return users
+			fmt.Println(users)
 		}else {
 
 			fmt.Println("查无此人")
 		}
 	}
-
-	return nil
 }
 
 //修改用户
-func ModifyUsers() []map[string]string{
+func ModifyUsers() {
 
 	fmt.Println("---执行修改用户操作---")
 	modifyid :=Input("请输入要修改的用户id：")
 
-	for _,value :=range users{
-		if modifyid ==value["id"]{
-			fmt.Println("用户信息为：",users)
-			str :=Input("请输入y/yes/Y/YES确认修改:")
+	user,ok :=IfUserExist(modifyid)
+	if !ok {
 
-			if (str =="y" || str =="yes" || str =="Y" || str =="YES" ){
-				name :=Input("请输入用户名：")
-
-				addr :=Input("请输入地址：")
-
-				tel :=Input("请输入电话号码；")
-
-				value["name"] = name
-				value["addr"] = addr
-				value["tel"]  = tel
-
-				return users
-
-			}else{
-				break
-			}
-
-		}else {
-
-			fmt.Println("查无此人")
-
-		}
+		fmt.Println("查无此人")
+		return
 	}
 
-	return nil
+	str :=Input("请输入y/yes/Y/YES确认修改:")
+
+	if (str =="y" || str =="yes" || str =="Y" || str =="YES" ){
+	    	name :=Input("请输入用户名：")
+
+		    addr :=Input("请输入地址：")
+
+			tel :=Input("请输入电话号码；")
+
+			user["name"] = name
+			user["addr"] = addr
+			user["tel"]  = tel
+
+	}else{
+
+		return
+	}
+
 }
 
-func Prom()  {
-	fmt.Println(`
-    1、添加用户
-    2、删除用户
-    3、查询用户
-    4、修改用户
-    5、其他按键退出
-     `)
+
+func IfUserExist(userid string)(map[string]string,bool){
+
+	for _,value :=range users{
+		if userid == value["id"]{
+			return value,true
+		}
+	}
+	return nil,false
+
 }
