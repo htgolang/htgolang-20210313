@@ -32,7 +32,7 @@ func prompt() {
 }
 
 func main() {
-	// askpass()
+	askpass()
 	var op string
 	for {
 		prompt()
