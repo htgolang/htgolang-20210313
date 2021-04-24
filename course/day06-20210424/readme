@@ -1,0 +1,119 @@
+1. 复习
+    类型
+        别名 不能扩展功能，不能新增方法
+        重定义
+        结构体
+    方法
+
+2. 作业
+3. 练习
+
+4. 新内容
+    1. 文件路径
+        a. 相对路径
+            kk.txt
+            ./kk.txt
+            ../kk.txt
+
+            相对位置: 程序执行的所在目录
+        b. 绝对路径
+            /tmp/kk.txt
+            /root/kk.txt
+            /home/kk/Desktop/kk.txt
+
+            c:/Windows/Info
+            d:/kk/Desktop/kk.txt
+
+    2. 文件操作
+        文件内容: 010101 []byte <=编码和解码=> string(utf8)
+
+        读文件
+            os.Open() // 文件必须存在
+                参数：路径
+                返回值： *File, error
+            读文件
+                Read([]byte) n, err
+                ReadAt([]byte, int64) n, err
+            关闭文件
+                Close()
+        写文件
+            os.Create() //创建文件 文件不存在创建，文件存在清空
+                参数：路径
+                返回值： *File, error
+            写文件
+                Write
+                WriteString
+                WriteAt
+            关闭文件
+                Close()
+        追加文件
+            os.OpenFile
+        文件指针 仅了解
+            int64 Seek(offset, whence)
+            whence 0：文件开始位置 1：当前指针位置, 2：文件末尾
+            offset 偏移
+
+            获取位置Seek(0, 1)
+
+
+        fmt.Print/Println/Printf
+        fmt.Sprint/Sprintln/Sprintf
+        fmt.Fprint/Fprintln/Fprintf(io.Writer, 变量/模板, 变量)
+
+        fmt.Scan
+        fmt.Fscan
+        fmt.Sscan
+
+        // 控制台 文件操作
+        // 标准输入，标注输出，标准错误输出
+        // cat xxx > xxx.txt
+        // < xxxx.txt
+        // nohup xxx 2>&1
+        // 0 1 2
+        // os.Stdin, Stdout, Stderr
+
+    3. 带缓冲区IO
+        程序中定义（类似）切片，内部定义切片（指定切片的长度），读取内容到切片，函数直接从切片中读取数据, 当切片中的数据处理完成后，再从硬盘读取
+                         写数据到切片，当写满后刷新到磁盘(如果没有刷新数据是否丢了?如果没有写满，如何刷新到磁盘?)
+
+
+        bufio
+        Scanner
+        Reader
+        Writer
+    4. 文件操作的相关包
+        os: 文件操作
+        filepath: 文件路径
+        bufio: 带缓冲区IO
+        fs: 抽象包, 1.15提供的
+        ioutil: 提供工具函数
+
+    tail -f 命令
+        在内存中对字节切片和字符串处理
+        拼接字符串: string.Builder, bytes.Buffer
+        下载文件在内存中处理: bytes.Buffer
+            zip => zip某个文件进行处理 => database
+
+
+    需要将数据落盘（磁盘存储） 网络传输
+    内存 =序列化=> []byte(string) =>反序列化=> 内存
+
+    编码方式: gob, csv, json, protocolbuffer, xml 序列化和反序列化的方案
+
+    序列化(编码):
+    反序列化(解码):
+
+    库：
+        编码: Marshal
+                Encoder
+        解码: Unmarshal
+                Decoder
+
+    gob => Go语言提供的编码，二进制编码方式
+    encoding/gob
+        那种类型的数据编码 就用解码为对应的数据类型
+
+
+    // 编码方式
+    每行是一个数据
+    属性1:值1,属性2:值2 int8,int32
