@@ -4,8 +4,9 @@ import (
 	"cmdb/handles"
 	_ "cmdb/init"
 	"cmdb/models"
-	"cmdb/users"
+	"cmdb/utils"
 	"fmt"
+	"strconv"
 )
 
 func main() {
@@ -18,26 +19,30 @@ func main() {
 	fmt.Println("------欢迎进入用户管理系统-----，请输入用户密码：")
 	handles.CheckPassword()
 
-	user1 :=models.NewUser("1","小明","honkong","18992928820")
+	user1 := models.NewUser("1", "小明", "honkong", "18992928820")
 	fmt.Println(user1.String())
 
 	for {
 
 		//commands.Prom
 		handles.Prompt()
-		cmd :=users.Input("请输入指令：")
+		cmd := utils.Input("请输入指令：")
 
-		if comm,ok :=handles.Commands[cmd]; ok{
+		if cmd, err := strconv.Atoi(cmd); err == nil {
 
-			comm()
-		}else if cmd =="1"{
+			if commands := handles.Tip.GetID(cmd); commands != nil {
+
+				commands()
+			}
+
+		} else if cmd == 1 {
 
 			break
-		}else {
+
+		} else {
 
 			fmt.Println("指令错误")
 		}
-
 
 	}
 

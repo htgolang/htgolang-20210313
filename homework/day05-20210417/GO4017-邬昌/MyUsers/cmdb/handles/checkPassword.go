@@ -2,10 +2,11 @@ package handles
 
 import (
 	"fmt"
+
 	"github.com/princebot/getpass"
 )
 
-func CheckPassword(){
+func CheckPassword() {
 
 	var flag int
 	const pass = "123456"
@@ -27,6 +28,7 @@ func CheckPassword(){
 			if flag > 2 {
 
 				fmt.Println("密码错误3次了，不能再尝试！！！！")
+
 				return
 			}
 		}

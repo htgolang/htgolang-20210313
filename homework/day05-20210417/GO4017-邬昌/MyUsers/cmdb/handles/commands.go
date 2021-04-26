@@ -2,29 +2,48 @@ package handles
 
 import (
 	"fmt"
-	"strconv"
 )
 
-var id int =2
+var id int = 2
 
-var Commands =map[string]func(){}
+type Callback func()
 
-var Prom =[][2]string{}
+type Tips struct {
+	Id   int
+	desc string
+	Comm Callback
+}
 
-func Prompt(){
-	prompts := Prom
+type tip []*Tips
+
+var Tip = make(tip, 0)
+
+//将函数自动注册到相应的slice
+func Register(desc string, call Callback) {
+
+	Tip = append(Tip, &Tips{id, desc, call})
+
+	id++
+}
+
+//将提示信息打印出来
+func Prompt() {
+	//prompts := Prom
 	fmt.Println("1，退出")
 
-	for _,v :=range prompts{
-		fmt.Printf("%s,%s\n",v[0],v[1])
+	for _, v := range Tip {
+		fmt.Printf("%d, %s\n", v.Id, v.desc)
 	}
 
 }
 
-//将函数自动注册到相应的map和slice
-func Register(desc string,callback func()){
+func (tip) GetID(id int) Callback {
 
-	Commands[strconv.Itoa(id)]=callback
-	Prom =append(Prom,[2]string{strconv.Itoa(id),desc})
-	id ++
+	for _, value := range Tip {
+
+		if id == value.Id {
+			return value.Comm
+		}
+	}
+	return nil
 }
