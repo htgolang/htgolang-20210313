@@ -8,49 +8,39 @@ import (
 	"time"
 )
 
-func main() {
-	start := time.Now()
-	file, err := os.Open("big.txt")
+func copyfile(srcFile, destFile string) {
+	src, err := os.Open(srcFile)
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer file.Close()
+	defer src.Close()
 
-	/*
-		1M:
-			$ time go run timeCopyBufferSize.go
-			一共读取136.537049秒
+	dest, err := os.Create(destFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer dest.Close()
 
-			real    2m28.507s
-			user    0m0.000s
-			sys     0m0.031s
-
-		10M:
-			$ time go run timeCopyBufferSize.go
-			一共读取116.078072秒
-
-			real    2m0.115s
-			user    0m0.000s
-			sys     0m0.015s
-
-		100M:
-			$ time go run timeCopyBufferSize.go
-			一共读取108.501007秒
-
-			real    1m54.923s
-			user    0m0.000s
-			sys     0m0.015s
-	*/
-
-	ctx := make([]byte, 1024*1024)
+	ctx := make([]byte, 1024)
 	for {
-		_, err = file.Read(ctx)
+		n, err := src.Read(ctx)
 		if err != nil {
 			if err != io.EOF {
 				log.Fatal(err)
 			}
 			break
 		}
+		dest.Write(ctx[:n])
 	}
-	fmt.Printf("一共读取%f秒\n", time.Now().Sub(start).Seconds())
 }
+
+func main() {
+	start := time.Now()
+	copyfile("big.txt", "big.txt_bak")
+	fmt.Printf("复制用时%v\n", time.Now().Sub(start))
+}
+//1K     复制用时59.169841s     复制用时57.0729823s
+//1M     复制用时25.5094037s    复制用时34.3928233s
+//10M    复制用时55.2387665s    复制用时43.0317052s
+//100M   复制用时32.503246s     复制用时32.9200517s
+//1G     复制用时35.4535703s    复制用时34.5435553s
