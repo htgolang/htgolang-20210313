@@ -4,6 +4,7 @@ import (
 	"crypto/md5"
 	"fmt"
 	"github.com/princebot/getpass"
+	"log"
 )
 
 const (
@@ -15,7 +16,7 @@ func Auth() bool {
 	for i := 0; i < MaxAuthCount; i++ {
 		pwd, err := getpass.Get("请输入密码: ")
 		if err != nil {
-			panic(err)
+			log.Fatal(err)
 		}
 		if fmt.Sprintf("%x", md5.Sum(pwd)) == Password {
 			return true
