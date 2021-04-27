@@ -37,7 +37,7 @@ func Prompt() {
 
 }
 
-func (tip) GetID(id int) Callback {
+func (*tip) GetID(id int) Callback {
 
 	for _, value := range Tip {
 

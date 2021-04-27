@@ -10,11 +10,13 @@ import (
 var id int
 var name, addr, tel string
 
-var user = models.Us
+//var user = models.Us
+
+var user = models.UserList{make(map[string]*models.User)}
 
 func getId() int {
 
-	for _, value := range user {
+	for _, value := range user.Userlist {
 		i, _ := strconv.Atoi(value.Id)
 		fmt.Println("i的值为：", i)
 
@@ -36,7 +38,7 @@ func AddUser() {
 	//创建用户，调用User的构造函数
 	newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
 	//追加到map中
-	user[strconv.Itoa(getId())] = newUser
+	user.Userlist[strconv.Itoa(getId())] = newUser
 
 }
 
@@ -56,9 +58,9 @@ func DeletUser() {
 
 	if str == "y" || str == "yes" || str == "Y" || str == "YES" {
 
-		delete(user, delid)
+		delete(user.Userlist, delid)
 
-		fmt.Println("用户", user[delid], "被删除了！！！")
+		fmt.Println("用户", user.Userlist[delid], "被删除了！！！")
 
 		fmt.Println(user)
 
@@ -74,7 +76,7 @@ func QueryUsers() {
 	fmt.Println("---执行查询用户操作---")
 	querystr := utils.Input("请输入要查询的用户名:")
 	//判断map中是否存在输入的元素
-	for _, value := range user {
+	for _, value := range user.Userlist {
 		if value.Name == querystr {
 
 			fmt.Println(value.Id, value.Name, value.Addr, value.Tel)
@@ -111,7 +113,7 @@ func ModifyUsers() {
 		us.Addr = addr
 		us.Tel = tel
 		newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
-		user[strconv.Itoa(getId())] = newUser
+		user.Userlist[strconv.Itoa(getId())] = newUser
 
 	} else {
 
@@ -122,7 +124,7 @@ func ModifyUsers() {
 
 func IfUserExist(userid string) (models.User, bool) {
 
-	for _, value := range user {
+	for _, value := range user.Userlist {
 		if userid == value.Id {
 
 			return *value, true
