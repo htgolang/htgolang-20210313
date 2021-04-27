@@ -5,11 +5,13 @@ import (
 	"strconv"
 	"userManager/commands"
 	_ "userManager/init"
+	"userManager/services"
 	"userManager/utils"
 )
 
 func main() {
-	if !utils.Auth() {
+	users := services.Decode()
+	if !utils.Auth(users) {
 		return
 	}
 	fmt.Println("欢迎来到用户管理系统")
