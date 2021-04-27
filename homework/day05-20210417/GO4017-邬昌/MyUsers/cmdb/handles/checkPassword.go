@@ -6,7 +6,7 @@ import (
 	"github.com/princebot/getpass"
 )
 
-func CheckPassword() {
+func CheckPassword() bool{
 
 	var flag int
 	const pass = "123456"
@@ -29,9 +29,11 @@ func CheckPassword() {
 
 				fmt.Println("密码错误3次了，不能再尝试！！！！")
 
-				return
+				return false
+
 			}
 		}
 	}
 
+	return true
 }
