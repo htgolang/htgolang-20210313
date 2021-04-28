@@ -128,15 +128,16 @@ func QueryUsers() {
 func ModifyUsers() {
 
 	fmt.Println("---执行修改用户操作---")
-	modifyid := utils.Input("请输入要修改的用户id：")
+	modifyId := utils.Input("请输入要修改的用户id：")
 
-	us, ok := IfUserExist(modifyid)
+	us, ok := IfUserExist(modifyId)
 	if !ok {
 
 		fmt.Println("查无此人")
 		return
 	}
 
+	fmt.Println("将修改的用户信息：", us)
 	str := utils.Input("请输入y/yes/Y/YES确认修改:")
 
 	if str == "y" || str == "yes" || str == "Y" || str == "YES" {
@@ -144,18 +145,34 @@ func ModifyUsers() {
 
 		addr = utils.Input("请输入地址：")
 
-		tel = utils.Input("请输入电话号码；")
+		tel = utils.Input("请输入电话号码：")
 
-		us.Name = name
-		us.Addr = addr
-		us.Tel = tel
-		newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
-		user.Userlist[strconv.Itoa(getId())] = newUser
+		if str := CheckModifyUser(&user); str != "" {
+
+			newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
+			user.Userlist[strconv.Itoa(getId())] = newUser
+			fmt.Println(str)
+
+		}
 
 	} else {
 
 		return
 	}
+
+}
+
+func CheckModifyUser(Us *models.UserList) string {
+
+	for _, value := range Us.Userlist {
+
+		if value.Name == name && value.Id != strconv.Itoa(getId()) {
+
+			return fmt.Sprintf("修改用户成功！！！")
+		}
+
+	}
+	return ""
 
 }
 
