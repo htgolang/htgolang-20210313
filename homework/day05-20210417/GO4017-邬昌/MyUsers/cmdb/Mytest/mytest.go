@@ -4,8 +4,21 @@ import (
 	"fmt"
 )
 
+type Student struct {
+	id   int
+	name string
+}
+
 func main() {
 
-	var v = make(map[string][]string)
-	fmt.Println(v)
+	var stu Student
+	stu.name = "张三"
+
+	test(stu)
+
+}
+
+func test(s Student) {
+
+	fmt.Println(s.name)
 }

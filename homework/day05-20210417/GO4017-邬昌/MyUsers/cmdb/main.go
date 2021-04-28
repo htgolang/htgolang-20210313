@@ -3,7 +3,6 @@ package main
 import (
 	"cmdb/handles"
 	_ "cmdb/init"
-	"cmdb/models"
 	"cmdb/utils"
 	"fmt"
 	"strconv"
@@ -17,13 +16,13 @@ func main() {
 		3、查询用户  4、修改用户
 	*/
 	fmt.Println("------欢迎进入用户管理系统-----，请输入用户密码：")
-	ckpassword :=handles.CheckPassword()
-	if ckpassword ==false {
+	ckpassword := handles.CheckPassword()
+	if ckpassword == false {
 
 		return
 	}
-	user1 := models.NewUser("1", "小明", "honkong", "18992928820")
-	fmt.Println(user1.String())
+	//user1 := models.NewUser("1", "小明", "honkong", "18992928820")
+	//fmt.Println(user1.String())
 
 	for {
 

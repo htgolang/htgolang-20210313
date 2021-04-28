@@ -18,7 +18,6 @@ func getId() int {
 
 	for _, value := range user.Userlist {
 		i, _ := strconv.Atoi(value.Id)
-		fmt.Println("i的值为：", i)
 
 		if i > id {
 			id = i
@@ -31,14 +30,43 @@ func getId() int {
 func AddUser() {
 
 	fmt.Println("---执行添加用户操作---")
-	name := utils.Input("请输入用户名：")
-	addr := utils.Input("请输入地址：")
-	tel := utils.Input("请输入电话号码：")
+	name = utils.Input("请输入用户名：")
+	addr = utils.Input("请输入地址：")
+	tel = utils.Input("请输入电话号码：")
 
 	//创建用户，调用User的构造函数
+
 	newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
+
+	if err := CheckUser(&user); err == nil {
+
+		user.Userlist[strconv.Itoa(getId())] = newUser
+		fmt.Println("[+]用户添加成功！！！")
+
+	} else {
+		fmt.Println(err)
+	}
+
 	//追加到map中
-	user.Userlist[strconv.Itoa(getId())] = newUser
+
+	//fmt.Println(models.UserList{})
+
+}
+
+func CheckUser(Us *models.UserList) error {
+
+	for _, value := range Us.Userlist {
+
+		if value.Name == "" {
+
+			return fmt.Errorf("输入的用户名为空！！！")
+		} else if value.Name == name {
+
+			return fmt.Errorf("用户名重复！！！")
+		}
+
+	}
+	return nil
 
 }
 
@@ -85,6 +113,7 @@ func QueryUsers() {
 			fmt.Println("查无此人")
 		}
 	}
+
 }
 
 //修改用户
@@ -103,11 +132,11 @@ func ModifyUsers() {
 	str := utils.Input("请输入y/yes/Y/YES确认修改:")
 
 	if str == "y" || str == "yes" || str == "Y" || str == "YES" {
-		name := utils.Input("请输入用户名：")
+		name = utils.Input("请输入用户名：")
 
-		addr := utils.Input("请输入地址：")
+		addr = utils.Input("请输入地址：")
 
-		tel := utils.Input("请输入电话号码；")
+		tel = utils.Input("请输入电话号码；")
 
 		us.Name = name
 		us.Addr = addr

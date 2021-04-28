@@ -29,6 +29,7 @@ func Register(desc string, call Callback) {
 //将提示信息打印出来
 func Prompt() {
 	//prompts := Prom
+	fmt.Println("---请选择想要执行的操作---")
 	fmt.Println("1，退出")
 
 	for _, v := range Tip {
