@@ -30,15 +30,12 @@ func getId() int {
 func AddUser() {
 
 	fmt.Println("---执行添加用户操作---")
-	name = utils.Input("请输入用户名：")
-	addr = utils.Input("请输入地址：")
-	tel = utils.Input("请输入电话号码：")
 
 	//创建用户，调用User的构造函数
 
-	newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
-
 	if err := CheckUser(&user); err == nil {
+
+		newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
 
 		user.Userlist[strconv.Itoa(getId())] = newUser
 		fmt.Println("[+]用户添加成功！！！")
@@ -54,6 +51,10 @@ func AddUser() {
 }
 
 func CheckUser(Us *models.UserList) error {
+
+	name = utils.Input("请输入用户名：")
+	addr = utils.Input("请输入地址：")
+	tel = utils.Input("请输入电话号码：")
 
 	for _, value := range Us.Userlist {
 
@@ -138,21 +139,19 @@ func ModifyUsers() {
 	}
 
 	fmt.Println("将修改的用户信息：", us)
-	str := utils.Input("请输入y/yes/Y/YES确认修改:")
+	str := utils.Input("请输入y/yes确认修改:")
 
-	if str == "y" || str == "yes" || str == "Y" || str == "YES" {
-		name = utils.Input("请输入用户名：")
+	if str == "y" || str == "yes" {
 
-		addr = utils.Input("请输入地址：")
+		if err := CheckModifyUser(&user); err == nil {
 
-		tel = utils.Input("请输入电话号码：")
+			us = *models.NewUser(modifyId, name, addr, tel)
+			user.Userlist[modifyId] = &us
+			fmt.Println("修改用户成功！！！")
 
-		if str := CheckModifyUser(&user); str != "" {
+		}else {
 
-			newUser := models.NewUser(strconv.Itoa(getId()), name, addr, tel)
-			user.Userlist[strconv.Itoa(getId())] = newUser
-			fmt.Println(str)
-
+			fmt.Println(err)
 		}
 
 	} else {
@@ -162,17 +161,21 @@ func ModifyUsers() {
 
 }
 
-func CheckModifyUser(Us *models.UserList) string {
+func CheckModifyUser(Us *models.UserList) error {
+
+	name = utils.Input("请输入用户名：")
+	addr = utils.Input("请输入地址：")
+	tel = utils.Input("请输入电话号码：")
 
 	for _, value := range Us.Userlist {
 
-		if value.Name == name && value.Id != strconv.Itoa(getId()) {
+		if value.Name == name && value.Id == strconv.Itoa(getId()) {
 
-			return fmt.Sprintf("修改用户成功！！！")
+			return fmt.Errorf("用户名重复！！！")
 		}
 
 	}
-	return ""
+	return nil
 
 }
 
