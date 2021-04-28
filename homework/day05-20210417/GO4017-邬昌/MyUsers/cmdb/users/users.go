@@ -57,7 +57,7 @@ func CheckUser(Us *models.UserList) error {
 
 	for _, value := range Us.Userlist {
 
-		if value.Name == "" {
+		if name == "" {
 
 			return fmt.Errorf("输入的用户名为空！！！")
 		} else if value.Name == name {
@@ -102,15 +102,23 @@ func DeletUser() {
 func QueryUsers() {
 
 	fmt.Println("---执行查询用户操作---")
-	querystr := utils.Input("请输入要查询的用户名:")
+	queryselect := utils.Input("请输入要执行的查询操作:1、查询全部  2、按条件索引")
 	//判断map中是否存在输入的元素
 	for _, value := range user.Userlist {
-		if value.Name == querystr {
+		if queryselect == "1" {
 
-			fmt.Println(value.Id, value.Name, value.Addr, value.Tel)
+			fmt.Printf("用户id: %v 用户名: %v 地址: %v 电话: %v\n", value.Id, value.Name, value.Addr, value.Tel)
+		} else if queryselect == "2" {
+
+			querystr := utils.Input("请输入要查询的姓名：")
+			if querystr == value.Name {
+
+				fmt.Printf("用户id: %v 用户名: %v 地址: %v 电话: %v\n", value.Id, value.Name, value.Addr, value.Tel)
+				return
+			}
 		} else {
 
-			fmt.Println("查无此人")
+			break
 		}
 	}
 
