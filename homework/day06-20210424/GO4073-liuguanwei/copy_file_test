@@ -1,0 +1,64 @@
+Check the permanforce:
+
+# du -sh go.tar
+1.4G	go.tar
+
+1M:
+-----
+# time go run copyfile.go go.tar go.tar1
+
+real	0m3.775s
+user	0m0.112s
+sys	0m3.600s
+
+# time go run copyfile.go go.tar go.tar2
+
+real	0m4.005s
+user	0m0.109s
+sys	0m3.798s
+
+# time go run copyfile.go go.tar go.tar3
+
+real	0m4.058s
+user	0m0.116s
+sys	0m3.758s
+-----
+
+10M:
+-----
+# time go run copyfile.go go.tar go.tar1
+
+real	0m3.864s
+user	0m0.098s
+sys	0m3.459s
+# time go run copyfile.go go.tar go.tar2
+
+real	0m3.898s
+user	0m0.115s
+sys	0m3.536s
+# time go run copyfile.go go.tar go.tar3
+
+real	0m4.124s
+user	0m0.101s
+sys	0m3.704s
+-----
+
+
+100M:
+-----
+# time go run copyfile.go go.tar go.tar1
+
+real	0m3.812s
+user	0m0.117s
+sys	0m3.280s
+# time go run copyfile.go go.tar go.tar2
+
+real	0m3.825s
+user	0m0.107s
+sys	0m3.281s
+# time go run copyfile.go go.tar go.tar3
+
+real	0m3.900s
+user	0m0.095s
+sys	0m3.290s
+-----
