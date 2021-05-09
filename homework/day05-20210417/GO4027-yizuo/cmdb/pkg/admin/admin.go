@@ -1,6 +1,7 @@
 package admin
 
 import (
+	"cmdb/tools"
 	"fmt"
 	"strconv"
 	"strings"
@@ -10,25 +11,16 @@ type Users struct {
 	Id, Name, Passwd, Addr, Tel string
 }
 
-var UserList []*Users
+var UserList = make([]*Users, 0)
 
-func NewUser() *Users {
-	userMapData := &Users{
-		Id:   "1",
-		Name: "yizuo",
-		//Passwd: Md5sum("yizuo"),
-		Passwd: "yizuo",
-		Addr:   "Wuhan",
-		Tel:    "66666666",
+func NewUser(id, name, passwd, addr, tel string) *Users {
+	return &Users{
+		Id:     id,
+		Name:   name,
+		Passwd: passwd,
+		Addr:   addr,
+		Tel:    tel,
 	}
-	return userMapData
-}
-
-// 初始化用户
-func (u *Users) UserListNew() []*Users {
-
-	var UserList = append(UserList, u)
-	return UserList
 }
 
 // 增加用户
@@ -39,7 +31,7 @@ func (u *Users) UserAdd() {
 
 // 删除用户
 func (u *Users) UserDel() {
-	userDelId := StrInput("请输入你要删除的用户ID：")
+	userDelId := tools.StrInput("请输入你要删除的用户ID：")
 
 	userDelPlace, ok := FindIdExists(userDelId)
 	if !ok {
@@ -48,7 +40,7 @@ func (u *Users) UserDel() {
 	}
 
 	fmt.Printf("你要删除的的用户数据为：%v\n", UserList[userDelPlace])
-	if !UserInputExecuted("确认要删除用户吗？：(yes/no ; default no)") {
+	if !tools.UserInputExecuted("确认要删除用户吗？：(yes/no ; default no)") {
 		fmt.Println("输入错误，返回首页。")
 		return
 	}
@@ -60,7 +52,7 @@ func (u *Users) UserDel() {
 
 // 修改用户
 func (u *Users) UserMod() {
-	userModId := StrInput("请输入你要修改的用户ID：")
+	userModId := tools.StrInput("请输入你要修改的用户ID：")
 
 	userModPlace, ok := FindIdExists(userModId)
 	if !ok {
@@ -69,7 +61,7 @@ func (u *Users) UserMod() {
 	}
 
 	fmt.Printf("你要修改的的用户数据为：%v\n", UserList[userModPlace])
-	if !UserInputExecuted("确认要修改用户数据吗？：(yes/no ; default no)") {
+	if !tools.UserInputExecuted("确认要修改用户数据吗？：(yes/no ; default no)") {
 		fmt.Println("输入错误，返回首页。")
 		return
 	}
@@ -81,7 +73,7 @@ func (u *Users) UserMod() {
 
 // 检索数据返回
 func (u *Users) UserQuery() {
-	userNameQuery := StrInput("请输入你要模糊查询的用户名字：")
+	userNameQuery := tools.StrInput("请输入你要模糊查询的用户名字：")
 
 	userQueryPlace, ok := FindNameExists(userNameQuery)
 	if !ok {
@@ -93,7 +85,9 @@ func (u *Users) UserQuery() {
 
 // 打印当前所有数据
 func (u *Users) UserListPrint() {
-	fmt.Println(UserList)
+	for _, v := range UserList {
+		fmt.Printf("%#v \n", v)
+	}
 }
 
 // 查找用户ID是否存在，如果存在返回对应切片位置并返回true，不存在返回false。
@@ -133,15 +127,15 @@ func FindMaxIdNum() (maxIdNum int) {
 func UserInput() (data Users) {
 	var id, name, passwd, addr, tel string
 	id = strconv.Itoa(FindMaxIdNum())
-	name = StrInput("请输入用户名称：")
-	passwd = StrInput("请输入用户密码：")
-	addr = StrInput("请输入用户地址：")
-	tel = StrInput("请输入联系方式：")
+	name = tools.StrInput("请输入用户名称：")
+	passwd = tools.StrInput("请输入用户密码：")
+	addr = tools.StrInput("请输入用户地址：")
+	tel = tools.StrInput("请输入联系方式：")
 
 	data = Users{
 		Id:     id,
 		Name:   name,
-		Passwd: Md5sum(passwd),
+		Passwd: tools.Md5sum(passwd),
 		Addr:   addr,
 		Tel:    tel,
 	}
@@ -151,7 +145,7 @@ func UserInput() (data Users) {
 // 用户登录信息MD5检测
 func UserLoginAuth(userData, passwdData string) bool {
 	for _, v := range UserList {
-		if v.Name == userData && v.Passwd == Md5sum(passwdData) {
+		if v.Name == userData && v.Passwd == tools.Md5sum(passwdData) {
 			return true
 		}
 	}
@@ -169,8 +163,8 @@ func HandlerUserLoginAuth() bool {
 		if i != 0 {
 			fmt.Println(`密码输入错误，请重新输入密码：`)
 		}
-		userData := StrInput(`请输入登录用户：`)
-		passwdData := StrInput(`请输入密码：`)
+		userData := tools.StrInput(`请输入登录用户：`)
+		passwdData := tools.StrInput(`请输入密码：`)
 
 		// 对比输入值的md5是否与默认值的md5一致
 		if UserLoginAuth(userData, passwdData) {
