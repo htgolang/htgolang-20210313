@@ -1,0 +1,10 @@
+<?xml version="3.0" encoding="UTF-8" ?>
+<root id="100">
+    <name>kk</name>
+    <scores>
+        <!-- 注释  -->
+        <score>1</score>
+        <score>2</score>
+        <score><![CDATA[ 3<> ]]></score>
+    </scores>
+</root>
