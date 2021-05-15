@@ -24,7 +24,7 @@ func ModifyUser(users []*user.User)  {
 				fmt.Scan(&flag)
 				if "y"==flag||"yes"==flag||"Y"==flag||"YES"==flag{
 					if CurrentUser == users[i].Name{
-						fmt.Printf("您是当前用户:%s,请先输入要修改的密码:",CurrentUser)
+						fmt.Printf("您是当前用户:%s,请先输入要修改的新密码:",CurrentUser)
 						for  {
 							fmt.Scan(&user.Pwd)
 							if checkPwd(user.Pwd) {

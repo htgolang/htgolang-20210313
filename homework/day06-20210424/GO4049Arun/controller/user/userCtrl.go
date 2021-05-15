@@ -25,21 +25,21 @@ func writeGob(users []*user.User)  {
 
 func ModifyGob(users []*user.User)  {
 	absPath , _:= filepath.Abs(conf.Info.GobFilepath)
-	_err := os.Remove(absPath)
-	if _err!=nil{
-		fmt.Println("delete failed!",_err)
-	}else {
-		fmt.Println("delete success!")
-	}
+	//_err := os.Remove(absPath)
+	//if _err!=nil{
+	//	fmt.Println("delete failed!",_err)
+	//}else {
+	//	fmt.Println("delete success!")
+	//}
 	//好像用open不行,看看后续其它优化
 	file, _ := os.Create(absPath)
 	//(1)写入
 	encoder := gob.NewEncoder(file)
-	fmt.Printf("%#v\n",users)
+	//fmt.Printf("%#v\n",users)
 	err := encoder.Encode(users)
 	file.Close()
 	if err==nil{
-		fmt.Println("写入成功")
+		//fmt.Println("写入成功")
 	}else {
 		log.LogRecord("Gob文件写入失败,请检查原因")
 	}
@@ -77,7 +77,7 @@ func init() {
 	gob.Register(&user.User{})
 
 	//(1)Encode并写入文件
-	ModifyGob(Users)
+	//ModifyGob(Users)
 	//(2)解析读取
 	Users = ReadGob()
 	/*for _, u := range Users {

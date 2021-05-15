@@ -51,7 +51,8 @@ func checkName(alphabet string) bool {
 
 func checkAddr(alphabet string) bool {
 	//一<\u4e00>~龥<\u9fa5>(基本汉字范围)
-	if ok, _ := regexp.MatchString("^[a-zA-Z\u4e00-\u9fa5]{2,20}$", alphabet); !ok {
+	//if ok, _ := regexp.MatchString("^[a-zA-Z\u4e00-\u9fa5]{2,20}$", alphabet); !ok {
+	if ok, _ := regexp.MatchString("[\\S]{2,20}$", alphabet); !ok {
 		return false
 	}
 	return true
@@ -65,6 +66,8 @@ func checkPhoneNumber(phone string) bool {
 }
 
 func checkPwd(pwd string) bool {
+	//特殊字符,大小写字母,数字四选三组合,至少八位
+	//正则表达式  ^(?![a-zA-Z]+$)(?![A-Z0-9]+$)(?![A-Z\\W_]+$)(?![a-z0-9]+$)(?![a-z\\W_]+$)(?![0-9\\W_]+$)[a-zA-Z0-9\\W_]{8,}$
 	if ok, _ := regexp.MatchString(fmt.Sprintf("^[0-9]{%d}$",conf.Info.PwdLen), pwd); !ok {
 		return false
 	}
@@ -77,7 +80,7 @@ func input(users []*user.User, prompt string, flag string) string {
 	fmt.Print(prompt)
 	for {
 		scanner.Scan()
-		text := scanner.Text()
+		text = scanner.Text()
 		if ""==text{
 			continue
 		}
