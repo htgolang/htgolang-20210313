@@ -11,7 +11,7 @@ var InitialUser = []string{"1", "yizuo", tools.Md5sum("yizuo"), "Wuhan", "666666
 // 用户数据
 var (
 	// 用户数据存储类型
-	UsersDataStorageType string = "csv"
+	UsersDataStorageType string = "json"
 
 	// 保留N个用户文件，包含自身文件
 	KeepUserDataFileNum int = 4
@@ -20,6 +20,15 @@ var (
 	UserDataDir string = "data"
 	// 用户数据文件名字前缀
 	UserDataFileStr string = "userData"
+
+	// Json用户数据目录路径
+	UserDataDirJson string = UserDataDir + "/json/"
+	// Json用户数据文件后缀
+	UserDataJsonFileFormat string = ".json"
+	// Json用户数据文件名称
+	UserDataJsonFileName string = UserDataFileStr + UserDataJsonFileFormat
+	// Json用户数据文件Json格式文件绝对路径
+	UserDataJsonFile string = UserDataDirJson + UserDataJsonFileName
 
 	// CSV用户数据目录路径
 	UserDataDirCsv string = UserDataDir + "/csv/"

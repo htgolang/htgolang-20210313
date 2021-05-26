@@ -27,14 +27,18 @@ func NewUser(id, name, passwd, addr, tel string) *Users {
 	}
 }
 
-var reg, _ = NewClientset().GetClient(UsersDataStorageType)
+var dataClient = GetUserDataClient(UsersDataStorageType)
 
 // 增加用户
 func (u *Users) UserAdd() {
 	data := UserInput()
 	UserList = append(UserList, &data)
 	// 数据写入文件
-	reg.WritesUsersData()
+	err := dataClient.WritesUsersData()
+	if err != nil {
+		panic("修改用户时数据写入DB报错!")
+	}
+	fmt.Println(UserList)
 }
 
 // 删除用户
@@ -55,9 +59,10 @@ func (u *Users) UserDel() {
 
 	UserList = append(UserList[:userDelPlace], UserList[userDelPlace+1:]...)
 	// 数据写入文件
-	reg.WritesUsersData()
-
-	fmt.Println(UserList)
+	err := dataClient.WritesUsersData()
+	if err != nil {
+		panic("删除用户时数据写入DB报错!")
+	}
 
 }
 
@@ -81,7 +86,10 @@ func (u *Users) UserMod() {
 	UserList[userModPlace] = &data
 
 	// 数据写入文件
-	reg.WritesUsersData()
+	err := dataClient.WritesUsersData()
+	if err != nil {
+		panic("修改用户时数据写入DB报错!")
+	}
 	fmt.Println(UserList)
 }
 
