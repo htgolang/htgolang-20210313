@@ -9,10 +9,17 @@ import (
 	"time"
 )
 
+type CsvClient struct {
+}
+
+func NewCsvClient() *CsvClient {
+	return &CsvClient{}
+}
+
 // 在csv文件中读取用户文件
-func ReadUsersDataFromCsv() {
+func (c *CsvClient) ReadUsersData() {
 	// 判断用户文件是否存在，如果初始用户文件不存在，则写入一个初始用户进文件内
-	CheckUserDataFileExistFromCsv()
+	c.CheckUserDataFileExist()
 
 	// 读取用户数据
 	file, _ := os.Open(UserDataCsvFile)
@@ -42,15 +49,15 @@ func ReadUsersDataFromCsv() {
 }
 
 // 用户信息写入到CSV文件中
-func WritesUsersDataToCsv() {
+func (c *CsvClient) WritesUsersData() error {
 	//User status
 	userStatus, err := os.Create(UserDataCsvFile)
 	if err != nil {
-		return
+		return err
 	}
 	writer1 := csv.NewWriter(userStatus)
 	for _, v := range UserList {
-		_ = writer1.Write(
+		err = writer1.Write(
 			[]string{
 				v.Id,
 				v.Name,
@@ -58,12 +65,16 @@ func WritesUsersDataToCsv() {
 				v.Addr,
 				v.Tel,
 			})
+		if err != nil {
+			return err
+		}
 		writer1.Flush()
 	}
+	return err
 }
 
 // 检查初始用户文件是否存在
-func CheckUserDataFileExistFromCsv() error {
+func (c *CsvClient) CheckUserDataFileExist() error {
 	// 判断用户文件是否存在，如果初始用户文件不存在，则写入一个初始用户进文件内
 	_, err := os.Stat(UserDataCsvFile)
 	if err != nil {
@@ -79,7 +90,7 @@ func CheckUserDataFileExistFromCsv() error {
 }
 
 // 备份用户文件
-func CopyUserDataFile() error {
+func (c *CsvClient) CopyUserDataFile() error {
 	// 源数据文件
 	source, err := os.Open(UserDataCsvFile)
 	if err != nil {
@@ -89,7 +100,7 @@ func CopyUserDataFile() error {
 
 	// 备份数据文件，已时间格式结尾
 	dstFile := UserDataDirCsv +
-		UserDataCsvFileStr +
+		UserDataFileStr +
 		"-" + time.Now().Format("2006-01-02_150405") +
 		UserDataCsvFileFormat
 	destination, err := os.Create(dstFile)
@@ -104,8 +115,8 @@ func CopyUserDataFile() error {
 }
 
 // 持久化最近N次修改的文件，超出的部分删除最旧的
-func PersistenceOfLastNChanges() error {
-	file, err := filepath.Glob(UserDataDirCsv + UserDataCsvFileStr + "*")
+func (c *CsvClient) PersistenceOfLastNChanges() error {
+	file, err := filepath.Glob(UserDataDirCsv + UserDataFileStr + "*")
 	if err != nil {
 		return err
 	}

@@ -1,0 +1,14 @@
+/*
+    系统token：ba3253876aed6bc22d4a6ff53d8406
+    初始账户：yizuo
+    初始密码：yizuo
+    用户输入错误三次退出
+    用户增删改查
+    用户ID自增
+    用户密码MD5加密
+*/
+
+1. 整理mm图
+2. 存储添加json, 支持json，csv，gob => 使用接口方式 不要再函数中判断json，csv，gob去调用不同功能（可通过判断设置接口类型为csv，json，gob）
+    通过工厂创建persistent对象
+    Factory.Create(type_ string) Persistent
