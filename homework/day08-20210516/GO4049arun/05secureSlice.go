@@ -32,7 +32,12 @@ func (m *MySlice) Add(v int) {
 func (m *MySlice) Delete(index int) {
 	m.Lock()
 	defer m.Unlock()
-	copy(m.s[index:], m.s[index+1:])
+	if len(m.s)-1 >0{
+		copy(m.s[index:], m.s[index+1:])
+		m.s = m.s[:len(m.s)-1]
+	}else if len(m.s)-1==0{
+		m.s = []int{}
+	}
 }
 
 func (m *MySlice) modify(index ,value int) {
@@ -55,13 +60,9 @@ func (m *MySlice) Len() int {
 
 
 func main() {
-	elements := []int{0, 1, 2, 3, 4, 5}
-	copy(elements[3:], elements[4:])//表示删除索引为3的元素
-	fmt.Println(elements[:len(elements)-1])  //[0 1 2 4 5]
-
 	mySlice := NewMySlice(0)
 	num:=2
-	goNum := 3
+	goNum := 8
 	for n := 0; n < goNum; n++ {
 		go func() {
 			for i := 0; i < num; i++ {
@@ -82,14 +83,13 @@ func main() {
 	time.Sleep(5*time.Second)
 	fmt.Println(mySlice.show())
 
-	//for q := 0; q < goNum; q++ {
-	//	go func() {
-	//		for i := 0; i < num; i++ {
-	//			mySlice.modify(i,i+10)
-	//		}
-	//	}()
-	//}
-	//time.Sleep(5*time.Second)
-	//fmt.Println(mySlice.show())
-
+	for q := 0; q < len(mySlice.s); q++ {
+		mySlice.modify(q,q+1)
+	}
+	fmt.Println(mySlice.show())
 }
+/*
+[5 6 5 6 5 6 5 6 5 6 5 6 5 6 5 6]
+[]
+[]
+*/
