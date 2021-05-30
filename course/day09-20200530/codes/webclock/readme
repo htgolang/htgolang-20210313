@@ -1,0 +1,18 @@
+/time
+=> 响应当前时间
+
+/time => 处理器 => 响应当前时间
+实现Handler接口
+
+type TimeHandler struct {
+
+}
+func (h *TimeHandler) ServeHTTP(http.ReponseWriter, *http.Request) {
+
+}
+
+http.Handle("/time", &TimeHandler{})
+
+// 处理器函数
+timeHandler = func(http.ReponseWriter, *http.Request)
+http.HandleFunc("/time2", timeHandler)
