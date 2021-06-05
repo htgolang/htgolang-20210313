@@ -1,0 +1,15 @@
+2021/05/08 20:12:39.331915 logger.go:22: Line 666
+2021/05/08 20:17:11.973110 logger.go:19: arun 666
+2021/05/08 20:17:18.900292 logger.go:19: arun 666
+2021/05/08 20:20:58.523105 logger.go:18: test
+2021/05/08 20:20:58.547953 logger.go:18: test
+2021/05/08 20:20:58.547953 logger.go:18: test
+2021/05/16 00:50:16.601894 logger.go:18: json文件read失败,请检查原因!
+2021/05/16 00:50:40.697786 logger.go:18: json文件read失败,请检查原因!
+2021/05/16 00:51:19.836240 logger.go:18: json文件read失败,请检查原因!
+2021/05/16 00:53:37.197504 logger.go:18: json文件read失败,请检查原因:json: Unmarshal(non-pointer []*user.User)
+2021/05/16 01:07:37.029560 logger.go:18: json文件read失败,请检查原因:json: Unmarshal(nil *user.User)
+2021/05/16 01:10:25.951838 logger.go:18: json文件read失败,请检查原因:json: cannot unmarshal array into Go value of type user.User
+2021/05/16 01:18:20.426046 logger.go:18: json文件read失败,请检查原因:json: cannot unmarshal array into Go value of type user.User
+2021/05/16 01:21:34.472983 logger.go:18: json文件read失败,请检查原因:not at beginning of value
+2021/05/16 01:51:15.770444 logger.go:18: Parse err!

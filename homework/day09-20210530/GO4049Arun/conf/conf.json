@@ -1,0 +1,7 @@
+{
+  "GobFilepath": "model/store/user.gob",
+  "JsonFilepath":"model/store/user.json",
+  "CsvFilepath": "model/store/csv.csv",
+  "LogFilePath": "model/log/system.log",
+  "PwdLen":3
+}
