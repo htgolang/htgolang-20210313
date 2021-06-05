@@ -8,7 +8,6 @@ import (
 	"strconv"
 )
 
-
 func FindUserById(res *ResponseJson,id int,w http.ResponseWriter)  {
 	var uRes ResponseJson
 	flag:=false
