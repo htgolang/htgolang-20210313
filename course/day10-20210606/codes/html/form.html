@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>表单</title>
+    </head>
+    <body>
+        <!--
+            表单 用于向服务器提交数据 form表单内的元素会进行整体提交
+            提交的地址: action
+            提交的方式: method= GET, POST 默认GET
+            编码方式: enctype = application/x-www-form-urlencoded(非file 默认), multipart/form-data(file)
+        -->
+        <form method="POST">
+            <!-- 让用户能够输入数据的标签 -->
+            <input type="hidden" name="id" value="123" />
+            <div>
+                <lable>用户ID:</lable>
+                <input type="text" name="id_readonly" value="123" readonly="readonly" />
+            </div>
+            <div>
+                <lable>用户ID:</lable>
+                <input type="text" name="id_disabled" value="123" disabled="disabled" />
+            </div>
+            <div>
+                <lable>用户名:</lable>
+                <input type="text" name="username" placeholder="kk" value="xxx"/>
+            </div>
+            <div>
+                <lable>用户密码:</lable>
+                <input type="password" name="password" value="123"/>
+            </div>
+            <div>
+                <lable>出生日期:</lable>
+                <input type="date" name="birthday"/>
+            </div>
+            <div>
+                <label>性别:</label>
+                <span><input type="radio" name="sex" checked="checked" value="1"/> <label>男</label></span>
+                <span><input type="radio" name="sex" value="0"/> <label>女</label></span>
+            </div>
+            <div>
+                <label>爱好:</label>
+                <span><input type="checkbox" name="hobby" value="bastketball"/> <label>篮球</label></span>
+                <span><input type="checkbox" name="hobby" checked="checked" value="football"/> <label>足球</label></span>
+                <span><input type="checkbox" name="hobby" value="pingpong"/> <label>乒乓球</label></span>
+            </div>
+            <div>
+                <label>省份:</label>
+                <select name="provider">
+                    <option value="shaanxi">陕西</option>
+                    <option value="beijing" selected="selected">北京</option>
+                    <option value="sichuan">四川</option>
+                </select>
+            </div>
+            <div>
+                <label>去过的省份:</label>
+                <select name="qprovider" multiple="multiple">
+                    <option value="shaanxi">陕西</option>
+                    <option value="beijing" selected="selected">北京</option>
+                    <option value="sichuan">四川</option>
+                </select>
+            </div>
+            <div>
+                <label>介绍</label>
+                <textarea name="desc">我的个人介绍</textarea>
+            </div>
+            <div>
+                <input type="submit" value="登陆" />
+            </div>
+        </form>
+    </body>
+</html>

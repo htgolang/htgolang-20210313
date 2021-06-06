@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>表格</title>
+    </head>
+    <body>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">1</td>
+
+                    <td>
+                        <a href="/user/modify/?id=1">编辑</a>
+                        <a href="/user/delete/?id=1">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>看电视</td>
+                    <td>
+                        <a href="/user/modify/?id=2">编辑</a>
+                        <a href="/user/delete/?id=2">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td rowspan="2">看电视</td>
+                    <td>
+                        编辑
+                        删除
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        编辑
+                        删除
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
