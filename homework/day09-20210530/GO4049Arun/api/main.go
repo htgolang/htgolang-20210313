@@ -2,24 +2,29 @@ package api
 
 import (
 	"encoding/json"
+	"fmt"
 	"mgr/model/user"
 	"net/http"
 )
 var Users []*user.User
 type ResponseJson struct {
 	Ok bool `json:"ok"`
-	Data []*user.User `json:"data"`
-	Msg string `json:"msg"`
+	Data []*user.User `json:"data,omitempty"`
+	Msg string `json:"msg,omitempty"`
 }
 
-func MyMarshal(uRes *ResponseJson) string {
+func MyMarshalError(w *http.ResponseWriter,msg string)  {
+	var uRes ResponseJson
+	uRes.Ok = false
+	uRes.Msg = msg
 	bytes, _ := json.Marshal(uRes)
-	return string(bytes)
+	fmt.Fprintln(*w, string(bytes))
 }
 
 func ApiEntrance() {
 	addr := ":9999"
 	var responseJson = new(ResponseJson)
+	//查询用户接口
 	QueryApi(responseJson)
 	/*
 	测试:
@@ -30,6 +35,7 @@ func ApiEntrance() {
 	127.0.0.1:9999/query?id=1  存在
 	127.0.0.1:9999/query?id=2  不存在
 	*/
-
+	//添加用户接口
+	AddUserApi(responseJson)
 	http.ListenAndServe(addr, nil)
 }
