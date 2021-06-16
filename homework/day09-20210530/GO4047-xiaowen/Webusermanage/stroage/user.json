@@ -1,0 +1,23 @@
+{
+    "1": {
+        "Id": "1",
+        "UserName": "admin",
+        "Email": "admin@qq.com",
+        "Phone": "132xxxxxxxx",
+        "Password": "123"
+    },
+    "2": {
+        "Id": "2",
+        "UserName": "xx",
+        "Email": "xx@qq.com",
+        "Phone": "123xxxxxxxx",
+        "Password": "123"
+    },
+    "3": {
+        "Id": "3",
+        "UserName": "kk",
+        "Email": "kk@qq.com",
+        "Phone": "138xxxxxxxx",
+        "Password": "1234567"
+    }
+}
