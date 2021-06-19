@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>用户名</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+     
+                {{ range . }}
+                <tr>
+                    <td>{{ .Id }}</td>
+                    <td>{{ .UserName }}</td>
+                    <td>
+                        <a href="/user/add/">添加</a>
+                        <a href="/user/modify/?id={{ .Id }}">修改</a>
+                        <a href="/user/datil/?id={{ .Id }}">查询</a>
+                        <a href="/user/delete/?id={{ .Id }}">删除</a>
+                    </td>
+                    {{ else }}
+                    <td>暂无数据</td>   
+                </tr>
+                {{ end }}
+        </tbody>
+        </table>
+    </body>
+</html>

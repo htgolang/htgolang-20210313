@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+
+        <form method="POST" action="/user/modify/">
+            <div>
+                <lable>ID:</lable>
+                <input type="text" name="id" value="{{ .Id }}" readonly="readonly" />
+            </div>
+            <div>
+                <lable>用户名:</lable>
+                <input type="text" name="username" value="{{ .UserName }}" readonly="readonly" />
+            </div>
+            <div>
+                <lable>邮箱:</lable>
+                <input type="email" name="email"  value="{{ .Email }}"/>
+            </div>
+            <div>
+                <lable>联系电话:</lable>
+                <input type="text" name="phone" value="{{ .Phone }}"/>
+            </div>
+            <div>
+                <lable>密码:</lable>
+                <input type="password" name="password" value="{{ .Password }}"/>
+            </div>
+            <div>
+                <input type="submit" value="更新" />
+            </div>
+        </form>
+    </body>
+</html>
