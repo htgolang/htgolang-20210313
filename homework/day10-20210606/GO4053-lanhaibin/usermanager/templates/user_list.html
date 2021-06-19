@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户列表</title>
+</head>
+
+<body>
+    <h2>用户列表</h2>
+    <div>
+        <form style="display: inline-block;" method="Get">
+            <input name="q">
+            <button type="submit">搜索</button>
+        </form>
+        <a href="/user/create">新建</a>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>用户名</td>
+                <td>地址</td>
+                <td>操作</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range . }}
+            <tr>
+                <td>{{.Id}}</td>
+                <td>{{.Name}}</td>
+                <td>{{.Addr}}</td>
+                <td>
+                    <a href="/user/modify?id={{.Id}}">修改</a>
+                    <a href="/user/delete?id={{.Id}}">删除</a>
+                </td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+
+</body>
+
+</html>

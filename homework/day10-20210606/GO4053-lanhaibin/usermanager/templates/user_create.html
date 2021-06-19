@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加用户</title>
+</head>
+<body>
+    <form method="POST">
+        {{ if ne . "" }}
+        <div style="color: red;">{{.}}</div>
+        {{ end }}
+        <div>
+            <span>名称: </span>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <span>密码: </span>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <span>地址: </span>
+            <input type="text" name="addr">
+        </div>
+        <div>
+            <span>电话: </span>
+            <input type="text" name="tel">
+        </div>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>
