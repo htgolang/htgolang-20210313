@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+        {{ template "header.html" .CurrentUser }}
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>用户名</th>
+                    <th>性别</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range .Users }}
+                <tr>
+                    <td>{{ .Id }}</td>
+                    <td>{{ .Name }}</td>
+                    <td>{{ if .Sex }}男{{ else }}女{{ end }}/{{ .SexText }}</td>
+                    <td>
+                        <a href="/user/edit/?id={{ .Id }}">编辑</a>
+                        {{ if ne .Id $.CurrentUser.Id }}
+                        <a href="/user/delete/?id={{ .Id }}">删除</a>
+                        {{ end }}
+                    </td>
+                </tr>
+                {{ else }}
+                <tr>
+                    <td colspan="4">暂无数据</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </body>
+</html>
