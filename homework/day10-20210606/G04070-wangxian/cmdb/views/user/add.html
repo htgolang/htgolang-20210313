@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>user add</title>
+    </head>
+    <body>
+        <form action="/user/add/" method="POST">
+            <div>
+                <label>用户名</label>
+                <input type="text" name="username">
+            </div>
+            <div>
+                <label>性别</label>
+                <input type="radio" name="sex" value="1" checked="">男
+                <input type="radio" name="sex" value="0">女
+            </div>
+            <div>
+                <label>地址</label>
+                <input type="text" name="addr">
+            </div>
+            <div>
+                <label>手机</label>
+                <input type="text" name="tel">
+            </div>
+            <div>
+                <label>密码</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label>确认密码</label>
+                <input type="password" name="confirmpw">
+            </div>
+            {{ if ne . "" }}
+            <div style="color: red;">
+                {{ . }}
+            </div>
+            {{ end }}
+
+            <div>
+                <input type="submit" value="提交">
+            </div>
+        </form>
+    </body>
+</html>

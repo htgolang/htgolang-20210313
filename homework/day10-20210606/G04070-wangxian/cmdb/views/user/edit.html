@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>user edit</title>
+    </head>
+    <body>
+        <form action="/user/edit/" method="POST">
+        <div>
+            <input type="text" name="uid" value="{{ .Data.Id }}" hidden="">
+        </div>
+        <div>
+            <label>用户名</label>
+            <input type="text" name="username" value="{{ .Data.Name }}">
+        </div>
+        <div>
+            <label>性别</label>
+            {{ if .Data.Sex }}
+            <input type="radio" name="sex" value="1" checked="">男
+            <input type="radio" name="sex" value="0">女
+            {{ else }}
+            <input type="radio" name="sex" value="1">男
+            <input type="radio" name="sex" value="0" checked="">女
+            {{ end }}
+        </div>
+        <div>
+            <label>地址</label>
+            <input type="text" name="addr" value="{{ .Data.Addr }}">
+        </div>
+        <div>
+            <label>手机</label>
+            <input type="text" name="tel" value=" {{ .Data.Tel }}">
+        </div>
+        {{ if ne .ErrMsg "" }}
+        <div style="color: red;">
+            {{ .ErrMsg }}
+        </div>
+        {{ end }}
+
+        <div>
+            <input type="submit" value="保存">
+        </div>
+        </form>
+    </body>
+</html>
