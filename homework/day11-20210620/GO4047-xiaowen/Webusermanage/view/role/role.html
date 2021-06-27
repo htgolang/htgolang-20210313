@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>角色名</th>
+                </tr>
+            </thead>
+            <tbody>
+     
+                {{ range . }}
+                <tr>
+                    <td>{{ .Role_id }}</td>
+                    <td>{{ .Role_name }}</td>
+                    {{ else }}
+                    <td>暂无数据</td>   
+                </tr>
+                {{ end }}
+        </tbody>
+        </table>
+    </body>
+</html>

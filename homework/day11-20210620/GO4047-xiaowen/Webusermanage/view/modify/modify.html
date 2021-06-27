@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+        <form method="POST" action="/user/modify/">
+            <div>
+                <lable>ID:</lable>
+                <input type="text" name="id" value="{{ .Id }}" readonly="readonly" />
+            </div>
+            <div>
+                <lable>用户名:</lable>
+                <input type="text" name="username" value="{{ .Name }}" readonly="readonly" />
+            </div>
+            <div>
+                <lable>角色:</lable>
+                <input type="text" name="role_name" value="{{ .Role_name }}" readonly="readonly" />
+            </div>
+            <div>
+                <lable>邮箱:</lable>
+                <input type="email" name="email"  value="{{ .Email }}"/>
+            </div>
+            <div>
+                <lable>联系电话:</lable>
+                <input type="text" name="phone" value="{{ .Phone }}"/>
+            </div>
+            <div>
+                <lable>原密码:</lable>
+                <input type="password" name="sourcePassword" value=""/>
+            </div>
+            {{ if ne .SourceErr "" }}
+            <div style="color: red;">{{ .SourceErr }}</div>
+            {{ end }}
+            <div>
+                <lable>新密码:</lable>
+                <input type="password" name="newPassword" value=""/>
+            </div>
+            <div>
+                <lable>确认密码:</lable>
+                <input type="password" name="validatePassword" value=""/>
+            </div>
+            {{ if ne .NewErr "" }}
+            <div style="color: red;">{{ .NewErr }}</div>
+            {{ end }}
+            <div>
+                <input type="submit" value="更新" />
+            </div>
+        </form>
+    </body>
+</html>
