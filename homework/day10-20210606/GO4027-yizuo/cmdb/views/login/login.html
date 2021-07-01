@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+        <form action="/login/" method="POST">
+            <div>
+                <label>用户名</label>
+                <input type="text", name="name", value="">
+            </div>
+            <div>
+                <label>密码</label>
+                <input type="password", name="password", value="">
+            </div>
+            <div>
+                <label>登陆</label>
+                <input type="submit", value="登陆">
+            </div>
+        </form>
+        <form action="/logout/">
+            <div>
+                <label>退出登陆</label>
+                <input type="submit", value="退出登陆">
+            </div>
+        </form>   
+        {{ if ne .Err "" }}
+        <div style="color: red;"> {{ .Err }}</div>
+        {{ end }}
+    </body>
+</html>

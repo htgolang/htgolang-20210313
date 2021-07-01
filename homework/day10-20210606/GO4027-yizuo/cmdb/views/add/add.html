@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+
+        <form method="POST" action="/user/add/">
+            <!-- <div>
+                <lable>ID:</lable>
+                <input type="text" name="id" value="{{ .ID }}" readonly="readonly" />
+            </div> -->
+            <div>
+                <lable>用户名:</lable>
+                <input type="text" name="name" value="{{ .Name }}"  />
+            </div>
+            <div>
+                <lable>密码:</lable>
+                <input type="password" name="password" value="{{ .Passwd }}"/>
+            </div>
+            <div>
+                <lable>性别:</lable>
+                <input type="text" name="sex"  value="{{ .Sex }}"/>
+            </div>
+            <div>
+                <lable>地址:</lable>
+                <input type="text" name="addr" value="{{ .Addr }}"/>
+            </div>
+            <div>
+                <lable>电话:</lable>
+                <input type="text" name="tel" value="{{ .Tel }}"/>
+            </div>
+            <div>
+                <input type="submit" value="新建用户" />
+            </div>
+        </form>
+    </body>
+</html>
