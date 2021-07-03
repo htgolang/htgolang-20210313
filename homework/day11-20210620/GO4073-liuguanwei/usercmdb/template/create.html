@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="utf8">
+    <head>
+        <meta charset="utf8">
+        <title>create user</title>
+    </head>
+    <body>
+        <form action="/create" method="POST">
+            <div>
+                username: <input type="text" name="name" placeholder="username">
+            </div>
+            <div>
+                password: <input type="password" name="passwd" value="">
+            </div>
+            <div>
+                sex: male <input type="radio" name="sex" value="true" checked> female <input type="radio" name="sex" value="false">
+            </div>
+            <div>
+                address : <input type="text" name="addr">
+            </div>
+            <div>
+                tel: <input type="text" name="tel">
+            </div>
+            <div>
+                birthday: <input type="text" name="birthday" placeholder="2021-07-01">
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>

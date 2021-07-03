@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="utf8">
+    <head>
+        <meta charset="utf8">
+        <title>modify user</title>
+    </head>
+    <body>
+        {{ .Err }}
+        id ==> {{ .ID }}
+        <form action="/modify?id={{ .ID }}" method="POST">
+            <div>
+                username: <input type="text" name="name" value="{{ .Name }}" placeholder="username">
+            </div>
+            <div>
+                password: <input type="password" name="passwd" value="{{ .Passwd }}" value="">
+            </div>
+            <div>
+                sex:
+                male: <input type="radio" name="sex" value="true" {{ if eq .Sex true }}checked{{end}}>
+                female: <input type="radio" name="sex" value="false" {{ if eq .Sex true }}checked{{end}}>
+            </div>
+            <div>
+                address : <input type="text" name="addr" value="{{ .Addr }}">
+            </div>
+            <div>
+                tel: <input type="text" name="tel" value="{{ .Tel }}">
+            </div>
+            <div>
+                birthday: <input type="text" name="birthday" value="{{ .Birthday }}" placeholder="2021/07/01">
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>

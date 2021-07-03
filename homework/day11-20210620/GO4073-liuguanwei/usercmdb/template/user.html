@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="utf8">
+    <head>
+        <meta charset="utf8">
+        <title> user list</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>sex</th>
+                    <th>tel</th>
+                    <th>birth</th>
+                    <th>addr</th>
+                    <th>password</th>
+                    <th>create time</th>
+                </tr>
+            </thead>
+        </table>
+        <tbody>
+            {{ range . }}
+            <tr>
+                <td>{{ .Name }}</td>
+                <td>{{ if eq true .Sex }}male{{ else }}female{{end}}</td>
+                <td>{{ .Tel }}</td>
+                <td>{{ .Birthday }}</td>
+                <td>{{ .Addr }}</td>
+                <td>{{ .Passwd }}</td>
+                <td>{{ .Create_at }}</td>
+                <td>
+                    <a href="/modify?id={{ .ID }}&name={{ .Name }}&sex={{ .Sex }}&tel={{ .Tel }}&birthday={{ .Brithday }}&addr={{ .Addr }}&passwd={{ .Passwd }}">mod</a>
+                    <a href="/delete?id={{ .ID }}">del</a>
+                </td>
+            </tr>
+            {{ end }}
+        </tbody>
+        <a href="/create">create user</a>
+    </body>
+</html>
