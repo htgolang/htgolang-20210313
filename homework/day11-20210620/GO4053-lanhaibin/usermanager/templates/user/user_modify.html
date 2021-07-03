@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ template "header.html" "修改用户"}}
+{{ template "menu.html" .Current }}
+<body>
+    {{ with .User }}
+    <form method="POST">
+        <input name="id" value="{{.Id}}" hidden>
+        <div>
+            <span>用户名: </span>
+            <input type="text" name="name" value="{{.Name}}">
+        </div>
+        <div>
+            <span>出生日期: </span>
+            <input type="date" name="brithday" value='{{- if .Brithday -}} {{ .Brithday.Format "2006-01-02" }} {{- end -}}'>
+        </div>
+        <div>
+            <span>性别: </span>
+            <input type="radio" name="sex" value="1" {{if .Sex }} checked {{ end }}>男
+            <input type="radio" name="sex" value="0" {{if not .Sex }} checked {{ end }}>女
+        </div>
+        <div>
+            <span>地址: </span>
+            <input type="text" name="addr" value="{{.Addr}}">
+        </div>
+        <div>
+            <span>电话: </span>
+            <input type="text" name="tel" value="{{.Tel}}">
+        </div>
+        <button type="submit">提交</button>
+    </form>
+    {{ end }}
+</body>
+</html>

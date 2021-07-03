@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ template "header.html" "修改部门"}}
+<body>
+    {{ template "menu.html" .Current }}
+    {{ with .Department }}
+    <form method="POST">
+        <input name="id" value="{{.Id}}" hidden>
+        <div>
+            <span>部门: </span>
+            <input type="text" name="name" value="{{.Name}}">
+        </div>
+        <button type="submit">提交</button>
+    </form>
+    {{ end }}
+</body>
+</html>
