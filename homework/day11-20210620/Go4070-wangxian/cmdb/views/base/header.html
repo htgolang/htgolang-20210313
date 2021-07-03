@@ -1,0 +1,16 @@
+<div style="margin-bottom: 5px;">
+    {{ range .CurrentRole.GetModules }}
+    {{ if eq . "userManager" }}
+    <a href="/user/list/">用户管理</a>
+    {{ else if eq . "roleManager" }}
+    <a href="/role/list/">角色管理</a>
+    {{ else if eq . "departmentManager" }}
+    <a href="/dp/list/">部门管理</a>
+    {{ else if eq . "assetManager" }}
+    <a href="/asset/list/">资产管理</a>
+    {{ end }}
+    {{ end }}
+    <span  style="margin-left: 1000px;">欢迎登录{{.CurrentUser.Name}}</span>
+    <a href="/user/changepw/">修改密码</a>
+    <a href="/logout/">退出登录</a>
+</div>

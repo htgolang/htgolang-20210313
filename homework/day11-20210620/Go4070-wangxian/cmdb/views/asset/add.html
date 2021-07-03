@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>asset add</title>
+    </head>
+    <body>
+        {{ template "header.html" . }}
+        <form action="/asset/add/" method="POST">
+            <div>
+                <label>IP</label>
+                <input type="text" name="ip">
+            </div>
+            <div>
+                <label>位置</label>
+                <input type="text" name="addr">
+            </div>
+            {{ if ne .ErrMsg "" }}
+            <div style="color: red;">
+                {{ .ErrMsg }}
+            </div>
+            {{ end }}
+
+            <div>
+                <input type="submit" value="提交">
+            </div>
+        </form>
+    </body>
+</html>

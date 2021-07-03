@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>department add</title>
+    </head>
+    <body>
+        {{ template "header.html" . }}
+        <form action="/dp/add/" method="POST">
+            <div>
+                <label>部门名称</label>
+                <input type="text" name="dpname">
+            </div>
+            {{ if ne .ErrMsg "" }}
+            <div style="color: red;">
+                {{ .ErrMsg }}
+            </div>
+            {{ end }}
+
+            <div>
+                <input type="submit" value="提交">
+            </div>
+        </form>
+    </body>
+</html>

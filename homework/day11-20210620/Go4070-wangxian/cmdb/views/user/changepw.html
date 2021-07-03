@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>修改密码</title>
+    </head>
+    <body>
+        <form action="/user/changepw/" method="POST">
+        <div>
+            <input type="text" name="uid" value="{{ .CurrentUser.Id }}" hidden="">
+        </div>
+        <div>
+            <label>原密码</label>
+            <input type="password" name="oldpassword">
+        </div>
+        <div>
+            <label for="">新密码</label>
+            <input type="password" name="newpassword">
+        </div>
+        <div>
+            <label for="">确认密码</label>
+            <input type="password" name="confirmpw">
+        </div>
+        <div style="color: red;">
+            {{ if ne .ErrMsg "" }}
+            {{ .ErrMsg }}
+            {{ end }}
+        </div>
+        <div>
+            <input type="submit" value="提交">
+        </div>
+        </form>
+    </body>
+</html>

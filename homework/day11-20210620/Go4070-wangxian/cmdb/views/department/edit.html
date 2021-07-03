@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>department edit</title>
+    </head>
+    <body>
+        {{ template "header.html" . }}
+        <form action="/dp/edit/" method="POST">
+        <div>
+            <input type="text" name="dpid" value="{{ .Department.Id }}" hidden="">
+        </div>
+        <div>
+            <label>部门名称</label>
+            <input type="text" name="dpname" value="{{ .Department.Name }}">
+        </div>
+
+        {{ if ne .ErrMsg "" }}
+        <div style="color: red;">
+            {{ .ErrMsg }}
+        </div>
+        {{ end }}
+
+        <div>
+            <input type="submit" value="保存">
+        </div>
+        </form>
+    </body>
+</html>

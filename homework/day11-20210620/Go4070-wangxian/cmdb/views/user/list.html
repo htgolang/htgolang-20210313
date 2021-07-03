@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>user list</title>
+    </head>
+    <body>
+        {{ template "header.html" . }}
+        <div>
+            <a href="/user/add/">添加用户</a>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>性别</th>
+                        <th>生日</th>
+                        <th>手机</th>
+                        <th>邮箱</th>
+                        <th>地址</th>
+                        <th>用户描述</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .Users }}
+                    <tr>
+                        <td>{{ .Id }}</td>
+                        <td>{{ .Name }}</td>
+                        <!--在模板中调用结构体方法-->
+                        <td>{{ .SetText }}</td>
+                        <td>{{ .GetBirthday }}</td>
+                        <td>{{ .Telephone }}</td>
+                        <td>{{ .Email }}</td>
+                        <td>{{ .Addr }}</td>
+                        <td>{{ .Description }}</td>
+                        <td>
+                            <a href="/user/edit/?id={{ .Id }}">编辑</a>
+                            <a href="/user/delete/?id={{ .Id }}">删除</a>
+                        </td>
+                    </tr>
+                    {{ else }}
+                    <tr>
+                        <td colspan="9">暂无数据</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
