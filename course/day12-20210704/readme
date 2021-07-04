@@ -1,0 +1,145 @@
+1. 复习(10分钟)
+    数据库:
+        数据库: mysql
+            SQL: DDL, DCL, DML, DQL
+            mariadb -> utf8mb4;
+            库:
+                创建库
+                删除库
+                使用
+                查询库
+                库的描述
+            表:
+                创建表
+                    数据类型
+                    修饰及约束:
+                        NOT NULL
+                        DEFAULT
+                        COMMENT
+                        UNIQUE
+                        PRIMARY KEY
+                        AUTO_INCREMENT
+                删除表
+                查询表
+                表的描述
+                索引 创建/删除
+            数据操作:
+                增: INSERT
+                删: DELETE
+                改: UPDATE
+                查: SELECT
+
+        GO 如何操作数据库:
+            1. 找驱动
+                操作规范 database/sql
+            2. 导入包
+                database/sql
+                驱动包 下划线方式 初始化驱动
+            3. 连接数据库实例 addr port user password dbname params
+                db, err := sql.Open(driverName, dsn) // 数据库连接池
+
+            4. 验证数据库是否可用
+                db.Ping()
+            5. 执行/查询
+                执行:
+                    result, err := db.Exec(sql, params)
+                    sql: 参数化的方式 => mysql ?
+                查询:
+                    rows, err := db.Query(sql, params)
+                    for(rows.Next()) {
+                        err := rows.Scan(&p1, &p2, ...)
+                    }
+                    rows.Close() //一定要关闭(将数据库连接放入池子中)
+
+                    row := db.QueryRow(sql, params)
+                    err := row.Scan(&p1, &p2, ...)
+
+            6. 关闭连接池(程序退出时)：
+                db.Close()
+
+        事务:
+            开启事务
+                tx, err := db.Begin()
+            执行/查询:
+                tx.Exec/tx.Query/tx.QueryRow
+            提交事务/回滚事务
+                tx.Commit
+                tx.Rollback
+
+2. 作业处理
+    只控制了展示逻辑:
+        menus : [{"name" : "", "module" : "", "url" : ""}]
+        根据角色: user->role->modules -> 过滤出用户 menus => Execute/ExecuteTemplate
+        页面： .menus -> range
+    自己请求URL: 需要在后端验证(控制器)
+        UserController => module
+        HasModule(module)
+
+3. 新内容
+    函数 => 函数也是对象 / 闭包
+        getUsers(string) []User
+        getUsersByTel(string) []User
+        getUsersByRemark(string) []User
+        getUsersBy...(string) []User
+
+
+        users[q] => []User
+
+        不修改getUsers函数的前提下，给getUsers扩展功能
+            缓冲功能:
+                1. 在执行之前检查缓冲(内存)
+                2. 在执行中放入缓冲
+            计算函数执行时间(执行之后时间-执行之前时间)
+                1. 执行之前记录时间
+                2. 执行之后记录时间，时间相减
+
+        新定义函数 getUsers包装下:
+        getUsersWrapper(q string) []User{
+            // 记录开始时间
+            //检查cache
+            // 有 返回 当前时间- 开始时间
+            // 没有 getUsers() ==> 放入缓冲
+            // 返回 当前时间- 开始时间
+        }
+
+        因为函数签名一致，动态创建包装函数
+        func wrapper(callback func) {
+            return func() {
+                // 函数调用之前实现一系列功能
+                callback()
+                // 函数调用之后实现一系列功能
+            }
+        }
+
+        func wrapper(callback func(string) [] User) {
+            return func(q string) []User {
+                var users []User
+                var ok boolean
+                startTime := time.Now()
+                // 检查缓冲
+                ok, users = cached[q]
+                if !ok {
+                    users = callback(q)
+                    cached[q] = users
+                }
+                diff := time.Now().Sub(startTime)
+                log.Printf("diff: %d", diff.Unix())
+                return users
+            }
+        }
+
+        getUsersWrapper := wrapper(getUsers)
+
+
+    Beego框架
+        主要功能/思想
+            / handler =>
+            MVC: 分层模型
+                C: controller 控制器 连接
+                M: model 模型 数据库操作
+                V: view 视图 模板/页面
+        目录结构
+        启动服务
+        配置
+        控制器
+        模板(看时间)
