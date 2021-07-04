@@ -5,10 +5,7 @@
         <title>用户列表</title>
     </head>
     <body>
-        {{ template "base/header.html" .CurrentUser }}
-        {{ range $key, $value := .flash }}
-            <div>{{ $key }}:{{ $value }}</div>
-        {{ end }}
+        {{ template "header.html" .CurrentUser }}
         <table>
             <thead>
                 <tr>
@@ -25,9 +22,9 @@
                     <td>{{ .Name }}</td>
                     <td>{{ if .Sex }}男{{ else }}女{{ end }}/{{ .SexText }}</td>
                     <td>
-                        <a href="{{ urlfor `UserController.Modify` }}?id={{ .Id }}">编辑</a>
+                        <a href="/user/edit/?id={{ .Id }}">编辑</a>
                         {{ if ne .Id $.CurrentUser.Id }}
-                        <a href="{{ urlfor `UserController.Delete` }}?id={{ .Id }}">删除</a>
+                        <a href="/user/delete/?id={{ .Id }}">删除</a>
                         {{ end }}
                     </td>
                 </tr>

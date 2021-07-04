@@ -143,3 +143,49 @@
         配置
         控制器
         模板(看时间)
+
+        session:
+            存: 登陆成功后存储用户标识
+            取: 访问需要登陆后才能访问的处理逻辑之前 取用户进行验证
+            销毁: 退出登陆的时候
+
+            controller:
+                SetSession(key, value)
+                GetSession(key)
+                DelSession(key)
+                DestroySession()
+                SessionRegernateId() // 重新生成sessionID
+
+            Context.Input.CurSession
+            GlobalSessions.SessionRegenerateID
+            GlobalSessions.SessionDestroy
+
+    URL构建
+    url => Controller
+
+    再页面上直接指定Controller.Method => 自动推到(查询) => URL
+    Controller => Redirect
+
+    页面： beego urlfor
+    go代码中: web.URLFor()
+
+    flash
+        /user/delete => redirect  /user/query
+        Get ? params = xxx
+        删除成功想要在 /user/query 在页面显示 删除成功
+
+        cookie
+        /user/delete setCookie
+            flash := web.NewFlash()
+
+            flash.Error("xxx")
+            flash.Warning("xxxxx")
+            flash.Notice("xxx")
+
+            flash.Store(&c.Controller)
+
+        /user/query getCookie deleteCookie
+            flash := web.ReadFromRequest(&c.Controller)
+                    controller.Data["flash"] => flash
+                    .flash.xxxx 可以在模板上获取
+            flash.Data

@@ -5,13 +5,13 @@
         <title>用户登陆</title>
     </head>
     <body>
-        <form action="{{ urlfor `AuthController.Login` }}" method="POST">
-            {{ range $key, $errs := .errors }}
-            <div style="color:red;">{{ index $errs 0 }}</div>
+        <form action="/login/" method="POST">
+            {{ if ne .Err "" }}
+            <div style="color:red;">{{ .Err }}</div>
             {{ end }}
             <div>
                 <label>用户名</label>
-                <input type="text" name="name" value="{{ .form.Username }}"/>
+                <input type="text" name="name" value="{{ .Name }}"/>
             </div>
             <div>
                 <label>密码</label>
