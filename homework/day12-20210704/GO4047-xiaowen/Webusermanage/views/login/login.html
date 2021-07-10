@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+        <form action="{{ urlfor `AuthController.Login`}}" method="POST">
+            {{ range $key, $err := .errors }}
+            <div style="color: red;"> {{ index $err 0 }}</div>
+            {{ end }}
+            <div>
+                <label>用户名</label>
+                <input type="text", name="username", value="">
+            </div>
+            <div>
+                <label>密码</label>
+                <input type="password", name="password", value="">
+            </div>
+            <div>
+                <label>登陆</label>
+                <input type="submit", value="登陆">
+            </div>
+        </form>   
+    </body>
+</html>

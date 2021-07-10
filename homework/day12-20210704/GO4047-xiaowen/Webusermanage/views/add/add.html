@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+
+        <form method="POST" action="{{ urlfor `UserController.Add` }}">
+            <div>
+                <lable>用户名:</lable>
+                <input type="text" name="username" value="" />
+            </div>
+            <div>
+                <lable>角色:</lable>
+                <select name="role">
+                    <option value="Admin">Admin</option>
+                    <option value="Operation">Operation</option>
+                </select>
+            </div>
+            <div>
+                <lable>邮箱:</lable>
+                <input type="email" name="email"  value=""/>
+            </div>
+            <div>
+                <lable>联系电话:</lable>
+                <input type="text" name="phone" value=""/>
+            </div>
+            <div>
+                <lable>密码:</lable>
+                <input type="password" name="password" value=""/>
+            </div>
+            <div>
+                <input type="submit" value="提交" />
+            </div>
+        </form>
+    </body>
+</html>

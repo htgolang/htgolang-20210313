@@ -1,0 +1,13 @@
+<div>
+    <a href=""> 欢迎 {{ .Name }} 登陆</a>
+</div>
+
+<div>
+    {{ if eq .RoleId 1 }}
+    <a href="{{ urlfor `UserController.Query`}}">用户管理</a>
+    <a href="{{ urlfor `UserController.Role`}}">角色管理</a>
+    <a href="">部门管理</a>
+    {{ end }}
+    <a href="">资产管理</a>
+    <a href="{{ urlfor `AuthController.Logout`}}">退出登陆</a>·
+</div>
