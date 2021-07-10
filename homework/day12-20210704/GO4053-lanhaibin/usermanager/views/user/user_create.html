@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ template "base/header.html" "添加用户"}}
+<body>
+    {{ template "base/menu.html" .Current }}
+    <form method="POST">
+        {{ if ne .Err "" }}
+        <div style="color: red;">{{.}}</div>
+        {{ end }}
+        <div>
+            <span>用户名: </span>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <span>密码: </span>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <span>生日:</span>
+            <input type="date" name="brithday">
+        </div>
+        <div>
+            <span>性别:</span>
+            <input type="radio" name="sex" value="1">男
+            <input type="radio" name="sex" value="0">女
+        </div>
+        <div>
+            <span>地址: </span>
+            <input type="text" name="addr">
+        </div>
+        <div>
+            <span>电话: </span>
+            <input type="text" name="tel">
+        </div>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>

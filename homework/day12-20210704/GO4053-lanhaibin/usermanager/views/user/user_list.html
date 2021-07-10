@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ template "base/header.html" "用户列表" }}
+
+<body>
+    {{ template "base/menu.html" .Current }}
+    <h2>用户列表</h2>
+    <div>
+        <form style="display: inline-block;" method="Get">
+            <input name="q">
+            <button type="submit">搜索</button>
+        </form>
+        <a href="/user/create">新建</a>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>用户名</td>
+                <td>地址</td>
+                <td>操作</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .Users }}
+            <tr>
+                <td>{{.Id}}</td>
+                <td>{{.Name}}</td>
+                <td>{{.Addr}}</td>
+                <td>
+                    <a href="/user/modify?id={{.Id}}">修改</a>
+                    {{ if ne .Id $.Current.Id }}
+                    <a href="/user/delete?id={{.Id}}">删除</a>
+                    {{end}}
+                </td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+
+</body>
+
+</html>
