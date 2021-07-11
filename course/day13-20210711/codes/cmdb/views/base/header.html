@@ -1,0 +1,8 @@
+<div>
+    {{ range $k, $v := .Menus }}
+        <a href="{{ $v.Path }}">{{ $v.Name }}</a>
+    {{ end }}
+    <a href="{{ urlfor `UserController.ModifyPassword` }}"> 欢迎 {{ .CurrentUser.Name }} 登陆</a>
+    <a href="{{ urlfor `AuthController.Logout` }}">退出登陆</a>
+
+</div>

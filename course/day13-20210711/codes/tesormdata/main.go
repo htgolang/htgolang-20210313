@@ -53,18 +53,18 @@ func main() {
 	// orm.RunSyncdb(databaseName, true, true)
 	ormer := orm.NewOrm()
 	now := time.Now()
-	// 增
-	account := Account{
-		Name:      "xxxxxxxxxxxxxkk",
-		Password:  "123456",
-		Birthday:  &now,
-		Telephone: "123",
-		Email:     "456@test.com",
-	}
+	// // 增
+	// account := Account{
+	// 	Name:      "xxxxxxxxxxxxxkk",
+	// 	Password:  "123456",
+	// 	Birthday:  &now,
+	// 	Telephone: "123",
+	// 	Email:     "456@test.com",
+	// }
 
-	// 插入数据并将数据库自动生成的值回填
-	id, err := ormer.Insert(&account)
-	fmt.Println(id, err, account)
+	// // 插入数据并将数据库自动生成的值回填
+	// id, err := ormer.Insert(&account)
+	// fmt.Println(id, err, account)
 
 	// id, err = ormer.Insert(&account)
 	// fmt.Println(id, err, account)
@@ -98,4 +98,32 @@ func main() {
 
 	// queryset.All(&accounts)
 	// fmt.Println(accounts)
+
+	// accounts := make([]Account, 0)
+	// for i := 0; i < 10; i++ {
+	// 	// 增
+	// 	account := Account{
+	// 		Name:      fmt.Sprintf("kk-%s", i),
+	// 		Password:  "123456",
+	// 		Birthday:  &now,
+	// 		Telephone: "123",
+	// 		Email:     "456@test.com",
+	// 	}
+	// 	accounts = append(accounts, account)
+
+	// 	// 插入数据并将数据库自动生成的值回填
+	// 	// id, err := ormer.Insert(&account)
+	// 	// fmt.Println(id, err, account)
+
+	// }
+	// // 批次提交的数量 提交数据的列表(切片)
+	// fmt.Println(ormer.InsertMulti(8, accounts))
+
+	account := &Account{
+		Name:     "kk",
+		Birthday: &now,
+	}
+
+	created, id, err := ormer.ReadOrCreate(account, "Name")
+	fmt.Println(created, id, err)
 }

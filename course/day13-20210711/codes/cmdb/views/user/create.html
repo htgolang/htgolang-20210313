@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户创建</title>
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+        {{ range $k, $v := .errors.default }}
+            <div style="color:red;">{{ $v }}</div>
+        {{ end }}
+        <form action="{{ urlfor `UserController.Create` }}" method="POST">
+            <div>
+                <label>用户名: </label>
+                <input type="input" name="name" placeholder="用户名" value="{{ .form.Name }}" />
+                {{ range $k, $v := .errors.name }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>密码: </label>
+                <input type="password" name="password" placeholder="密码" />
+                {{ range $k, $v := .errors.password }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>确认密码: </label>
+                <input type="password" name="password2" placeholder="确认密码"  />
+                {{ range $k, $v := .errors.password2 }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>性别:</label>
+                <input type="radio" name="sex" value="1" {{ if eq .form.Sex 1 }}checked="checked"{{end}}/> <label>男</label>
+                <input type="radio" name="sex" value="0" {{ if eq .form.Sex 0 }}checked="checked"{{end}}/> <label>女</label>
+            </div>
+            <div>
+                <label>生日: </label>
+                <input type="date" name="birthday" placeholder="生日" value="{{ .form.Birthday }}" />
+                {{ range $k, $v := .errors.birthday }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>电话号码: </label>
+                <input type="input" name="telephone" placeholder="电话号码" value="{{ .form.Telephone }}" />
+                {{ range $k, $v := .errors.telephone }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="input" name="email" placeholder="邮箱" value="{{ .form.Email }}" />
+                {{ range $k, $v := .errors.email }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>住址: </label>
+                <input type="input" name="addr" placeholder="住址" value="{{ .form.Addr }}" />
+                {{ range $k, $v := .errors.addr }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>描述: </label>
+                <textarea name="description">{{ .form.Description }}</textarea>
+                {{ range $k, $v := .errors.description }}
+                    <span style="color:red;">{{ $v }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <input type="submit" value="创建" />
+            </div>
+        </form>
+    </body>
+</html>

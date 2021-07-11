@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户登陆</title>
+    </head>
+    <body>
+        <form action="{{ urlfor `AuthController.Login` }}" method="POST">
+            {{ range $key, $errs := .errors }}
+            <div style="color:red;">{{ index $errs 0 }}</div>
+            {{ end }}
+            <div>
+                <label>用户名</label>
+                <input type="text" name="name" value="{{ .form.Username }}"/>
+            </div>
+            <div>
+                <label>密码</label>
+                <input type="password" name="password" value=""/>
+            </div>
+            <div>
+                <input type="submit" value="登陆" />
+            </div>
+        </form>
+    </body>
+</html>

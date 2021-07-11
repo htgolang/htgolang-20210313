@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>用户列表</title>
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+
+        <div>
+            <a href="{{ urlfor `UserController.Create` }}">新增</a>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>用户名</th>
+                    <th>性别</th>
+                    <th>出生日期</th>
+                    <th>联系方式</th>
+                    <th>Email</th>
+                    <th>地址</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range .Users }}
+                <tr>
+                    <td>{{ .Name }}</td>
+                    <td>{{ .SexText }}</td>
+                    <td>{{ .Birthday }}</td>
+                    <td>{{ .Telephone }}</td>
+                    <td>{{ .Email }}</td>
+                    <td>{{ .Addr }}</td>
+                    <td>
+                        <a href="{{ urlfor `UserController.Modify` }}?id={{ .Id }}">编辑</a>
+                        {{ if ne .Id $.CurrentUser.Id }}
+                        <a href="{{ urlfor `UserController.Delete` }}?id={{ .Id }}">删除</a>
+                        {{ end }}
+                    </td>
+                </tr>
+                {{ else }}
+                <tr>
+                    <td colspan="4">暂无数据</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </body>
+</html>
