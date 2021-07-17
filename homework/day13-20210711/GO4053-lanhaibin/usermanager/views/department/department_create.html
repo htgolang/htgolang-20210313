@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ template "base/header.html" "添加部门"}}
+<body>
+    {{ template "base/menu.html" .Current }}
+    <form method="POST">
+        {{ if ne .Err "" }}
+        <div style="color: red;">{{.}}</div>
+        {{ end }}
+        <div>
+            <span>名称: </span>
+            <input type="text" name="name">
+        </div>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>

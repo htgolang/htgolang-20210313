@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ template "base/header.html" "部门列表"}}
+<body>
+    {{ template "base/menu.html" .Current }}
+    <table>
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>名称</td>
+                <td>操作</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .Departments }}
+              <tr>
+                  <td>{{.Id}}</td>
+                  <td>{{.Name}}</td>
+                  <td>
+                      <a href="/department/modify?id={{ .Id }}">编辑</a>
+                      <a href="/department/delete?id={{ .Id }}">删除</a>
+                  </td>
+              </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</body>
+</html>

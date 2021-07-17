@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ template "base/header.html" "角色列表"}}
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>角色名</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range . }}
+            <tr>
+                <th>{{ .Id }}</th>
+                <th>{{ .Name }}</th>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+    
+</body>
+</html>
