@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="javascript:void(0);">CMDB</a>
+    <ul class="navbar-nav mr-auto">
+        {{ range $k, $v := .Menus }}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ $v.Path }}">{{ $v.Name }}</a>
+        </li>
+        {{ end }}
+    </ul>
+    <span class="navbar-text">
+       欢迎 <a href="{{ urlfor `UserController.ModifyPassword` }}">{{ .CurrentUser.Name }}</a> 登陆
+       <a class="btn btn-sm btn-outline-info" href="{{ urlfor `AuthController.Logout` }}">退出登陆</a>
+    </span>
+</nav>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>内联</title>
+        <style type="text/css">
+            /*
+            selector {
+                attrName: attrValue;
+                attrName1: attrValue2;
+            }
+            */
+            div {
+                height: 500px;
+                width: 500px;
+                background-color: gray;
+                color: red;
+            }
+
+            /*
+                层叠样式表单
+                A B C(v1)
+                C(v2) D E
+
+                A B C D E
+                C: v1 v2 冲突(每种选择器 权重) 避免冲突
+                权重相同 => 后面设置的会覆盖前面设置
+
+                // 权重
+                // 内联 > 页面内/页面外
+                // 选择器越具体 权重越高
+                // ID > Class > DIV
+            */
+            .c1 {
+                color: green;
+                border-radius: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="c1">
+            页面内css页面
+        </div>
+
+        <br/>
+        <div class="c2">
+            页面内css2页面
+        </div>
+
+        <br />
+        <div class="c3">
+            页面内css3页面
+        </div>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>bootstrap</title>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" /> -->
+
+        <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">1</div>
+                <div class="col-3">2</div>
+                <div class="col-6">3</div>
+                <div class="col-1">4</div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-1">
+                    <a class="btn btn-primary">新增</a>
+                </div>
+                <div class="col">
+                    <form class="form-inline float-right">
+                        <label class="sr-only">查询内容: </label>
+                        <input type="text" class="form-control mr-2" value="" placeholder="查询" name="q"/>
+                        <input type="submit" class="btn btn-info" value="查询" />
+                    </form>
+                </div>
+            </div>
+
+            <table class="table table-dark table-striped table-bordered table-sm table-hover table-borderless">
+                <thead class="thead-light">
+                    <tr>
+                        <th>名字</th>
+                        <th>性别</th>
+                        <th>地址</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-primary">
+                        <td>名字</td>
+                        <td>性别</td>
+                        <td>地址</td>
+                        <td>
+                            <a class="btn btn-warning btn-sm">编辑</a>
+                            <a class="btn btn-danger btn-sm">删除</a>
+                        </td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>名字</td>
+                        <td>性别</td>
+                        <td>地址</td>
+                        <td>操作</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>名字</td>
+                        <td>性别</td>
+                        <td>地址</td>
+                        <td>操作</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    </body>
+</html>
