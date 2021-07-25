@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>用户管理</title>
+        <link href="/static/bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/auth.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/layout.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        {{ template "base/nav.html" . }}
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-light table-hover table-bordered table-striped">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>用户名</th>
+                                <th>性别</th>
+                                <th>地址</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{ range .users }}
+                                <tr>
+                                    <td>{{ .Name }}</td>
+                                    <td>{{ if .Sex }}男{{ else }}女{{ end }}</td>
+                                    <td>{{ .Addr }}</td>
+                                    <td>
+                                        <a class="btn btn-warning btn-sm">编辑</a>
+                                        <a class="btn btn-danger btn-sm" href="/user/delete/?id={{ .ID }}">删除</a>
+                                    </td>
+                                </tr>
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-1">
+                    <a class="btn btn-primary" href="/user/add/">新建</a>
+                </div>
+                <div class="col-1 table-btn">
+                    <a class="btn btn-primary" href="#">刷新</a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>
