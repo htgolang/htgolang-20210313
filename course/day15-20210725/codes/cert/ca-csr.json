@@ -1,0 +1,22 @@
+{
+    "CN": "ca.net",
+    "hosts": [
+        "ca.net"
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C":  "CN",
+            "L":  "BeiJing",
+            "O":  "CMDB",
+            "OU": "CMDB",
+            "ST": "BeiJing"
+        }
+    ],
+    "ca": {
+        "expiry": "876000h"
+    }
+}
