@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>修改密码</title>
+    </head>
+    <body>
+        {{ if .Success }}
+        <div style="color: green;">{{ .Success }}</div>
+        {{ end }}
+        <form action="/user/modifypw/" method="POST">
+        <div>
+            <label>原密码</label>
+            <input type="password" name="oldpassword">
+            {{ if .ErrMsgs.oldpassword }}
+                <span style="color: red;">{{ index .ErrMsgs.oldpassword 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label for="">新密码</label>
+            <input type="password" name="newpassword">
+            {{ if .ErrMsgs.newpassword }}
+                <span style="color: red;">{{ index .ErrMsgs.newpassword 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label for="">确认密码</label>
+            <input type="password" name="confirmpw">
+            {{ if .ErrMsgs.confirmpw }}
+                <span style="color: red;">{{ index .ErrMsgs.confirmpw 0 }}</span>
+            {{ end }}
+        </div>
+        <div style="color: red;">
+            {{ if .ErrMsg.userpassword }}
+            {{ index .ErrMsg.userpassword 0 }}
+            {{ end }}
+        </div>
+        <div>
+            <input type="submit" value="提交">
+        </div>
+        </form>
+    </body>
+</html>

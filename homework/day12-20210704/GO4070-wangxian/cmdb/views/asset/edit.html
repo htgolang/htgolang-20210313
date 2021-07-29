@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>department edit</title>
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+        <form action="/asset/edit/" method="POST">
+        <div>
+            <input type="text" name="id" value="{{ .Asset.Id }}" hidden="">
+        </div>
+        <div>
+            <label>IP</label>
+            <input type="text" name="ip" value="{{ .Asset.Ip }}">
+            {{ if .ErrMsgs.ip }}
+            <span style="color: red;">{{ index .ErrMsgs.ip 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label>位置</label>
+            <input type="text" name="addr" value="{{ .Asset.Addr }}">
+            {{ if .ErrMsgs.addr }}
+            <span style="color: red;">{{ index .ErrMsgs.addr 0 }}</span>
+            {{ end }}
+        </div>
+
+        {{ if .ErrMsg.asset }}
+        <div style="color: red;">
+            
+            {{ index .ErrMsg.asset 0 }}
+        </div>
+        {{ end }}
+
+        <div>
+            <input type="submit" value="保存">
+        </div>
+        </form>
+    </body>
+</html>
