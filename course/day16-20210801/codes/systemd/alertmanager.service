@@ -1,0 +1,15 @@
+[Unit]
+Description=AlertManager
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/prometheus/alertmanager/
+ExecStart=/opt/prometheus/alertmanager/alertmanager
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -KILL $MAINPID
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target

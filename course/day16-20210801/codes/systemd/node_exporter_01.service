@@ -1,0 +1,14 @@
+[Unit]
+Description=Node Exporter 01
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/prometheus/node_exporter/
+ExecStart=/opt/prometheus/node_exporter/node_exporter --web.listen-address=:9101 --web.config=web.yml
+ExecStop=/bin/kill -KILL $MAINPID
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+groups:
+- name: "target"
+  rules:
+  - alert: "server is down"
+    expr: up == 0
+    for: 1m

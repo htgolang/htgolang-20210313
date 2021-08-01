@@ -1,0 +1,28 @@
+groups:
+- name: "node record"
+  rules:
+  - record: node_cpu_total
+    expr: count(node_cpu_seconds_total{mode="system"}) by (instance)
+  - record: node_cpu_percent
+    expr: sum(100 * (1-irate(node_cpu_seconds_total{mode="idle"}[5m]))) by (instance)
+  - record: node_mem_percent
+    expr: (1-(node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes + node_memory_SReclaimable_bytes) / node_memory_MemTotal_bytes) * 100
+
+- name: "node alert"
+  rules:
+  - alert: "Node CPU Percent is High"
+    expr: node_cpu_percent >= 80
+    for: 2m
+    labels:
+      severity: high
+    annotations:
+      summary: Node {{ $labels.instance }} CPU Percent is High
+      description: Node {{ $labels.instance }} CPU Percent is High {{ $value }}
+  - alert: "Node Mem Percent is High"
+    expr: node_mem_percent >= 80
+    for: 2m
+    labels:
+      severity: high
+    annotations:
+      summary: Node {{ $labels.instance }} Mem Percent is High
+      description: Node {{ $labels.instance }} Mem Percent is High {{ $value }}
