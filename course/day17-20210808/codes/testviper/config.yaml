@@ -1,0 +1,11 @@
+mysql:
+  db: cmdb
+  host: 10.0.0.2
+  password: test@123
+  port: 3306
+  user: golang
+web:
+  addr: 1.1.1.1:9999
+  auth:
+    password: 123@456
+    user: admin

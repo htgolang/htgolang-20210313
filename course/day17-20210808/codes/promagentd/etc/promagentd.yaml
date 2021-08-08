@@ -1,0 +1,7 @@
+---
+server:
+  addr: https://localhost:8888/v1
+  token: 820923a1a2dad74e8d279c48b8a1160c
+
+prometheus:
+  config_file:

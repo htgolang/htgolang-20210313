@@ -1,0 +1,22 @@
+---
+web:
+  addr: 0.0.0.0:10000
+  auth:
+    user:
+    password:
+
+log:
+  filename: "logs/run.log"
+  max_size: 10
+  max_backups: 7
+  local_time: true
+  compress: true
+  level: 5
+  report_caller: false
+
+mysql:
+  host: 10.0.0.2
+  port: 3306
+  user: golang
+  password: golang@2021
+  db: cmdb

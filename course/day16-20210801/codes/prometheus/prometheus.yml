@@ -25,6 +25,9 @@ scrape_configs:
       password: 123123
     static_configs:
     - targets: ['localhost:9090']
+  - job_name: 'mysql'
+    static_configs:
+    - targets: ['10.0.0.1:10000']
   - job_name: "node"
     basic_auth:
       username: admin

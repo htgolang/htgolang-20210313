@@ -1,0 +1,1630 @@
+{"level":"debug","metric":1113,"msg":"qps collector","time":"2021-08-08T14:50:37+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T14:50:37+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T14:50:37+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T14:50:37+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T14:50:37+08:00"}
+{"level":"debug","msg":"traffic collector","received":49310,"sent":151530,"time":"2021-08-08T14:50:37+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T14:50:37+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T14:50:37+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T14:50:37+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T14:50:58+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T14:50:58+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T14:50:58+08:00"}
+{"level":"debug","metric":1163,"msg":"qps collector","time":"2021-08-08T14:50:58+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T14:50:58+08:00"}
+{"level":"debug","msg":"traffic collector","received":50678,"sent":155961,"time":"2021-08-08T14:50:58+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T14:50:58+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T14:50:58+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T14:50:58+08:00"}
+{"level":"fatal","msg":"Error 1045: Access denied for user ''@'localhost' (using password: NO)","time":"2021-08-08T14:57:32+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T14:58:50+08:00"}
+{"level":"debug","msg":"traffic collector","received":51881,"sent":159396,"time":"2021-08-08T14:58:50+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T14:58:50+08:00"}
+{"level":"debug","metric":1204,"msg":"qps collector","time":"2021-08-08T14:58:50+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T14:58:50+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T14:58:50+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T14:58:50+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T14:58:50+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T14:58:50+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T14:59:10+08:00"}
+{"level":"debug","metric":1241,"msg":"qps collector","time":"2021-08-08T14:59:11+08:00"}
+{"level":"debug","msg":"traffic collector","received":53172,"sent":164313,"time":"2021-08-08T14:59:11+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T14:59:11+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T14:59:11+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T14:59:11+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T14:59:11+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T14:59:11+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T14:59:11+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:04:27+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:04:27+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:04:27+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:04:27+08:00"}
+{"level":"debug","metric":1290,"msg":"qps collector","time":"2021-08-08T15:04:27+08:00"}
+{"level":"debug","msg":"traffic collector","received":55121,"sent":170711,"time":"2021-08-08T15:04:27+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:04:27+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:04:27+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:04:27+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:04:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:04:29+08:00"}
+{"level":"debug","metric":1313,"msg":"qps collector","time":"2021-08-08T15:04:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:04:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:04:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":56441,"sent":175388,"time":"2021-08-08T15:04:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:04:29+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:04:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:04:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:04:32+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:04:32+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:04:32+08:00"}
+{"level":"debug","metric":1360,"msg":"qps collector","time":"2021-08-08T15:04:32+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:04:32+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:04:32+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:04:32+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:04:32+08:00"}
+{"level":"debug","msg":"traffic collector","received":57965,"sent":180683,"time":"2021-08-08T15:04:32+08:00"}
+{"level":"debug","msg":"traffic collector","received":58200,"sent":182576,"time":"2021-08-08T15:04:37+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:04:37+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:04:37+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:04:37+08:00"}
+{"level":"debug","metric":1398,"msg":"qps collector","time":"2021-08-08T15:04:37+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:04:37+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:04:37+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:04:37+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:04:37+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:06:12+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:06:12+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:06:12+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:06:12+08:00"}
+{"level":"debug","metric":1435,"msg":"qps collector","time":"2021-08-08T15:06:12+08:00"}
+{"level":"debug","msg":"traffic collector","received":60730,"sent":189745,"time":"2021-08-08T15:06:12+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:06:12+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:06:12+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:06:12+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:06:35+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:06:35+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:06:35+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:06:35+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:06:35+08:00"}
+{"level":"debug","msg":"traffic collector","received":62221,"sent":193564,"time":"2021-08-08T15:06:35+08:00"}
+{"level":"debug","metric":1486,"msg":"qps collector","time":"2021-08-08T15:06:35+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:06:35+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:06:35+08:00"}
+{"level":"debug","metric":1501,"msg":"qps collector","time":"2021-08-08T15:09:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:09:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:09:59+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:09:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:09:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:09:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":63519,"sent":199088,"time":"2021-08-08T15:09:59+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:09:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:09:59+08:00"}
+{"level":"debug","metric":1539,"msg":"qps collector","time":"2021-08-08T15:10:23+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:10:23+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:10:23+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:10:23+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:10:23+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:10:23+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:10:23+08:00"}
+{"level":"debug","msg":"traffic collector","received":64963,"sent":204171,"time":"2021-08-08T15:10:23+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:10:23+08:00"}
+{"level":"debug","metric":1578,"msg":"qps collector","time":"2021-08-08T15:10:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:10:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:10:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:10:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:10:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:10:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":66214,"sent":208420,"time":"2021-08-08T15:10:29+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:10:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:10:29+08:00"}
+{"level":"debug","metric":1614,"msg":"qps collector","time":"2021-08-08T15:10:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:10:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:10:59+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:10:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:10:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":67545,"sent":213285,"time":"2021-08-08T15:10:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:10:59+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:10:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:10:59+08:00"}
+{"level":"debug","metric":1653,"msg":"qps collector","time":"2021-08-08T15:11:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:11:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:11:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:11:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:11:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:11:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":68904,"sent":217951,"time":"2021-08-08T15:11:29+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:11:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:11:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:11:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":69675,"sent":220261,"time":"2021-08-08T15:11:59+08:00"}
+{"level":"debug","metric":1698,"msg":"qps collector","time":"2021-08-08T15:11:59+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:11:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:11:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:11:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:11:59+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:11:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:11:59+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:12:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:12:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":71072,"sent":225591,"time":"2021-08-08T15:12:29+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:12:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:12:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:12:29+08:00"}
+{"level":"debug","metric":1747,"msg":"qps collector","time":"2021-08-08T15:12:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:12:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":3,"time":"2021-08-08T15:12:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:12:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:12:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:12:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:12:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":72673,"sent":230058,"time":"2021-08-08T15:12:59+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:12:59+08:00"}
+{"level":"debug","metric":1787,"msg":"qps collector","time":"2021-08-08T15:12:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:12:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:12:59+08:00"}
+{"level":"debug","metric":1805,"msg":"qps collector","time":"2021-08-08T15:13:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:13:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:13:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:13:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:13:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:13:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":74340,"sent":236816,"time":"2021-08-08T15:13:29+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:13:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:13:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:13:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:13:59+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:13:59+08:00"}
+{"level":"debug","metric":1853,"msg":"qps collector","time":"2021-08-08T15:13:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":75518,"sent":240641,"time":"2021-08-08T15:13:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:13:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:13:59+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:13:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:13:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:14:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:14:29+08:00"}
+{"level":"debug","metric":1889,"msg":"qps collector","time":"2021-08-08T15:14:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:14:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:14:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":76877,"sent":245506,"time":"2021-08-08T15:14:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:14:29+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:14:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:14:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:14:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:14:59+08:00"}
+{"level":"debug","metric":1930,"msg":"qps collector","time":"2021-08-08T15:14:59+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:14:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":78305,"sent":249774,"time":"2021-08-08T15:14:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:14:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:14:59+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:14:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:14:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:15:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:15:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:15:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":79442,"sent":254974,"time":"2021-08-08T15:15:29+08:00"}
+{"level":"debug","metric":1973,"msg":"qps collector","time":"2021-08-08T15:15:29+08:00"}
+{"command":"insert","level":"debug","metric":2,"msg":"command collector","time":"2021-08-08T15:15:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:15:29+08:00"}
+{"command":"delete","level":"debug","metric":4,"msg":"command collector","time":"2021-08-08T15:15:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:15:29+08:00"}
+{"isHealthy":0,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:15:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:15:59+08:00"}
+{"level":"debug","metric":0,"msg":"qps collector","time":"2021-08-08T15:16:00+08:00"}
+{"command":"insert","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:00+08:00"}
+{"level":"debug","maxConnections":0,"msg":"connection collector","threadsConnected":0,"time":"2021-08-08T15:16:01+08:00"}
+{"level":"debug","msg":"traffic collector","received":0,"sent":0,"time":"2021-08-08T15:16:01+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:01+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:02+08:00"}
+{"command":"select","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:03+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:16:35+08:00"}
+{"command":"insert","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:35+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:16:35+08:00"}
+{"level":"debug","metric":16,"msg":"qps collector","time":"2021-08-08T15:16:35+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:35+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:35+08:00"}
+{"command":"select","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:35+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:16:37+08:00"}
+{"level":"debug","msg":"traffic collector","received":1626,"sent":3983,"time":"2021-08-08T15:16:37+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:16:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:16:59+08:00"}
+{"level":"debug","metric":54,"msg":"qps collector","time":"2021-08-08T15:16:59+08:00"}
+{"command":"insert","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:16:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":2758,"sent":7211,"time":"2021-08-08T15:16:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:59+08:00"}
+{"command":"select","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:16:59+08:00"}
+{"level":"debug","metric":98,"msg":"qps collector","time":"2021-08-08T15:17:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:17:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:17:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:17:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:17:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":4435,"sent":17803,"time":"2021-08-08T15:17:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:17:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:17:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:17:29+08:00"}
+{"level":"debug","metric":135,"msg":"qps collector","time":"2021-08-08T15:17:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:17:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:17:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:17:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:17:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":5804,"sent":22682,"time":"2021-08-08T15:17:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:17:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:17:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:17:59+08:00"}
+{"level":"debug","metric":173,"msg":"qps collector","time":"2021-08-08T15:18:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:18:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:18:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:18:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:18:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":7154,"sent":27146,"time":"2021-08-08T15:18:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:18:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:18:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:18:29+08:00"}
+{"level":"debug","metric":211,"msg":"qps collector","time":"2021-08-08T15:18:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:18:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:18:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:18:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:18:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:18:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":8499,"sent":32209,"time":"2021-08-08T15:18:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:18:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:18:59+08:00"}
+{"level":"debug","metric":250,"msg":"qps collector","time":"2021-08-08T15:19:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:19:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:19:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:19:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:19:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":9815,"sent":36254,"time":"2021-08-08T15:19:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:19:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:19:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:19:29+08:00"}
+{"level":"debug","metric":287,"msg":"qps collector","time":"2021-08-08T15:19:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:19:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:19:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:19:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":11090,"sent":40699,"time":"2021-08-08T15:19:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:19:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:19:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:19:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:19:59+08:00"}
+{"level":"debug","metric":326,"msg":"qps collector","time":"2021-08-08T15:20:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:20:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:20:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:20:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:20:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":12458,"sent":45799,"time":"2021-08-08T15:20:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:20:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:20:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:20:29+08:00"}
+{"level":"debug","metric":364,"msg":"qps collector","time":"2021-08-08T15:20:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:20:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:20:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:20:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:20:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":13789,"sent":50245,"time":"2021-08-08T15:20:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:20:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:20:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:20:59+08:00"}
+{"level":"debug","metric":402,"msg":"qps collector","time":"2021-08-08T15:21:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:21:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:21:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:21:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:21:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":15224,"sent":55328,"time":"2021-08-08T15:21:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:21:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:21:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:21:29+08:00"}
+{"level":"debug","metric":438,"msg":"qps collector","time":"2021-08-08T15:21:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:21:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:21:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:21:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:21:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:21:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:21:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":16654,"sent":60208,"time":"2021-08-08T15:21:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:21:59+08:00"}
+{"level":"debug","metric":477,"msg":"qps collector","time":"2021-08-08T15:22:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:22:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:22:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:22:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:22:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":17914,"sent":64654,"time":"2021-08-08T15:22:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:22:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:22:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:22:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:22:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":18826,"sent":67049,"time":"2021-08-08T15:22:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:22:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:22:59+08:00"}
+{"level":"debug","metric":530,"msg":"qps collector","time":"2021-08-08T15:22:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:22:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:22:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:22:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:22:59+08:00"}
+{"level":"debug","metric":554,"msg":"qps collector","time":"2021-08-08T15:23:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:23:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:23:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:23:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:23:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":20595,"sent":73982,"time":"2021-08-08T15:23:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:23:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:23:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:23:29+08:00"}
+{"level":"debug","metric":591,"msg":"qps collector","time":"2021-08-08T15:23:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:23:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:23:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:23:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:23:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:23:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":21958,"sent":78447,"time":"2021-08-08T15:23:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:23:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:23:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:24:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:24:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:24:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:24:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:24:29+08:00"}
+{"level":"debug","metric":653,"msg":"qps collector","time":"2021-08-08T15:24:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:24:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":23436,"sent":83723,"time":"2021-08-08T15:24:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:24:29+08:00"}
+{"level":"debug","metric":668,"msg":"qps collector","time":"2021-08-08T15:24:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:24:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:24:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:24:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:24:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:24:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":24639,"sent":88175,"time":"2021-08-08T15:24:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:24:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:24:59+08:00"}
+{"level":"debug","metric":705,"msg":"qps collector","time":"2021-08-08T15:25:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:25:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:25:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:25:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:25:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:25:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":25984,"sent":92839,"time":"2021-08-08T15:25:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:25:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:25:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:25:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":26911,"sent":95154,"time":"2021-08-08T15:25:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:25:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:25:59+08:00"}
+{"level":"debug","metric":762,"msg":"qps collector","time":"2021-08-08T15:25:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:25:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:25:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:25:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:25:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:26:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:26:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:26:29+08:00"}
+{"level":"debug","metric":794,"msg":"qps collector","time":"2021-08-08T15:26:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:26:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:26:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:26:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:26:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":28839,"sent":102795,"time":"2021-08-08T15:26:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:26:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:26:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:26:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:26:59+08:00"}
+{"level":"debug","metric":833,"msg":"qps collector","time":"2021-08-08T15:26:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":30011,"sent":106409,"time":"2021-08-08T15:26:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:26:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:26:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:26:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:27:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:27:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:27:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:27:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:27:29+08:00"}
+{"level":"debug","metric":874,"msg":"qps collector","time":"2021-08-08T15:27:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":31445,"sent":111907,"time":"2021-08-08T15:27:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:27:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:27:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:27:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:27:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:27:59+08:00"}
+{"level":"debug","metric":908,"msg":"qps collector","time":"2021-08-08T15:27:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:27:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:27:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":32744,"sent":115310,"time":"2021-08-08T15:27:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:27:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:27:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:28:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:28:29+08:00"}
+{"level":"debug","metric":942,"msg":"qps collector","time":"2021-08-08T15:28:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:28:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:28:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":34013,"sent":120403,"time":"2021-08-08T15:28:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:28:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:28:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:28:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:28:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:28:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:28:59+08:00"}
+{"level":"debug","metric":986,"msg":"qps collector","time":"2021-08-08T15:28:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":35127,"sent":123600,"time":"2021-08-08T15:28:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:28:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:28:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:28:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:28:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:29:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:29:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":36465,"sent":127989,"time":"2021-08-08T15:29:29+08:00"}
+{"level":"debug","metric":1023,"msg":"qps collector","time":"2021-08-08T15:29:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:29:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:29:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:29:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:29:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:29:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:29:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:29:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:29:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:29:59+08:00"}
+{"level":"debug","metric":1063,"msg":"qps collector","time":"2021-08-08T15:29:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":37928,"sent":134517,"time":"2021-08-08T15:29:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:29:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:29:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:29:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:30:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":38698,"sent":136825,"time":"2021-08-08T15:30:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:30:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:30:29+08:00"}
+{"level":"debug","metric":1098,"msg":"qps collector","time":"2021-08-08T15:30:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:30:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:30:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:30:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:30:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:30:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:30:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:30:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:30:59+08:00"}
+{"level":"debug","metric":1137,"msg":"qps collector","time":"2021-08-08T15:30:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":40644,"sent":143624,"time":"2021-08-08T15:30:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:30:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:30:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:30:59+08:00"}
+{"level":"debug","metric":1160,"msg":"qps collector","time":"2021-08-08T15:31:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:31:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:31:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:31:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:31:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:31:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":42019,"sent":148714,"time":"2021-08-08T15:31:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:31:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:31:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:31:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:31:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:31:59+08:00"}
+{"level":"debug","metric":1214,"msg":"qps collector","time":"2021-08-08T15:31:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":43202,"sent":152539,"time":"2021-08-08T15:31:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:31:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:31:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:31:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:31:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:32:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:32:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:32:29+08:00"}
+{"level":"debug","metric":1246,"msg":"qps collector","time":"2021-08-08T15:32:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:32:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":44743,"sent":157205,"time":"2021-08-08T15:32:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:32:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:32:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:32:29+08:00"}
+{"level":"debug","metric":1273,"msg":"qps collector","time":"2021-08-08T15:32:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:32:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:32:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:32:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:32:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:32:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":46046,"sent":162712,"time":"2021-08-08T15:32:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:32:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:32:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:33:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:33:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:33:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:33:29+08:00"}
+{"level":"debug","metric":1327,"msg":"qps collector","time":"2021-08-08T15:33:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":47234,"sent":166448,"time":"2021-08-08T15:33:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:33:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:33:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:33:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:33:59+08:00"}
+{"level":"debug","metric":1346,"msg":"qps collector","time":"2021-08-08T15:33:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:33:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:33:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":48570,"sent":171512,"time":"2021-08-08T15:33:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:33:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:33:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:33:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:33:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:34:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":49518,"sent":174338,"time":"2021-08-08T15:34:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:34:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:34:29+08:00"}
+{"level":"debug","metric":1399,"msg":"qps collector","time":"2021-08-08T15:34:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:34:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:34:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:34:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:34:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:34:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:34:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:34:59+08:00"}
+{"level":"debug","metric":1434,"msg":"qps collector","time":"2021-08-08T15:34:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:34:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":51253,"sent":179998,"time":"2021-08-08T15:34:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:34:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:34:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:34:59+08:00"}
+{"level":"debug","metric":1462,"msg":"qps collector","time":"2021-08-08T15:35:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:35:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:35:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:35:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:35:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:35:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":52643,"sent":185534,"time":"2021-08-08T15:35:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:35:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:35:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:35:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:35:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:35:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:35:59+08:00"}
+{"level":"debug","metric":1516,"msg":"qps collector","time":"2021-08-08T15:35:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":53999,"sent":189342,"time":"2021-08-08T15:35:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:35:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:35:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:35:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:36:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:36:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:36:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:36:29+08:00"}
+{"level":"debug","metric":1551,"msg":"qps collector","time":"2021-08-08T15:36:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":55324,"sent":194643,"time":"2021-08-08T15:36:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:36:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:36:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:36:29+08:00"}
+{"level":"debug","metric":1575,"msg":"qps collector","time":"2021-08-08T15:36:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:36:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:36:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:36:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:36:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:36:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:36:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":56824,"sent":200139,"time":"2021-08-08T15:36:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:36:59+08:00"}
+{"level":"debug","metric":1614,"msg":"qps collector","time":"2021-08-08T15:37:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:37:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:37:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:37:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:37:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:37:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":58023,"sent":204397,"time":"2021-08-08T15:37:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:37:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:37:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:37:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:37:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:37:59+08:00"}
+{"level":"debug","metric":1663,"msg":"qps collector","time":"2021-08-08T15:37:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:37:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:37:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:37:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":59340,"sent":209168,"time":"2021-08-08T15:37:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:37:59+08:00"}
+{"level":"debug","metric":1688,"msg":"qps collector","time":"2021-08-08T15:38:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:38:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:38:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:38:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:38:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:38:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":60600,"sent":213422,"time":"2021-08-08T15:38:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:38:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:38:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:38:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:38:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:38:59+08:00"}
+{"level":"debug","metric":1734,"msg":"qps collector","time":"2021-08-08T15:38:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:38:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:38:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":61827,"sent":218380,"time":"2021-08-08T15:38:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:38:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:38:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:39:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:39:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:39:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:39:29+08:00"}
+{"level":"debug","metric":1773,"msg":"qps collector","time":"2021-08-08T15:39:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:39:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":63263,"sent":223456,"time":"2021-08-08T15:39:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:39:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:39:29+08:00"}
+{"level":"debug","metric":1800,"msg":"qps collector","time":"2021-08-08T15:39:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:39:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:39:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:39:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:39:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":64512,"sent":227513,"time":"2021-08-08T15:39:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:39:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:39:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:39:59+08:00"}
+{"level":"debug","metric":1839,"msg":"qps collector","time":"2021-08-08T15:40:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:40:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:40:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:40:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:40:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:40:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":65862,"sent":232395,"time":"2021-08-08T15:40:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:40:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:40:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:40:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:40:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:40:59+08:00"}
+{"level":"debug","metric":1884,"msg":"qps collector","time":"2021-08-08T15:40:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:40:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":67157,"sent":236203,"time":"2021-08-08T15:40:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:40:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:40:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:40:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:41:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:41:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:41:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:41:29+08:00"}
+{"level":"debug","metric":1933,"msg":"qps collector","time":"2021-08-08T15:41:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":68406,"sent":240651,"time":"2021-08-08T15:41:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:41:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:41:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:41:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:41:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:41:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:41:59+08:00"}
+{"level":"debug","metric":1961,"msg":"qps collector","time":"2021-08-08T15:41:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:41:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":69883,"sent":245535,"time":"2021-08-08T15:41:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:41:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:41:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:41:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:42:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:42:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:42:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:42:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":71055,"sent":250112,"time":"2021-08-08T15:42:29+08:00"}
+{"level":"debug","metric":2010,"msg":"qps collector","time":"2021-08-08T15:42:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:42:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:42:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:42:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:42:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:42:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:42:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:42:59+08:00"}
+{"level":"debug","metric":2041,"msg":"qps collector","time":"2021-08-08T15:42:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:42:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":72508,"sent":255394,"time":"2021-08-08T15:42:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:42:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:42:59+08:00"}
+{"level":"debug","metric":2065,"msg":"qps collector","time":"2021-08-08T15:43:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:43:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:43:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:43:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:43:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:43:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":73856,"sent":260067,"time":"2021-08-08T15:43:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:43:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:43:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:43:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:43:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":74626,"sent":262851,"time":"2021-08-08T15:43:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:43:59+08:00"}
+{"level":"debug","metric":2119,"msg":"qps collector","time":"2021-08-08T15:43:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:43:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:43:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:43:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:43:59+08:00"}
+{"level":"debug","metric":2140,"msg":"qps collector","time":"2021-08-08T15:44:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:44:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:44:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:44:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:44:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":76509,"sent":269399,"time":"2021-08-08T15:44:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:44:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:44:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:44:29+08:00"}
+{"level":"debug","metric":2177,"msg":"qps collector","time":"2021-08-08T15:44:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:44:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:44:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:44:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:44:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:44:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":77820,"sent":274065,"time":"2021-08-08T15:44:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:44:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:44:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:45:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":78664,"sent":276653,"time":"2021-08-08T15:45:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:45:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:45:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:45:29+08:00"}
+{"level":"debug","metric":2235,"msg":"qps collector","time":"2021-08-08T15:45:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:45:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T15:45:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:45:29+08:00"}
+{"level":"debug","metric":2256,"msg":"qps collector","time":"2021-08-08T15:45:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:45:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:45:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:45:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:45:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:45:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":80595,"sent":283196,"time":"2021-08-08T15:45:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:45:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:45:59+08:00"}
+{"level":"debug","metric":2291,"msg":"qps collector","time":"2021-08-08T15:46:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:46:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:46:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:46:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":81794,"sent":287438,"time":"2021-08-08T15:46:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:46:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:46:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:46:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:46:29+08:00"}
+{"level":"debug","metric":2329,"msg":"qps collector","time":"2021-08-08T15:46:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:46:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:46:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:46:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:46:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:46:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":83234,"sent":292729,"time":"2021-08-08T15:46:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:46:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:46:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:47:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:47:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:47:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:47:29+08:00"}
+{"level":"debug","metric":2381,"msg":"qps collector","time":"2021-08-08T15:47:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":84451,"sent":296882,"time":"2021-08-08T15:47:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:47:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:47:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:47:29+08:00"}
+{"level":"debug","metric":2403,"msg":"qps collector","time":"2021-08-08T15:47:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:47:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:47:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:47:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:47:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":85758,"sent":301272,"time":"2021-08-08T15:47:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:47:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:47:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:47:59+08:00"}
+{"level":"debug","metric":2441,"msg":"qps collector","time":"2021-08-08T15:48:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:48:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:48:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:48:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:48:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":87146,"sent":306418,"time":"2021-08-08T15:48:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:48:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:48:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:48:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:48:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:48:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:48:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":88078,"sent":309505,"time":"2021-08-08T15:48:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:48:59+08:00"}
+{"level":"debug","metric":2502,"msg":"qps collector","time":"2021-08-08T15:48:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:48:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:48:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":3,"time":"2021-08-08T15:48:59+08:00"}
+{"level":"debug","metric":2520,"msg":"qps collector","time":"2021-08-08T15:49:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:49:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:49:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:49:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:49:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":89807,"sent":315750,"time":"2021-08-08T15:49:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:49:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:49:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:49:29+08:00"}
+{"level":"debug","metric":2555,"msg":"qps collector","time":"2021-08-08T15:49:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:49:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:49:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:49:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:49:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:49:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":91237,"sent":320416,"time":"2021-08-08T15:49:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:49:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:49:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:50:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:50:29+08:00"}
+{"level":"debug","metric":2606,"msg":"qps collector","time":"2021-08-08T15:50:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:50:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:50:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":92318,"sent":324770,"time":"2021-08-08T15:50:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:50:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:50:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:50:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:50:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:50:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:50:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:50:59+08:00"}
+{"level":"debug","metric":2646,"msg":"qps collector","time":"2021-08-08T15:50:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":93545,"sent":329110,"time":"2021-08-08T15:50:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:50:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:50:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:50:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:51:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:51:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":94606,"sent":332791,"time":"2021-08-08T15:51:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:51:29+08:00"}
+{"level":"debug","metric":2684,"msg":"qps collector","time":"2021-08-08T15:51:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:51:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:51:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:51:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T15:51:29+08:00"}
+{"level":"debug","metric":2703,"msg":"qps collector","time":"2021-08-08T15:51:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:51:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:51:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:51:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:51:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:51:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":96311,"sent":339063,"time":"2021-08-08T15:51:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:51:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:51:59+08:00"}
+{"level":"debug","metric":2742,"msg":"qps collector","time":"2021-08-08T15:52:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:52:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:52:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:52:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:52:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":97636,"sent":343731,"time":"2021-08-08T15:52:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:52:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:52:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:52:29+08:00"}
+{"level":"debug","metric":2780,"msg":"qps collector","time":"2021-08-08T15:52:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:52:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:52:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:52:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:52:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:52:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":99062,"sent":348196,"time":"2021-08-08T15:52:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:52:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:52:59+08:00"}
+{"level":"debug","metric":2818,"msg":"qps collector","time":"2021-08-08T15:53:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:53:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:53:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:53:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:53:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:53:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":100355,"sent":353262,"time":"2021-08-08T15:53:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:53:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:53:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:53:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:53:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:53:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:53:59+08:00"}
+{"level":"debug","metric":2869,"msg":"qps collector","time":"2021-08-08T15:53:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:53:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":101643,"sent":358039,"time":"2021-08-08T15:53:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:53:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:53:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:54:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:54:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:54:29+08:00"}
+{"level":"debug","metric":2905,"msg":"qps collector","time":"2021-08-08T15:54:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:54:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":102814,"sent":361558,"time":"2021-08-08T15:54:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:54:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:54:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:54:29+08:00"}
+{"level":"debug","metric":2927,"msg":"qps collector","time":"2021-08-08T15:54:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:54:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:54:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:54:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:54:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":104159,"sent":367047,"time":"2021-08-08T15:54:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:54:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:54:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:54:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:55:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:55:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:55:29+08:00"}
+{"level":"debug","metric":2983,"msg":"qps collector","time":"2021-08-08T15:55:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:55:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":105485,"sent":370456,"time":"2021-08-08T15:55:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:55:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:55:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:55:29+08:00"}
+{"level":"debug","metric":3003,"msg":"qps collector","time":"2021-08-08T15:55:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:55:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:55:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:55:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:55:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:55:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:55:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":106905,"sent":376398,"time":"2021-08-08T15:55:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:55:59+08:00"}
+{"level":"debug","metric":3042,"msg":"qps collector","time":"2021-08-08T15:56:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:56:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:56:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:56:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:56:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:56:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":108194,"sent":380849,"time":"2021-08-08T15:56:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:56:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:56:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:56:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:56:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:56:59+08:00"}
+{"level":"debug","metric":3091,"msg":"qps collector","time":"2021-08-08T15:56:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:56:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":109336,"sent":384980,"time":"2021-08-08T15:56:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:56:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:56:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:56:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:57:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:57:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:57:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:57:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":110443,"sent":389521,"time":"2021-08-08T15:57:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:57:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:57:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:57:29+08:00"}
+{"level":"debug","metric":3146,"msg":"qps collector","time":"2021-08-08T15:57:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:57:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:57:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:57:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":111750,"sent":393048,"time":"2021-08-08T15:57:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:57:59+08:00"}
+{"level":"debug","metric":3168,"msg":"qps collector","time":"2021-08-08T15:57:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:57:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:57:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:57:59+08:00"}
+{"level":"debug","metric":3190,"msg":"qps collector","time":"2021-08-08T15:58:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:58:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:58:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:58:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:58:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":113338,"sent":399100,"time":"2021-08-08T15:58:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:58:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:58:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:58:29+08:00"}
+{"level":"debug","metric":3227,"msg":"qps collector","time":"2021-08-08T15:58:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:58:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T15:58:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:58:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:58:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:58:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":114739,"sent":404385,"time":"2021-08-08T15:58:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:58:59+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:58:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:59:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:59:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T15:59:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:59:29+08:00"}
+{"level":"debug","metric":3282,"msg":"qps collector","time":"2021-08-08T15:59:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":115905,"sent":407904,"time":"2021-08-08T15:59:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:59:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:59:29+08:00"}
+{"command":"select","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:59:29+08:00"}
+{"level":"debug","metric":3304,"msg":"qps collector","time":"2021-08-08T15:59:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T15:59:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T15:59:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T15:59:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T15:59:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":117505,"sent":413595,"time":"2021-08-08T15:59:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:59:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T15:59:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T15:59:59+08:00"}
+{"level":"debug","metric":3342,"msg":"qps collector","time":"2021-08-08T16:00:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:00:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:00:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:00:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:00:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":118850,"sent":418461,"time":"2021-08-08T16:00:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:00:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:00:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T16:00:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:00:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:00:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:00:59+08:00"}
+{"level":"debug","metric":3392,"msg":"qps collector","time":"2021-08-08T16:00:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":119877,"sent":421149,"time":"2021-08-08T16:00:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:00:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:00:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T16:00:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:00:59+08:00"}
+{"level":"debug","metric":3419,"msg":"qps collector","time":"2021-08-08T16:01:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:01:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:01:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:01:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:01:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":121540,"sent":427594,"time":"2021-08-08T16:01:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:01:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:01:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T16:01:29+08:00"}
+{"level":"debug","metric":3456,"msg":"qps collector","time":"2021-08-08T16:01:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:01:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:01:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:01:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:01:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":122856,"sent":432062,"time":"2021-08-08T16:01:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:01:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:01:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T16:01:59+08:00"}
+{"level":"debug","metric":3495,"msg":"qps collector","time":"2021-08-08T16:02:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:02:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:02:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:02:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:02:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:02:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":124216,"sent":437347,"time":"2021-08-08T16:02:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:02:29+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T16:02:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:02:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:02:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:02:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:02:59+08:00"}
+{"level":"debug","metric":3551,"msg":"qps collector","time":"2021-08-08T16:02:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:02:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":125438,"sent":441065,"time":"2021-08-08T16:02:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:02:59+08:00"}
+{"command":"select","level":"debug","metric":3,"msg":"command collector","time":"2021-08-08T16:02:59+08:00"}
+{"level":"debug","metric":3571,"msg":"qps collector","time":"2021-08-08T16:03:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:03:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:03:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:03:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:03:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:03:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:03:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":127137,"sent":446974,"time":"2021-08-08T16:03:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:03:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:03:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:03:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:03:59+08:00"}
+{"level":"debug","metric":3620,"msg":"qps collector","time":"2021-08-08T16:03:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:03:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:03:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":128335,"sent":450493,"time":"2021-08-08T16:03:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:03:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:03:59+08:00"}
+{"level":"debug","metric":3645,"msg":"qps collector","time":"2021-08-08T16:04:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:04:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:04:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:04:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:04:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":129619,"sent":455582,"time":"2021-08-08T16:04:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:04:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:04:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:04:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:04:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:04:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:04:59+08:00"}
+{"level":"debug","metric":3694,"msg":"qps collector","time":"2021-08-08T16:04:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:04:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":130928,"sent":460225,"time":"2021-08-08T16:04:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:04:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:04:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:04:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:05:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:05:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":132102,"sent":463257,"time":"2021-08-08T16:05:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:05:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:05:29+08:00"}
+{"level":"debug","metric":3738,"msg":"qps collector","time":"2021-08-08T16:05:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:05:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:05:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:05:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:05:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":132908,"sent":467656,"time":"2021-08-08T16:05:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:05:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:05:59+08:00"}
+{"level":"debug","metric":3776,"msg":"qps collector","time":"2021-08-08T16:05:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:05:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:05:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:05:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:05:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:06:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:06:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:06:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:06:29+08:00"}
+{"level":"debug","metric":3811,"msg":"qps collector","time":"2021-08-08T16:06:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:06:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":134935,"sent":474336,"time":"2021-08-08T16:06:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:06:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:06:29+08:00"}
+{"level":"debug","metric":3834,"msg":"qps collector","time":"2021-08-08T16:06:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:06:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:06:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:06:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:06:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":136132,"sent":478373,"time":"2021-08-08T16:06:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:06:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:06:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:06:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:07:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:07:29+08:00"}
+{"level":"debug","metric":3876,"msg":"qps collector","time":"2021-08-08T16:07:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:07:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:07:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:07:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":137553,"sent":483452,"time":"2021-08-08T16:07:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:07:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:07:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:07:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:07:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:07:59+08:00"}
+{"level":"debug","metric":3921,"msg":"qps collector","time":"2021-08-08T16:07:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":138810,"sent":487285,"time":"2021-08-08T16:07:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:07:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:07:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:07:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:07:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:08:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:08:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:08:29+08:00"}
+{"level":"debug","metric":3964,"msg":"qps collector","time":"2021-08-08T16:08:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":140173,"sent":491952,"time":"2021-08-08T16:08:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:08:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:08:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:08:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:08:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:08:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:08:59+08:00"}
+{"level":"debug","metric":3994,"msg":"qps collector","time":"2021-08-08T16:08:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:08:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:08:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":141617,"sent":497036,"time":"2021-08-08T16:08:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:08:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:08:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:08:59+08:00"}
+{"level":"debug","metric":4023,"msg":"qps collector","time":"2021-08-08T16:09:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:09:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:09:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:09:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:09:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:09:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":142965,"sent":502343,"time":"2021-08-08T16:09:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:09:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:09:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:09:59+08:00"}
+{"level":"debug","metric":4060,"msg":"qps collector","time":"2021-08-08T16:09:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:09:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:09:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":144175,"sent":506169,"time":"2021-08-08T16:09:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:09:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:09:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:09:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:09:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:10:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:10:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":145250,"sent":510071,"time":"2021-08-08T16:10:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:10:29+08:00"}
+{"level":"debug","metric":4120,"msg":"qps collector","time":"2021-08-08T16:10:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:10:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:10:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:10:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:10:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:10:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:10:59+08:00"}
+{"level":"debug","metric":4145,"msg":"qps collector","time":"2021-08-08T16:10:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:10:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:10:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":146887,"sent":515922,"time":"2021-08-08T16:10:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:10:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:10:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:10:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:11:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:11:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:11:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:11:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:11:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":148183,"sent":520488,"time":"2021-08-08T16:11:29+08:00"}
+{"level":"debug","metric":4198,"msg":"qps collector","time":"2021-08-08T16:11:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:11:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:11:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:11:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:11:59+08:00"}
+{"level":"debug","metric":4220,"msg":"qps collector","time":"2021-08-08T16:11:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:11:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:11:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":149549,"sent":524930,"time":"2021-08-08T16:11:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:11:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:11:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:11:59+08:00"}
+{"level":"debug","metric":4249,"msg":"qps collector","time":"2021-08-08T16:12:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:12:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:12:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:12:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:12:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":150908,"sent":530239,"time":"2021-08-08T16:12:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:12:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:12:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:12:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:12:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:12:59+08:00"}
+{"level":"debug","metric":4297,"msg":"qps collector","time":"2021-08-08T16:12:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:12:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:12:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:12:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":152248,"sent":534681,"time":"2021-08-08T16:12:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:12:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:12:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:13:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:13:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:13:29+08:00"}
+{"level":"debug","metric":4337,"msg":"qps collector","time":"2021-08-08T16:13:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:13:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":153604,"sent":538502,"time":"2021-08-08T16:13:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:13:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:13:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:13:29+08:00"}
+{"level":"debug","metric":4364,"msg":"qps collector","time":"2021-08-08T16:13:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:13:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:13:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:13:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:13:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":154943,"sent":544039,"time":"2021-08-08T16:13:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:13:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:13:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:13:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:14:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:14:29+08:00"}
+{"level":"debug","metric":4412,"msg":"qps collector","time":"2021-08-08T16:14:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":156092,"sent":547630,"time":"2021-08-08T16:14:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:14:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:14:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:14:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:14:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:14:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:14:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:14:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":157361,"sent":551767,"time":"2021-08-08T16:14:59+08:00"}
+{"level":"debug","metric":4455,"msg":"qps collector","time":"2021-08-08T16:14:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:14:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:14:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:14:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:14:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:14:59+08:00"}
+{"level":"debug","metric":4477,"msg":"qps collector","time":"2021-08-08T16:15:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:15:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:15:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:15:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:15:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":158902,"sent":558241,"time":"2021-08-08T16:15:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:15:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:15:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:15:29+08:00"}
+{"level":"debug","metric":4516,"msg":"qps collector","time":"2021-08-08T16:15:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:15:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:15:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:15:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:15:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:15:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":160323,"sent":562906,"time":"2021-08-08T16:15:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:15:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:15:59+08:00"}
+{"level":"debug","metric":4554,"msg":"qps collector","time":"2021-08-08T16:16:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:16:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:16:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:16:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:16:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":161668,"sent":567774,"time":"2021-08-08T16:16:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:16:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:16:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:16:29+08:00"}
+{"level":"debug","metric":4591,"msg":"qps collector","time":"2021-08-08T16:16:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:16:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:16:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:16:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:16:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:16:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":163022,"sent":572458,"time":"2021-08-08T16:16:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:16:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:16:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:17:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:17:29+08:00"}
+{"level":"debug","metric":4637,"msg":"qps collector","time":"2021-08-08T16:17:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:17:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:17:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":164324,"sent":576485,"time":"2021-08-08T16:17:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:17:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:17:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:17:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:17:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:17:59+08:00"}
+{"level":"debug","metric":4677,"msg":"qps collector","time":"2021-08-08T16:17:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:17:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":165507,"sent":580735,"time":"2021-08-08T16:17:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:17:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:17:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:17:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:17:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:18:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:18:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:18:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:18:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:18:29+08:00"}
+{"level":"debug","metric":4725,"msg":"qps collector","time":"2021-08-08T16:18:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:18:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:18:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":167213,"sent":585789,"time":"2021-08-08T16:18:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:18:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:18:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":168168,"sent":589136,"time":"2021-08-08T16:18:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:18:59+08:00"}
+{"level":"debug","metric":4761,"msg":"qps collector","time":"2021-08-08T16:18:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:18:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:18:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:18:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:18:59+08:00"}
+{"level":"debug","metric":4781,"msg":"qps collector","time":"2021-08-08T16:19:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:19:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:19:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:19:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:19:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":169709,"sent":595577,"time":"2021-08-08T16:19:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:19:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:19:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:19:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:19:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:19:59+08:00"}
+{"level":"debug","metric":4823,"msg":"qps collector","time":"2021-08-08T16:19:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:19:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:19:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":171078,"sent":600237,"time":"2021-08-08T16:19:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:19:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:19:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:19:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:20:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:20:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:20:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:20:29+08:00"}
+{"level":"debug","metric":4875,"msg":"qps collector","time":"2021-08-08T16:20:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":172305,"sent":604803,"time":"2021-08-08T16:20:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:20:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:20:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:20:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:20:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:20:59+08:00"}
+{"level":"debug","metric":4906,"msg":"qps collector","time":"2021-08-08T16:20:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:20:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:20:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:20:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:20:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:20:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":173721,"sent":610812,"time":"2021-08-08T16:20:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:21:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:21:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:21:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:21:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:21:29+08:00"}
+{"level":"debug","metric":4950,"msg":"qps collector","time":"2021-08-08T16:21:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":174903,"sent":613792,"time":"2021-08-08T16:21:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:21:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:21:29+08:00"}
+{"level":"debug","metric":4968,"msg":"qps collector","time":"2021-08-08T16:21:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:21:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:21:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:21:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:21:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":176198,"sent":618495,"time":"2021-08-08T16:21:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:21:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:21:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:21:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:22:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:22:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:22:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:22:29+08:00"}
+{"level":"debug","metric":5025,"msg":"qps collector","time":"2021-08-08T16:22:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":177555,"sent":623138,"time":"2021-08-08T16:22:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:22:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:22:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:22:29+08:00"}
+{"level":"debug","metric":5044,"msg":"qps collector","time":"2021-08-08T16:22:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:22:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:22:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:22:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:22:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:22:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":178917,"sent":628028,"time":"2021-08-08T16:22:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:22:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:22:59+08:00"}
+{"level":"debug","metric":5082,"msg":"qps collector","time":"2021-08-08T16:23:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:23:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:23:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:23:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:23:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":180257,"sent":632496,"time":"2021-08-08T16:23:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:23:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:23:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:23:29+08:00"}
+{"level":"debug","metric":5119,"msg":"qps collector","time":"2021-08-08T16:23:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:23:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:23:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:23:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:23:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":181602,"sent":637364,"time":"2021-08-08T16:23:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:23:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:23:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:23:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:24:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:24:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:24:29+08:00"}
+{"level":"debug","metric":5169,"msg":"qps collector","time":"2021-08-08T16:24:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:24:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":182902,"sent":640941,"time":"2021-08-08T16:24:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:24:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:24:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:24:29+08:00"}
+{"level":"debug","metric":5195,"msg":"qps collector","time":"2021-08-08T16:24:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:24:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:24:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:24:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:24:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":184249,"sent":646062,"time":"2021-08-08T16:24:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:24:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:24:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:24:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:25:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:25:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:25:29+08:00"}
+{"level":"debug","metric":5248,"msg":"qps collector","time":"2021-08-08T16:25:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:25:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":185524,"sent":651058,"time":"2021-08-08T16:25:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:25:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:25:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:25:29+08:00"}
+{"level":"debug","metric":5269,"msg":"qps collector","time":"2021-08-08T16:25:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:25:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:25:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:25:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:25:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:25:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":186869,"sent":656123,"time":"2021-08-08T16:25:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:25:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:25:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:26:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:26:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:26:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:26:29+08:00"}
+{"level":"debug","metric":5316,"msg":"qps collector","time":"2021-08-08T16:26:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:26:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:26:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":188237,"sent":661099,"time":"2021-08-08T16:26:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:26:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:26:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:26:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:26:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:26:59+08:00"}
+{"level":"debug","metric":5362,"msg":"qps collector","time":"2021-08-08T16:26:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:26:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":189442,"sent":664508,"time":"2021-08-08T16:26:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:26:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:26:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:27:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:27:29+08:00"}
+{"level":"debug","metric":5388,"msg":"qps collector","time":"2021-08-08T16:27:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:27:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":190707,"sent":668976,"time":"2021-08-08T16:27:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:27:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:27:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:27:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:27:29+08:00"}
+{"level":"debug","metric":5420,"msg":"qps collector","time":"2021-08-08T16:27:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":8,"time":"2021-08-08T16:27:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:27:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:27:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:27:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:27:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":192136,"sent":674484,"time":"2021-08-08T16:27:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:27:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:27:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:28:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:28:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:28:29+08:00"}
+{"level":"debug","metric":5467,"msg":"qps collector","time":"2021-08-08T16:28:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:28:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:28:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":193274,"sent":678378,"time":"2021-08-08T16:28:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:28:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:28:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:28:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:28:59+08:00"}
+{"level":"debug","metric":5502,"msg":"qps collector","time":"2021-08-08T16:28:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:28:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:28:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":194585,"sent":683602,"time":"2021-08-08T16:28:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:28:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:28:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:28:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:29:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:29:29+08:00"}
+{"level":"debug","metric":5531,"msg":"qps collector","time":"2021-08-08T16:29:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:29:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":195651,"sent":687943,"time":"2021-08-08T16:29:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:29:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:29:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:29:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:29:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:29:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:29:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:29:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:29:59+08:00"}
+{"level":"debug","metric":5581,"msg":"qps collector","time":"2021-08-08T16:29:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:29:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:29:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":197180,"sent":693137,"time":"2021-08-08T16:29:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:29:59+08:00"}
+{"level":"debug","metric":5601,"msg":"qps collector","time":"2021-08-08T16:30:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:30:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:30:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:30:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:30:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:30:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":198384,"sent":697387,"time":"2021-08-08T16:30:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:30:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:30:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:30:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:30:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:30:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:30:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:30:59+08:00"}
+{"level":"debug","metric":5654,"msg":"qps collector","time":"2021-08-08T16:30:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:30:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:30:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":199885,"sent":702246,"time":"2021-08-08T16:30:59+08:00"}
+{"level":"debug","metric":5678,"msg":"qps collector","time":"2021-08-08T16:31:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:31:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:31:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:31:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:31:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:31:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:31:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":201130,"sent":707138,"time":"2021-08-08T16:31:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:31:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:31:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:31:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:31:59+08:00"}
+{"level":"debug","metric":5728,"msg":"qps collector","time":"2021-08-08T16:31:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:31:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":202400,"sent":710746,"time":"2021-08-08T16:31:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:31:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:31:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:31:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:32:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:32:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:32:29+08:00"}
+{"level":"debug","metric":5765,"msg":"qps collector","time":"2021-08-08T16:32:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":203653,"sent":715830,"time":"2021-08-08T16:32:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:32:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":5,"time":"2021-08-08T16:32:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:32:29+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:32:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:32:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:32:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:32:59+08:00"}
+{"level":"debug","metric":5803,"msg":"qps collector","time":"2021-08-08T16:32:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:32:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":6,"time":"2021-08-08T16:32:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":205090,"sent":719881,"time":"2021-08-08T16:32:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:32:59+08:00"}
+{"command":"select","level":"debug","metric":5,"msg":"command collector","time":"2021-08-08T16:32:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:33:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:33:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:33:29+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:33:29+08:00"}
+{"level":"debug","metric":5847,"msg":"qps collector","time":"2021-08-08T16:33:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":206436,"sent":724551,"time":"2021-08-08T16:33:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:33:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T16:33:29+08:00"}
+{"command":"select","level":"debug","metric":6,"msg":"command collector","time":"2021-08-08T16:33:29+08:00"}
+{"level":"debug","metric":5868,"msg":"qps collector","time":"2021-08-08T16:33:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:33:59+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":7,"time":"2021-08-08T16:33:59+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:33:59+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:33:59+08:00"}
+{"level":"debug","msg":"traffic collector","received":207722,"sent":729705,"time":"2021-08-08T16:33:59+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:33:59+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:33:59+08:00"}
+{"command":"select","level":"debug","metric":6,"msg":"command collector","time":"2021-08-08T16:33:59+08:00"}
+{"isHealthy":1,"level":"debug","msg":"healthy collector","time":"2021-08-08T16:34:29+08:00"}
+{"command":"insert","level":"debug","metric":1,"msg":"command collector","time":"2021-08-08T16:34:29+08:00"}
+{"level":"debug","msg":"traffic collector","received":208721,"sent":732787,"time":"2021-08-08T16:34:29+08:00"}
+{"level":"debug","metric":0,"msg":"slow queries collector","time":"2021-08-08T16:34:29+08:00"}
+{"command":"update","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:34:29+08:00"}
+{"level":"debug","metric":5922,"msg":"qps collector","time":"2021-08-08T16:34:29+08:00"}
+{"command":"delete","level":"debug","metric":0,"msg":"command collector","time":"2021-08-08T16:34:29+08:00"}
+{"level":"debug","maxConnections":151,"msg":"connection collector","threadsConnected":4,"time":"2021-08-08T16:34:29+08:00"}
+{"command":"select","level":"debug","metric":6,"msg":"command collector","time":"2021-08-08T16:34:29+08:00"}
