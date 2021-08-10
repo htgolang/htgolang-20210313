@@ -1,0 +1,10 @@
+<div style="margin-bottom: 5px;">
+    {{ range .CurrentRoleModules }}
+    {{ if .IsMenu }}
+    <a href="{{ .Url }}">{{ .Name }}</a>
+    {{ end }}
+    {{ end }}
+    <span  style="margin-left: 1000px;">欢迎登录{{.CurrentUser.Name}}</span>
+    <a href="/user/modifypw/">修改密码</a>
+    <a href="/auth/logout/">退出登录</a>
+</div>

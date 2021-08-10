@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>user add</title>
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+        <form action="/user/add/" method="POST">
+            <div>
+                <label>用户名</label>
+                <input type="text" name="username">
+                {{ if .ErrMsgs.username }}
+                <span style="color: red;">{{ index  .ErrMsgs.username 0 }}</span>
+                {{ end }}
+            </div>
+            <div>
+                <label>性别</label>
+                <input type="radio" name="sex" value="1" checked="">男
+                <input type="radio" name="sex" value="0">女
+            </div>
+            <div>
+                <label>生日</label>
+                <input type="date" name="birthday">
+                {{ if .ErrMsgs.birthday }}
+                <span style="color: red;">{{ index  .ErrMsgs.birthday 0 }}</span>
+                {{ end }}
+                <!-- {{ range $k,$v := .ErrMsgs.birthday }}
+                <span style="color: red;">{{ $v.Error }}</span>
+                {{ end }} -->
+            </div>
+            <div>
+                <label>手机</label>
+                <input type="tel" name="tel">
+                {{ if .ErrMsgs.tel }}
+                <span style="color: red;">{{ index  .ErrMsgs.tel 0 }}</span>
+                {{ end }}
+                <!-- {{ range $k,$v := .ErrMsgs.tel }}
+                <span style="color: red;">{{ $v.Error }}</span>
+                {{ end }} -->
+            </div>
+            <div>
+                <label>邮箱</label>
+                <input type="text" name="email">
+                {{ if  .ErrMsgs.email  }}
+                <span style="color: red;">{{ index  .ErrMsgs.email 0 }}</span>
+                {{ end }}
+                <!-- {{ range $k,$v := .ErrMsgs.email }}
+                
+                <span style="color: red;">{{ $v.Error }}</span>
+                {{ end }} -->
+            </div>
+            <div>
+                <label>地址</label>
+                <input type="text" name="addr">
+                {{ if  .ErrMsgs.addr  }}
+                <span style="color: red;">{{ index  .ErrMsgs.addr 0 }}</span>
+                {{ end }}
+                <!-- {{ range $k,$v := .ErrMsgs.addr }}
+                <span style="color: red;">{{ $v.Error }}</span>
+                {{ end }} -->
+            </div>
+            <div>
+                <label>角色</label>
+                <select name="roleid">
+                    {{ range .Roles }}
+                    <option value="{{ .Id }}">{{ .Name }}</option>
+                    {{ else }}
+                    <option value="4">测试</option>
+                    {{ end }}
+                </select>
+            </div>
+            
+            <div>
+                <label>密码</label>
+                <input type="password" name="password">
+                {{ if  .ErrMsgs.password  }}
+                <span style="color: red;">{{ index  .ErrMsgs.password 0 }}</span>
+                {{ end }}
+                <!-- {{ range $k,$v := .ErrMsgs.password }}
+                <span style="color: red;">{{ $v.Error }}</span>
+                {{ end }} -->
+            </div>
+            <div>
+                <label>确认密码</label>
+                <input type="password" name="confirmpw">
+                {{ if  .ErrMsgs.confirmpw  }}
+                <span style="color: red;">{{ index  .ErrMsgs.confirmpw 0 }}</span>
+                {{ end }}
+                <!-- {{ range $k,$v := .ErrMsgs.confirmpw }}
+                <span style="color: red;">{{ $v.Error }}</span>
+                {{ end }} -->
+            </div>
+            <div>
+                <label style="padding-bottom: 20px;">用户描述</label>
+                <textarea name="description" cols="30" rows="5" maxlength="100" placeholder="用户描述信息"></textarea>
+            </div>
+
+            {{ if  .ErrMsgs.user  }}
+            <div style="color: red;">{{ index  .ErrMsgs.user 0 }}</div>
+            {{ end }}
+            <!-- {{ range $k,$v := .ErrMsgs.user }}
+                <span style="color: red;">{{ $v.Error }}</span>
+            {{ end }} -->
+
+            <div>
+                <input type="submit" value="提交">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>department list</title>
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>权限</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .Roles }}
+                    <tr>
+                        <td>{{ .Id }}</td>
+                        <td>{{ .Name }}</td>
+                        <td>{{ .SetModulesText }}</td>
+                    </tr>
+                    {{ else }}
+                    <tr>
+                        <td colspan="4">暂无数据</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

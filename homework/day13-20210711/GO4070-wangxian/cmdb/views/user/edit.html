@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>user edit</title>
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+        <form action="/user/edit/" method="POST">
+        <div>
+            <input type="text" name="id" value="{{ .User.Id }}" hidden="">
+        </div>
+        <div>
+            <label>用户名</label>
+            <input type="text" name="username" value="{{ .User.Name }}">
+            {{ if .ErrMsgs.username }}
+                <span style="color: red;">{{ index  .ErrMsgs.username 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label>性别</label>
+            {{ if .User.Sex }}
+            <input type="radio" name="sex" value="1" checked="">男
+            <input type="radio" name="sex" value="0">女
+            {{ else }}
+            <input type="radio" name="sex" value="1">男
+            <input type="radio" name="sex" value="0" checked="">女
+            {{ end }}
+        </div>
+        <div>
+            <label>生日</label>
+            <input type="date" name="birthday" value="{{ .User.GetBirthday }}">
+            {{ if .ErrMsgs.birthday }}
+                <span style="color: red;">{{ index  .ErrMsgs.birthday 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label>手机</label>
+            <input type="tel" name="tel" value="{{ .User.Telephone }}">
+            {{ if .ErrMsgs.tel }}
+            <span style="color: red;">{{ index  .ErrMsgs.tel 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label>邮箱</label>
+            <input type="email" name="email" value="{{ .User.Email }}">
+            {{ if .ErrMsgs.email }}
+            <span style="color: red;">{{ index  .ErrMsgs.email 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label>地址</label>
+            <input type="text" name="addr" value="{{ .User.Addr }}">
+            {{ if .ErrMsgs.addr }}
+                <span style="color: red;">{{ index  .ErrMsgs.addr 0 }}</span>
+            {{ end }}
+        </div>
+        <div>
+            <label>角色</label>
+            <select name="roleid">
+                {{ range .Roles }}
+                {{ if eq $.User.RoleId .Id }}
+                <option value="{{ .Id }}" selected="">{{ .Name }}</option>
+                {{ else }}
+                <option value="{{ .Id }}">{{ .Name }}</option>
+                {{ end}}
+                {{ else }}
+                <option value="4">测试</option>
+                {{ end }}
+            </select>
+        </div>
+        <div>
+            <label style="padding-bottom: 20px;">用户描述</label>
+            <textarea name="description" cols="30" rows="5" maxlength="100" value="{{ .User.Description }}"></textarea>
+        </div>
+
+        {{ if .ErrMsgs.user }}
+        <div style="color: red;">
+            {{ index .ErrMsg.user 0 }}
+        </div>
+        {{ end }}
+
+        <div>
+            <input type="submit" value="保存">
+        </div>
+        </form>
+    </body>
+</html>

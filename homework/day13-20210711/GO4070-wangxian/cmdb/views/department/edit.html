@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>department edit</title>
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+        <form action="/department/edit/" method="POST">
+        <div>
+            <input type="text" name="id" value="{{ .Department.Id }}" hidden="">
+        </div>
+        <div>
+            <label>部门名称</label>
+            <input type="text" name="name" value="{{ .Department.Name }}">
+            {{ if .ErrMsgs.name }}
+            <span style="color: red;">{{ index .ErrMsgs.name 0 }}</span>
+            {{ end }}
+        </div>
+
+        {{ if .ErrMsg.department }}
+        <div style="color: red;">
+            {{ index .ErrMsg.department 0 }}
+        </div>
+        {{ end }}
+
+        <div>
+            <input type="submit" value="保存">
+        </div>
+        </form>
+    </body>
+</html>
