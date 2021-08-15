@@ -1,0 +1,4 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:64713: remote error: tls: unknown certificate
+2021/08/15 10:07:42.787  [M] [router.go:1014]  ::1 - - [15/Aug/2021 10:07:42] "GET /prometheusagent/query HTTP/2.0 200 0" 0.021130  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 10:11:55.996  [I] [parser.go:413]  generate router from comments
+2021/08/15 10:11:55.998  [I] [server.go:208]  https server Running on https://:8888

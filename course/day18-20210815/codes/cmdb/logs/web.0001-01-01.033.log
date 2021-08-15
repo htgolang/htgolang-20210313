@@ -1,0 +1,9 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:49312: remote error: tls: unknown certificate
+2021/08/15 09:51:02.796  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:51:02] "GET /prometheusAgent/Query HTTP/2.0 200 0" 0.030310  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:51:03.986  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:51:03] "GET /prometheusAgent/query HTTP/2.0 200 0" 0.031899 https://localhost:8888/prometheusAgent/Query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:51:05.721  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:51:05] "GET /prometheusAgent/query HTTP/2.0 200 0" 0.023655 https://localhost:8888/prometheusAgent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:51:07.668  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:51:07] "GET /asset/query HTTP/2.0 200 0" 0.003785 https://localhost:8888/prometheusAgent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:51:08.234  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:51:08] "GET /prometheusAgent/query HTTP/2.0 200 0" 0.007604 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:51:22.848  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:51:22] "GET /prometheusagent/query HTTP/2.0 200 0" 0.025380  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:51:37.706  [I] [parser.go:413]  generate router from comments
+2021/08/15 09:51:37.711  [I] [server.go:208]  https server Running on https://:8888

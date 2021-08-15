@@ -1,0 +1,27 @@
+# 全局配置
+global:
+  scrape_interval:     30s # 抓取周期
+  evaluation_interval: 30s # 规则执行周期
+  external_labels:
+    env: dev
+  query_log_file: /opt/prometheus/prometheus_server/promql.log
+
+# alertmanager配置
+alerting:
+  alertmanagers:
+  - static_configs:
+    - targets:
+      - localhost:9093
+
+# 规则(告警规则 record规则)
+rule_files:
+  - "rules/*.yml"
+
+# 抓取配置
+scrape_configs:
+- job_name: 'prometheus'
+  basic_auth:
+    username: admin
+    password: 123123
+  static_configs:
+  - targets: ['localhost:9090']

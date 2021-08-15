@@ -1,0 +1,76 @@
+{
+    "receiver": "web\\.hook",
+    "status": "firing",
+    "alerts": [
+        {
+            "status": "firing",
+            "labels": {
+                "alertname": "Node CPU Percent is High",
+                "env": "dev",
+                "instance": "localhost:9102",
+                "severity": "high"
+            },
+            "annotations": {
+                "description": "Node localhost:9102 CPU Percent is High 200",
+                "summary": "Node localhost:9102 CPU Percent is High"
+            },
+            "startsAt": "2021-08-15T09:20:26.851Z",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://centos:9090/graph?g0.expr=node_cpu_percent+%3E%3D+80\u0026g0.tab=1",
+            "fingerprint": "bd97c3c7d278748a"
+        }
+    ],
+    "groupLabels": {
+        "alertname": "Node CPU Percent is High"
+    },
+    "commonLabels": {
+        "alertname": "Node CPU Percent is High",
+        "env": "dev",
+        "instance": "localhost:9102",
+        "severity": "high"
+    },
+    "commonAnnotations": {
+        "description": "Node localhost:9102 CPU Percent is High 200",
+        "summary": "Node localhost:9102 CPU Percent is High"
+    },
+    "externalURL": "http://centos:9093",
+    "version": "4",
+    "groupKey": "{}:{alertname=\"Node CPU Percent is High\"}",
+    "truncatedAlerts": 0
+}
+
+
+{
+    "receiver": "web\\.hook",
+    "status": "resolved",
+    "alerts": [
+        {
+            "status": "resolved",
+            "labels": {
+                "alertname": "server is down",
+                "env": "dev",
+                "instance": "localhost:9101",
+                "job": "node"
+            },
+            "annotations": {},
+            "startsAt": "2021-08-15T09:19:05.608Z",
+            "endsAt": "2021-08-15T09:26:35.608Z",
+            "generatorURL": "http://centos:9090/graph?g0.expr=up+%3D%3D+0\u0026g0.tab=1",
+            "fingerprint": "a9431aa40b939245"
+        }
+    ],
+    "groupLabels": {
+        "alertname": "server is down"
+    },
+    "commonLabels": {
+        "alertname": "server is down",
+        "env": "dev",
+        "instance": "localhost:9101",
+        "job": "node"
+    },
+    "commonAnnotations": {},
+    "externalURL": "http://centos:9093",
+    "version": "4",
+    "groupKey": "{}:{alertname=\"server is down\"}",
+    "truncatedAlerts": 0
+}

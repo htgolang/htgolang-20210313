@@ -1,0 +1,232 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:60407: remote error: tls: unknown certificate
+2021/08/15 11:55:53.591  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:55:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.004301  Go-http-client/1.1
+2021/08/15 11:55:53.620  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:55:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.033300  Go-http-client/1.1
+2021/08/15 11:56:03.584  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 11:56:03.638  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.053813  Go-http-client/1.1
+2021/08/15 11:56:13.590  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001000  Go-http-client/1.1
+2021/08/15 11:56:13.653  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.063951  Go-http-client/1.1
+2021/08/15 11:56:16.472  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "POST /prometheusagent/modify HTTP/2.0 302 166" 0.000000 https://localhost:8888/prometheusagent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:56:16.473  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:56:16] "POST /prometheusagent/modify HTTP/2.0 302 166" 0.089084 https://localhost:8888/prometheusagent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:56:16.508  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:56:16] "GET /prometheusagent/query HTTP/2.0 200 0" 0.029806 https://localhost:8888/prometheusagent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:56:17.948  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:56:17] "GET /prometheusagent/modify?id=1 HTTP/2.0 200 0" 0.031805 https://localhost:8888/prometheusagent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:56:23.584  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 11:56:23.626  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.042275  Go-http-client/1.1
+2021/08/15 11:56:33.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000652  Go-http-client/1.1
+2021/08/15 11:56:33.622  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.035473  Go-http-client/1.1
+2021/08/15 11:56:43.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000540  Go-http-client/1.1
+2021/08/15 11:56:43.624  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.039516  Go-http-client/1.1
+2021/08/15 11:56:53.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000993  Go-http-client/1.1
+2021/08/15 11:56:53.629  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:56:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.042874  Go-http-client/1.1
+2021/08/15 11:57:03.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000921  Go-http-client/1.1
+2021/08/15 11:57:03.623  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.038074  Go-http-client/1.1
+2021/08/15 11:57:13.611  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.011144  Go-http-client/1.1
+2021/08/15 11:57:13.728  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.127559  Go-http-client/1.1
+2021/08/15 11:57:23.589  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001043  Go-http-client/1.1
+2021/08/15 11:57:23.623  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.035589  Go-http-client/1.1
+2021/08/15 11:57:33.615  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.012074  Go-http-client/1.1
+2021/08/15 11:57:33.682  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.078717  Go-http-client/1.1
+2021/08/15 11:57:43.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000998  Go-http-client/1.1
+2021/08/15 11:57:43.623  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.036679  Go-http-client/1.1
+2021/08/15 11:57:53.592  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.004600  Go-http-client/1.1
+2021/08/15 11:57:53.643  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:57:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.054484  Go-http-client/1.1
+2021/08/15 11:58:03.609  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.005409  Go-http-client/1.1
+2021/08/15 11:58:03.677  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.074205  Go-http-client/1.1
+2021/08/15 11:58:13.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000856  Go-http-client/1.1
+2021/08/15 11:58:13.632  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.045738  Go-http-client/1.1
+2021/08/15 11:58:21.745  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "POST /prometheusagent/modify HTTP/2.0 302 164" 0.000000 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:58:21.768  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:58:21] "POST /prometheusagent/modify HTTP/2.0 302 164" 0.112742 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:58:21.838  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:58:21] "GET /prometheusagent/query HTTP/2.0 200 0" 0.021080 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:58:23.344  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:58:23] "GET /prometheusagent/modify?id=1 HTTP/2.0 200 0" 0.042730 https://localhost:8888/prometheusagent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:58:23.623  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.005463  Go-http-client/1.1
+2021/08/15 11:58:23.725  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.107410  Go-http-client/1.1
+2021/08/15 11:58:33.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001003  Go-http-client/1.1
+2021/08/15 11:58:33.618  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.033877  Go-http-client/1.1
+2021/08/15 11:58:43.627  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.015243  Go-http-client/1.1
+2021/08/15 11:58:43.774  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.161867  Go-http-client/1.1
+2021/08/15 11:58:53.593  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001387  Go-http-client/1.1
+2021/08/15 11:58:53.656  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:58:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.062593  Go-http-client/1.1
+2021/08/15 11:59:03.591  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003708  Go-http-client/1.1
+2021/08/15 11:59:03.674  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.086616  Go-http-client/1.1
+2021/08/15 11:59:12.871  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "POST /prometheusagent/modify HTTP/2.0 302 204" 0.000000 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:59:12.872  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:59:12] "POST /prometheusagent/modify HTTP/2.0 302 204" 0.108054 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:59:12.892  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:59:12] "GET /prometheusagent/query HTTP/2.0 200 0" 0.013969 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:59:13.597  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002749  Go-http-client/1.1
+2021/08/15 11:59:13.649  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.054893  Go-http-client/1.1
+2021/08/15 11:59:14.193  [M] [router.go:1014]  ::1 - - [15/Aug/2021 11:59:14] "GET /prometheusagent/modify?id=1 HTTP/2.0 200 0" 0.035967 https://localhost:8888/prometheusagent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 11:59:23.584  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 11:59:23.621  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.037004  Go-http-client/1.1
+2021/08/15 11:59:33.628  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.011070  Go-http-client/1.1
+2021/08/15 11:59:33.696  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.079059  Go-http-client/1.1
+2021/08/15 11:59:43.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000559  Go-http-client/1.1
+2021/08/15 11:59:43.621  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.034953  Go-http-client/1.1
+2021/08/15 11:59:53.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000786  Go-http-client/1.1
+2021/08/15 11:59:53.616  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 11:59:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.031234  Go-http-client/1.1
+2021/08/15 12:00:03.594  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002040  Go-http-client/1.1
+2021/08/15 12:00:03.638  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.045714  Go-http-client/1.1
+2021/08/15 12:00:13.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002700  Go-http-client/1.1
+2021/08/15 12:00:13.631  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.046130  Go-http-client/1.1
+2021/08/15 12:00:23.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001244  Go-http-client/1.1
+2021/08/15 12:00:23.652  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.067126  Go-http-client/1.1
+2021/08/15 12:00:33.589  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001369  Go-http-client/1.1
+2021/08/15 12:00:33.634  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.044927  Go-http-client/1.1
+2021/08/15 12:00:43.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000997  Go-http-client/1.1
+2021/08/15 12:00:43.661  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.075181  Go-http-client/1.1
+2021/08/15 12:00:53.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002491  Go-http-client/1.1
+2021/08/15 12:00:53.622  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:00:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.036922  Go-http-client/1.1
+2021/08/15 12:01:03.613  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001996  Go-http-client/1.1
+2021/08/15 12:01:03.712  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.100348  Go-http-client/1.1
+2021/08/15 12:01:13.590  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002997  Go-http-client/1.1
+2021/08/15 12:01:13.628  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.040803  Go-http-client/1.1
+2021/08/15 12:01:23.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:01:23.616  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.030000  Go-http-client/1.1
+2021/08/15 12:01:33.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000666  Go-http-client/1.1
+2021/08/15 12:01:33.629  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.044568  Go-http-client/1.1
+2021/08/15 12:01:43.590  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002158  Go-http-client/1.1
+2021/08/15 12:01:43.688  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.099851  Go-http-client/1.1
+2021/08/15 12:01:53.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000536  Go-http-client/1.1
+2021/08/15 12:01:53.641  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:01:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.055999  Go-http-client/1.1
+2021/08/15 12:02:03.593  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003605  Go-http-client/1.1
+2021/08/15 12:02:03.672  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.082529  Go-http-client/1.1
+2021/08/15 12:02:13.636  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.008923  Go-http-client/1.1
+2021/08/15 12:02:13.822  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.180658  Go-http-client/1.1
+2021/08/15 12:02:23.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000733  Go-http-client/1.1
+2021/08/15 12:02:23.673  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.088404  Go-http-client/1.1
+2021/08/15 12:02:33.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000990  Go-http-client/1.1
+2021/08/15 12:02:33.628  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.043679  Go-http-client/1.1
+2021/08/15 12:02:43.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000724  Go-http-client/1.1
+2021/08/15 12:02:43.692  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.106894  Go-http-client/1.1
+2021/08/15 12:02:53.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002004  Go-http-client/1.1
+2021/08/15 12:02:53.623  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:02:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.038328  Go-http-client/1.1
+2021/08/15 12:03:03.595  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001146  Go-http-client/1.1
+2021/08/15 12:03:03.668  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.074389  Go-http-client/1.1
+2021/08/15 12:03:13.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000818  Go-http-client/1.1
+2021/08/15 12:03:13.632  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.044883  Go-http-client/1.1
+2021/08/15 12:03:23.592  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002990  Go-http-client/1.1
+2021/08/15 12:03:23.642  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.053147  Go-http-client/1.1
+2021/08/15 12:03:33.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000531  Go-http-client/1.1
+2021/08/15 12:03:33.618  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.033294  Go-http-client/1.1
+2021/08/15 12:03:43.590  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:03:43.624  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.033767  Go-http-client/1.1
+2021/08/15 12:03:53.598  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003137  Go-http-client/1.1
+2021/08/15 12:03:53.701  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:03:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.106183  Go-http-client/1.1
+2021/08/15 12:04:03.584  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:04:03.624  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.040310  Go-http-client/1.1
+2021/08/15 12:04:13.589  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003965  Go-http-client/1.1
+2021/08/15 12:04:13.644  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.058115  Go-http-client/1.1
+2021/08/15 12:04:23.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000699  Go-http-client/1.1
+2021/08/15 12:04:23.622  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.034837  Go-http-client/1.1
+2021/08/15 12:04:33.598  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001778  Go-http-client/1.1
+2021/08/15 12:04:33.712  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.115350  Go-http-client/1.1
+2021/08/15 12:04:43.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002319  Go-http-client/1.1
+2021/08/15 12:04:43.632  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.046737  Go-http-client/1.1
+2021/08/15 12:04:53.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:04:53.618  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:04:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.031929  Go-http-client/1.1
+2021/08/15 12:05:03.590  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002001  Go-http-client/1.1
+2021/08/15 12:05:03.623  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.035170  Go-http-client/1.1
+2021/08/15 12:05:13.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002521  Go-http-client/1.1
+2021/08/15 12:05:13.617  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.032415  Go-http-client/1.1
+2021/08/15 12:05:23.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001501  Go-http-client/1.1
+2021/08/15 12:05:23.637  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.050223  Go-http-client/1.1
+2021/08/15 12:05:33.592  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.004353  Go-http-client/1.1
+2021/08/15 12:05:33.674  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.085226  Go-http-client/1.1
+2021/08/15 12:05:43.666  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.011220  Go-http-client/1.1
+2021/08/15 12:05:43.787  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.131770  Go-http-client/1.1
+2021/08/15 12:05:53.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000649  Go-http-client/1.1
+2021/08/15 12:05:53.623  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:05:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.036079  Go-http-client/1.1
+2021/08/15 12:06:03.589  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000770  Go-http-client/1.1
+2021/08/15 12:06:03.656  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.067855  Go-http-client/1.1
+2021/08/15 12:06:13.586  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000929  Go-http-client/1.1
+2021/08/15 12:06:13.616  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.030554  Go-http-client/1.1
+2021/08/15 12:06:13.648  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:13] "POST /v1/agent/register/ HTTP/1.1 200 99" 0.059929  Go-http-client/1.1
+2021/08/15 12:06:23.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001625  Go-http-client/1.1
+2021/08/15 12:06:23.622  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:06:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.034448  Go-http-client/1.1
+2021/08/15 12:06:33.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000526  Go-http-client/1.1
+2021/08/15 12:06:33.615  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:06:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.030182  Go-http-client/1.1
+2021/08/15 12:06:43.592  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:06:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.004520  Go-http-client/1.1
+2021/08/15 12:06:43.643  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.053891  Go-http-client/1.1
+2021/08/15 12:06:53.597  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:06:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000530  Go-http-client/1.1
+2021/08/15 12:06:53.693  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:06:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.096293  Go-http-client/1.1
+2021/08/15 12:07:03.593  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:07:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001647  Go-http-client/1.1
+2021/08/15 12:07:03.635  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:07:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.043407  Go-http-client/1.1
+2021/08/15 12:07:13.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:07:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000521  Go-http-client/1.1
+2021/08/15 12:07:13.628  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:07:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.043305  Go-http-client/1.1
+2021/08/15 12:07:23.586  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:07:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001040  Go-http-client/1.1
+2021/08/15 12:07:23.627  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:07:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.041943  Go-http-client/1.1
+2021/08/15 12:07:33.585  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:07:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:07:33.612  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:07:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.026999  Go-http-client/1.1
+2021/08/15 12:07:43.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:07:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001658  Go-http-client/1.1
+2021/08/15 12:07:43.617  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:07:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.030945  Go-http-client/1.1
+2021/08/15 12:07:53.632  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:07:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.007545  Go-http-client/1.1
+2021/08/15 12:07:53.767  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:07:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.142603  Go-http-client/1.1
+2021/08/15 12:08:03.584  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:08:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:08:03.627  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:08:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.042517  Go-http-client/1.1
+2021/08/15 12:08:13.590  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:08:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002000  Go-http-client/1.1
+2021/08/15 12:08:13.673  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:08:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.085621  Go-http-client/1.1
+2021/08/15 12:08:23.589  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:08:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000998  Go-http-client/1.1
+2021/08/15 12:08:23.633  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:08:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.044590  Go-http-client/1.1
+2021/08/15 12:08:33.599  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:08:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003009  Go-http-client/1.1
+2021/08/15 12:08:33.678  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:08:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.081076  Go-http-client/1.1
+2021/08/15 12:08:43.605  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:08:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.007535  Go-http-client/1.1
+2021/08/15 12:08:43.651  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:08:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.054032  Go-http-client/1.1
+2021/08/15 12:08:53.585  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:08:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:08:53.633  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:08:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.048479  Go-http-client/1.1
+2021/08/15 12:09:03.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:09:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002005  Go-http-client/1.1
+2021/08/15 12:09:03.645  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:09:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.060570  Go-http-client/1.1
+2021/08/15 12:09:13.584  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:09:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:09:13.620  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:09:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.035737  Go-http-client/1.1
+2021/08/15 12:09:23.590  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:09:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002000  Go-http-client/1.1
+2021/08/15 12:09:23.667  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:09:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.079154  Go-http-client/1.1
+2021/08/15 12:09:33.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:09:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000629  Go-http-client/1.1
+2021/08/15 12:09:33.620  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:09:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.035199  Go-http-client/1.1
+2021/08/15 12:09:43.584  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:09:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:09:43.620  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:09:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.036332  Go-http-client/1.1
+2021/08/15 12:09:53.601  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:09:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002002  Go-http-client/1.1
+2021/08/15 12:09:53.700  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:09:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.098874  Go-http-client/1.1
+2021/08/15 12:10:03.585  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:10:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000999  Go-http-client/1.1
+2021/08/15 12:10:03.628  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:10:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.043166  Go-http-client/1.1
+2021/08/15 12:10:13.593  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:10:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003939  Go-http-client/1.1
+2021/08/15 12:10:13.666  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:10:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.077324  Go-http-client/1.1
+2021/08/15 12:10:23.588  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:10:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000703  Go-http-client/1.1
+2021/08/15 12:10:23.631  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:10:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.044214  Go-http-client/1.1
+2021/08/15 12:10:33.636  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:10:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002834  Go-http-client/1.1
+2021/08/15 12:10:33.759  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:10:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.124643  Go-http-client/1.1
+2021/08/15 12:10:43.586  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:10:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000830  Go-http-client/1.1
+2021/08/15 12:10:43.618  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:10:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.032909  Go-http-client/1.1
+2021/08/15 12:10:53.587  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:10:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001003  Go-http-client/1.1
+2021/08/15 12:10:53.663  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:10:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.076563  Go-http-client/1.1
+2021/08/15 12:11:03.585  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:11:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:11:03.631  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:11:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.046186  Go-http-client/1.1
+2021/08/15 12:11:13.585  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:11:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000529  Go-http-client/1.1
+2021/08/15 12:11:13.667  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:11:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.082211  Go-http-client/1.1
+2021/08/15 12:11:23.616  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:11:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003280  Go-http-client/1.1
+2021/08/15 12:11:23.734  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:11:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.121097  Go-http-client/1.1
+2021/08/15 12:11:33.584  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:11:33] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000000  Go-http-client/1.1
+2021/08/15 12:11:33.617  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:11:33] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.033070  Go-http-client/1.1
+2021/08/15 12:11:43.589  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:11:43] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002400  Go-http-client/1.1
+2021/08/15 12:11:43.622  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:11:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.033924  Go-http-client/1.1
+2021/08/15 12:11:53.588  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:11:53] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002998  Go-http-client/1.1
+2021/08/15 12:11:53.664  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:11:53] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.077795  Go-http-client/1.1
+2021/08/15 12:12:03.589  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:12:03] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.000987  Go-http-client/1.1
+2021/08/15 12:12:03.687  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:12:03] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.099314  Go-http-client/1.1
+2021/08/15 12:12:13.592  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:12:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.002001  Go-http-client/1.1
+2021/08/15 12:12:13.672  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:12:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.081433  Go-http-client/1.1
+2021/08/15 12:12:23.589  [M] [router.go:1014]  127.0.0.1 - - [15/Aug/2021 12:12:23] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.003999  Go-http-client/1.1
+2021/08/15 12:12:23.628  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:12:23] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.042887  Go-http-client/1.1
+2021/08/15 12:12:40.831  [I] [parser.go:413]  generate router from comments
+2021/08/15 12:12:40.838  [I] [server.go:208]  https server Running on https://:8888
+2021/08/15 12:12:43.593  [C] [config.go:190]  the request url is  /v1/agent/config/
+2021/08/15 12:12:43.593  [C] [config.go:191]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2021/08/15 12:12:43.594  [C] [config.go:197]  C:/Program Files/Go/src/runtime/panic.go:965
+2021/08/15 12:12:43.594  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:120
+2021/08/15 12:12:43.594  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:137
+2021/08/15 12:12:43.595  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:134
+2021/08/15 12:12:43.597  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/services/prometheus.go:95
+2021/08/15 12:12:43.597  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/controllers/apis/v1/agent.go:46
+2021/08/15 12:12:43.598  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:476
+2021/08/15 12:12:43.598  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:337
+2021/08/15 12:12:43.598  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/08/15 12:12:43.599  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/08/15 12:12:43.599  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/08/15 12:12:43.600  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:2887
+2021/08/15 12:12:43.600  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:1952
+2021/08/15 12:12:43.600  [C] [config.go:197]  C:/Program Files/Go/src/runtime/asm_amd64.s:1371

@@ -1,0 +1,19 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/08/15 12:13:31.035  [C] [config.go:190]  the request url is  /v1/agent/config/
+2021/08/15 12:13:31.057  [C] [config.go:191]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2021/08/15 12:13:31.082  [C] [config.go:197]  C:/Program Files/Go/src/runtime/panic.go:965
+2021/08/15 12:13:31.093  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:120
+2021/08/15 12:13:31.102  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:137
+2021/08/15 12:13:31.092  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:13:31] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.062376  Go-http-client/1.1
+2021/08/15 12:13:31.136  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:134
+2021/08/15 12:13:31.160  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/services/prometheus.go:95
+2021/08/15 12:13:31.137  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:13:31] "POST /v1/agent/register/ HTTP/1.1 200 99" 0.106754  Go-http-client/1.1
+2021/08/15 12:13:31.162  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/controllers/apis/v1/agent.go:46
+2021/08/15 12:13:31.169  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:476
+2021/08/15 12:13:31.191  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:337
+2021/08/15 12:13:31.194  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/08/15 12:13:31.198  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/08/15 12:13:31.245  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/08/15 12:13:31.263  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:2887
+2021/08/15 12:13:31.264  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:1952
+2021/08/15 12:13:31.279  [C] [config.go:197]  C:/Program Files/Go/src/runtime/asm_amd64.s:1371

@@ -1,0 +1,45 @@
+<div class="mb-1">
+    <div class="float-right">
+        <form class="form-inline" action="{{ urlfor `PrometheusAgentController.Query`}}" method="POST">
+            <label class="sr-only">查询内容: </label>
+            <input type="text" class="form-control form-control-sm mr-2" value="{{ .q }}" placeholder="查询" name="q"/>
+            <input type="submit" class="btn btn-info btn-sm" value="查询" />
+        </form>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<table class="table table-bordered table-sm table-striped table-hover">
+    <thead>
+        <tr>
+            <th>主机名</th>
+            <th>IP</th>
+            <th>配置版本</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .objects }}
+        <tr>
+            <td>
+                {{ if .IsHealthy }}
+                    <span class="text-success">●</span>
+                {{ else }}
+                    <span class="text-danger">●</span>
+                {{ end }}
+                {{ .Hostname }}
+
+            </td>
+            <td>{{ .Addr }}</td>
+            <td>{{ .ConfigVersion }}</td>
+            <td>
+                <a class="btn btn-sm btn-warning" href="{{ urlfor `PrometheusAgentController.Modify` }}?id={{ .Id }}">编辑</a>
+                <a class="btn btn-sm btn-danger" href="{{ urlfor `PrometheusAgentController.Delete` }}?id={{ .Id }}">删除</a>
+            </td>
+        </tr>
+        {{ else }}
+        <tr>
+            <td colspan="4">暂无数据</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>

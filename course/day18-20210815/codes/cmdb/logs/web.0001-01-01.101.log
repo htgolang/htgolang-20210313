@@ -1,0 +1,38 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:52589: remote error: tls: unknown certificate
+2021/08/15 18:48:35.372  [C] [config.go:190]  the request url is  /prometheusalert/query
+2021/08/15 18:48:35.395  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/prometheus/alert/query.html
+2021/08/15 18:48:35.407  [C] [config.go:197]  C:/Program Files/Go/src/runtime/panic.go:965
+2021/08/15 18:48:35.448  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/08/15 18:48:35.459  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/08/15 18:48:35.461  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/08/15 18:48:35.462  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/08/15 18:48:35.462  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/08/15 18:48:35.462  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/08/15 18:48:35.463  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/08/15 18:48:35.464  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:2887
+2021/08/15 18:48:35.474  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:3459
+2021/08/15 18:48:35.474  [C] [config.go:197]  C:/Program Files/Go/src/net/http/h2_bundle.go:5723
+2021/08/15 18:48:35.478  [C] [config.go:197]  C:/Program Files/Go/src/runtime/asm_amd64.s:1371
+2021/08/15 18:50:06.839  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:50:06] "POST /v1/alert/trigger/ HTTP/1.1 200 964" 0.016660  Alertmanager/0.22.2
+2021/08/15 18:50:25.593  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:50:25] "POST /v1/alert/trigger/ HTTP/1.1 200 647" 0.033165  Alertmanager/0.22.2
+2021/08/15 18:53:06.816  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:53:06] "POST /v1/alert/trigger/ HTTP/1.1 200 962" 0.002411  Alertmanager/0.22.2
+2021/08/15 18:53:25.572  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:53:25] "POST /v1/alert/trigger/ HTTP/1.1 200 647" 0.025496  Alertmanager/0.22.2
+2021/08/15 18:53:51.236  [D] [template.go:71]  template Execute err: template: prometheus/alert/query.html:28:27: executing "prometheus/alert/query.html" at <.Staus>: can't evaluate field Staus in type models.PrometheusAlert
+2021/08/15 18:53:51.258  [E] [router.go:896]  template: prometheus/alert/query.html:28:27: executing "prometheus/alert/query.html" at <.Staus>: can't evaluate field Staus in type models.PrometheusAlert
+2021/08/15 18:53:51.264  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:53:51] "GET /prometheusalert/query HTTP/2.0 200 0" 0.149594  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:53:52.754  [D] [template.go:71]  template Execute err: template: prometheus/alert/query.html:28:27: executing "prometheus/alert/query.html" at <.Staus>: can't evaluate field Staus in type models.PrometheusAlert
+2021/08/15 18:53:52.764  [E] [router.go:896]  template: prometheus/alert/query.html:28:27: executing "prometheus/alert/query.html" at <.Staus>: can't evaluate field Staus in type models.PrometheusAlert
+2021/08/15 18:53:52.769  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:53:52] "GET /prometheusalert/query HTTP/2.0 200 0" 0.034119  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:54:07.958  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:54:07] "GET /prometheusalert/query HTTP/2.0 200 0" 0.118104  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:56:06.851  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:56:06] "POST /v1/alert/trigger/ HTTP/1.1 200 972" 0.035351  Alertmanager/0.22.2
+2021/08/15 18:56:25.551  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:56:25] "POST /v1/alert/trigger/ HTTP/1.1 200 647" 0.002002  Alertmanager/0.22.2
+2021/08/15 18:58:42.901  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:58:42] "GET /prometheusalert/query HTTP/2.0 200 0" 0.086431  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:59:25.554  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:59:25] "POST /v1/alert/trigger/ HTTP/1.1 200 650" 0.003834  Alertmanager/0.22.2
+2021/08/15 18:59:30.918  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:59:30] "GET /prometheusalert/query HTTP/2.0 200 0" 0.079981  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:59:31.938  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:59:31] "GET /prometheusalert/query HTTP/2.0 200 0" 0.090277  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:59:32.729  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:59:32] "GET /prometheusalert/query HTTP/2.0 200 0" 0.097047  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:59:33.811  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:59:33] "GET /prometheusalert/query HTTP/2.0 200 0" 0.108276  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:59:35.090  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:59:34] "GET /prometheusalert/query HTTP/2.0 200 0" 0.099245  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 19:00:16.820  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 07:00:16] "POST /v1/alert/trigger/ HTTP/1.1 200 967" 0.047286  Alertmanager/0.22.2
+2021/08/15 19:00:29.213  [I] [parser.go:413]  generate router from comments
+2021/08/15 19:00:29.228  [I] [server.go:208]  https server Running on https://:8888

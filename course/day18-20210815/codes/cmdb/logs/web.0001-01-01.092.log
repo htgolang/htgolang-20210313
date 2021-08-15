@@ -1,0 +1,13 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:57519: remote error: tls: unknown certificate
+2021/08/15 18:19:05.896  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:19:05] "GET /user/query HTTP/2.0 200 0" 0.023886 https://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:19:55.567  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:19:55] "POST /v1/alert/trigger/ HTTP/1.1 200 655" 0.037906  Alertmanager/0.22.2
+2021/08/15 18:19:56.799  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:19:56] "POST /v1/alert/trigger/ HTTP/1.1 200 1288" 0.027638  Alertmanager/0.22.2
+2021/08/15 18:22:25.358  [I] [parser.go:413]  generate router from comments
+2021/08/15 18:22:25.373  [I] [server.go:208]  https server Running on https://:8888
+2021/08/15 18:23:25.621  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:23:25] "POST /v1/alert/trigger/ HTTP/1.1 200 647" 0.071227  Alertmanager/0.22.2
+2021/08/15 18:23:26.847  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:23:26] "POST /v1/alert/trigger/ HTTP/1.1 200 1279" 0.072557  Alertmanager/0.22.2
+2021/08/15 18:24:25.527  [I] [parser.go:413]  generate router from comments
+2021/08/15 18:24:25.537  [I] [server.go:208]  https server Running on https://:8888
+2021/08/15 18:25:25.574  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:25:25] "POST /v1/alert/trigger/ HTTP/1.1 200 655" 0.032579  Alertmanager/0.22.2
+2021/08/15 18:25:26.843  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:25:26] "POST /v1/alert/trigger/ HTTP/1.1 200 1288" 0.068926  Alertmanager/0.22.2
+2021/08/15 18:26:06.962  [M] [router.go:1014]  10.0.0.2 - - [15/Aug/2021 06:26:06] "POST /v1/alert/trigger/ HTTP/1.1 200 1280" 0.155262  Alertmanager/0.22.2

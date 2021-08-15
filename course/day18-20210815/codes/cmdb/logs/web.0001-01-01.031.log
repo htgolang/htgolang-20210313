@@ -1,0 +1,7 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:60619: remote error: tls: unknown certificate
+2021/08/15 09:40:52.649  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:40:52] "GET /asset/query HTTP/2.0 200 0" 0.008805  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:40:53.760  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:40:53] "GET /asset/query HTTP/2.0 200 0" 0.018878  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:40:55.129  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /prometheusAgent/query HTTP/2.0 404 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:40:55.140  [M] [router.go:1014]  ::1 - - [15/Aug/2021 09:40:55] "GET /prometheusAgent/query HTTP/2.0 404 0" 0.015639 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 09:44:03.081  [I] [parser.go:413]  generate router from comments
+2021/08/15 09:44:03.088  [I] [server.go:208]  https server Running on https://:8888

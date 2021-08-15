@@ -1,0 +1,7 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:63394: remote error: tls: unknown certificate
+2021/08/08 17:07:23.733  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:07:23] "GET /v1/agent/heartbeat HTTP/2.0 200 0" 0.014005  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/08 17:07:31.506  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:07:31] "POST /v1/agent/heartbeat HTTP/1.1 200 9" 0.000999  Go-http-client/1.1
+2021/08/08 17:08:00.357  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:08:00] "POST /v1/agent/heartbeat HTTP/1.1 200 9" 0.018397  Go-http-client/1.1
+2021/08/08 17:08:07.176  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:08:07] "POST /v1/agent/heartbeat HTTP/1.1 200 9" 0.004220  Go-http-client/1.1
+2021/08/08 17:08:58.360  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:08:58] "POST /v1/agent/heartbeat HTTP/1.1 200 9" 0.004536  Go-http-client/1.1
+2021/08/08 17:09:23.703  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:09:23] "POST /v1/agent/heartbeat HTTP/1.1 200 9" 0.020904  Go-http-client/1.1

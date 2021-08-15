@@ -1,0 +1,76 @@
+<div class="row">
+    <div class="col-4 offset-4">
+        {{ range $k, $v := .errors.default }}
+        <div style="color:red;">{{ $v }}</div>
+    {{ end }}
+    <form action="{{ urlfor `UserController.Modify` }}" method="POST">
+        <input type="hidden" name="id" value="{{ .form.Id }}" />
+        <div class="form-group row">
+            <label class="col-form-label col-2">用户名: </label>
+            <div class="col-8">
+                <input type="input" class="form-control {{ if .errors.name }}is-invalid{{ end }}" name="name" placeholder="用户名" value="{{ .form.Name }}" />
+                {{ range $k, $v := .errors.name }}
+                    <div class="invalid-feedback">{{ $v }}</div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">性别:</label>
+            <div class="col-8">
+                <input type="radio" name="sex" value="1" {{ if eq .form.Sex 1 }}checked="checked"{{end}}/> <label>男</label>
+                <input type="radio" name="sex" value="0" {{ if eq .form.Sex 0 }}checked="checked"{{end}}/> <label>女</label>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">生日: </label>
+            <div class="col-8">
+            <input type="date" class="form-control {{ if .errors.birthday }}is-invalid{{ end }}" name="birthday" placeholder="生日" value="{{ .form.Birthday }}" />
+            {{ range $k, $v := .errors.birthday }}
+                <div class="invalid-feedback">{{ $v }}</div>
+            {{ end }}
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">电话号码: </label>
+            <div class="col-8">
+                <input type="input" class="form-control {{ if .errors.telephone }}is-invalid{{ end }}" name="telephone" placeholder="电话号码" value="{{ .form.Telephone }}" />
+                {{ range $k, $v := .errors.telephone }}
+                    <div class="invalid-feedback">{{ $v }}</div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">Email: </label>
+            <div class="col-8">
+                <input type="input" class="form-control {{ if .errors.email }}is-invalid{{ end }}" name="email" placeholder="邮箱" value="{{ .form.Email }}" />
+                {{ range $k, $v := .errors.email }}
+                    <div class="invalid-feedback">{{ $v }}</div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">住址: </label>
+            <div class="col-8">
+                <input type="input" class="form-control {{ if .errors.addr }}is-invalid{{ end }}" name="addr" placeholder="住址" value="{{ .form.Addr }}" />
+                {{ range $k, $v := .errors.addr }}
+                    <div class="invalid-feedback">{{ $v }}</div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">描述: </label>
+            <div class="col-8">
+            <textarea class="form-control {{ if .errors.description }}is-invalid{{ end }}" name="description">{{ .form.Description }}</textarea>
+            {{ range $k, $v := .errors.description }}
+                <div class="invalid-feedback">{{ $v }}</div>
+            {{ end }}
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-10">
+                <input type="submit" class="btn btn-primary float-right" value="修改" />
+            </div>
+        </div>
+    </form>
+</div>
+</div>

@@ -1,0 +1,9 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:64028: remote error: tls: unknown certificate
+2021/08/15 18:47:59.038  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET / HTTP/2.0 302 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:47:59.060  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:47:58] "GET / HTTP/2.0 302 0" 0.070470  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:47:59.123  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:47:59] "GET /user/query HTTP/2.0 200 0" 0.048935  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:48:00.681  [D] [template.go:71]  template Execute err: template: prometheus/agent/query.html:24:22: executing "prometheus/agent/query.html" at <.IsHealthy>: can't evaluate field IsHealthy in type models.PrometheusAlert
+2021/08/15 18:48:00.703  [E] [router.go:896]  template: prometheus/agent/query.html:24:22: executing "prometheus/agent/query.html" at <.IsHealthy>: can't evaluate field IsHealthy in type models.PrometheusAlert
+2021/08/15 18:48:00.704  [M] [router.go:1014]  ::1 - - [15/Aug/2021 06:48:00] "GET /prometheusalert/query HTTP/2.0 200 0" 0.097060 https://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 18:48:34.140  [I] [parser.go:413]  generate router from comments
+2021/08/15 18:48:34.150  [I] [server.go:208]  https server Running on https://:8888

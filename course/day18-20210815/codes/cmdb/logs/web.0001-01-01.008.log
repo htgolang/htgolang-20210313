@@ -1,0 +1,3 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:60758: remote error: tls: bad certificate
+2021/08/08 17:06:44.631  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "POST /v1/heartbeat HTTP/1.1 404 9" 0.000000  Go-http-client/1.1
+2021/08/08 17:06:44.633  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:06:44] "POST /v1/heartbeat HTTP/1.1 404 9" 0.002703  Go-http-client/1.1

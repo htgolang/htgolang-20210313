@@ -1,0 +1,4 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:60646: remote error: tls: unknown certificate
+2021/08/08 17:04:04.358  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET / HTTP/2.0 302 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+2021/08/08 17:04:04.360  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:04:04] "GET / HTTP/2.0 302 0" 0.004653  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+2021/08/08 17:04:04.386  [M] [router.go:1014]  ::1 - - [08/Aug/2021 05:04:04] "GET /auth/login HTTP/2.0 200 0" 0.009965  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36

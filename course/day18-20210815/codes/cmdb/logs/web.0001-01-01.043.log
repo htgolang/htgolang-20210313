@@ -1,0 +1,7 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:53893: remote error: tls: unknown certificate
+2021/08/15 10:41:59.342  [M] [router.go:1014]  ::1 - - [15/Aug/2021 10:41:59] "POST /prometheusagent/modify HTTP/2.0 200 15" 0.086513 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 10:42:06.009  [M] [router.go:1014]  ::1 - - [15/Aug/2021 10:42:05] "POST /prometheusagent/modify HTTP/2.0 200 18" 0.056715 https://localhost:8888/prometheusagent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 10:42:17.716  [M] [router.go:1014]  ::1 - - [15/Aug/2021 10:42:17] "POST /prometheusagent/modify HTTP/2.0 200 25" 0.073035 https://localhost:8888/prometheusagent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 10:42:25.006  [M] [router.go:1014]  ::1 - - [15/Aug/2021 10:42:24] "GET /prometheusagent/query HTTP/2.0 200 0" 0.029493 https://localhost:8888/prometheusagent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 10:44:51.771  [I] [parser.go:413]  generate router from comments
+2021/08/15 10:44:51.774  [I] [server.go:208]  https server Running on https://:8888

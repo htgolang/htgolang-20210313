@@ -1,0 +1,37 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:54018: remote error: tls: unknown certificate
+2021/08/15 10:49:51.017  [C] [config.go:190]  the request url is  /prometheusagent/query
+2021/08/15 10:49:51.043  [C] [config.go:191]  Handler crashed with error unknown field/column name `DeletedAt__null`
+2021/08/15 10:49:51.044  [C] [config.go:197]  C:/Program Files/Go/src/runtime/panic.go:965
+2021/08/15 10:49:51.049  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db_tables.go:368
+2021/08/15 10:49:51.054  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db.go:1024
+2021/08/15 10:49:51.056  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm_queryset.go:244
+2021/08/15 10:49:51.057  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/services/prometheus.go:65
+2021/08/15 10:49:51.057  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/controllers/prometheus.go:19
+2021/08/15 10:49:51.058  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:476
+2021/08/15 10:49:51.059  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:337
+2021/08/15 10:49:51.059  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/08/15 10:49:51.061  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/08/15 10:49:51.061  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/08/15 10:49:51.061  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:2887
+2021/08/15 10:49:51.063  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:3459
+2021/08/15 10:49:51.063  [C] [config.go:197]  C:/Program Files/Go/src/net/http/h2_bundle.go:5723
+2021/08/15 10:49:51.064  [C] [config.go:197]  C:/Program Files/Go/src/runtime/asm_amd64.s:1371
+2021/08/15 10:49:52.048  [C] [config.go:190]  the request url is  /prometheusagent/query
+2021/08/15 10:49:52.056  [C] [config.go:191]  Handler crashed with error unknown field/column name `DeletedAt__null`
+2021/08/15 10:49:52.058  [C] [config.go:197]  C:/Program Files/Go/src/runtime/panic.go:965
+2021/08/15 10:49:52.058  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db_tables.go:368
+2021/08/15 10:49:52.060  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db.go:1024
+2021/08/15 10:49:52.061  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm_queryset.go:244
+2021/08/15 10:49:52.063  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/services/prometheus.go:65
+2021/08/15 10:49:52.067  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/controllers/prometheus.go:19
+2021/08/15 10:49:52.072  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:476
+2021/08/15 10:49:52.077  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:337
+2021/08/15 10:49:52.078  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/08/15 10:49:52.079  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/08/15 10:49:52.080  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/08/15 10:49:52.082  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:2887
+2021/08/15 10:49:52.082  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:3459
+2021/08/15 10:49:52.083  [C] [config.go:197]  C:/Program Files/Go/src/net/http/h2_bundle.go:5723
+2021/08/15 10:49:52.083  [C] [config.go:197]  C:/Program Files/Go/src/runtime/asm_amd64.s:1371
+2021/08/15 10:50:14.591  [I] [parser.go:413]  generate router from comments
+2021/08/15 10:50:14.597  [I] [server.go:208]  https server Running on https://:8888

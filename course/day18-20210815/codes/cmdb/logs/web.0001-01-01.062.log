@@ -1,0 +1,19 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:53212: remote error: tls: unknown certificate
+2021/08/15 12:12:51.631  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:12:51] "GET /prometheusagent/query HTTP/2.0 200 0" 0.041257 https://localhost:8888/prometheusagent/modify?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 12:12:53.003  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:12:52] "GET /prometheusagent/modify?id=1 HTTP/2.0 200 0" 0.027991 https://localhost:8888/prometheusagent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021/08/15 12:12:53.588  [C] [config.go:190]  the request url is  /v1/agent/config/
+2021/08/15 12:12:53.589  [C] [config.go:191]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2021/08/15 12:12:53.590  [C] [config.go:197]  C:/Program Files/Go/src/runtime/panic.go:965
+2021/08/15 12:12:53.590  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:120
+2021/08/15 12:12:53.590  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:137
+2021/08/15 12:12:53.591  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:134
+2021/08/15 12:12:53.591  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/services/prometheus.go:95
+2021/08/15 12:12:53.592  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day18-20210815/codes/cmdb/controllers/apis/v1/agent.go:46
+2021/08/15 12:12:53.592  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:476
+2021/08/15 12:12:53.593  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:337
+2021/08/15 12:12:53.593  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/08/15 12:12:53.593  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/08/15 12:12:53.594  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/08/15 12:12:53.594  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:2887
+2021/08/15 12:12:53.596  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:1952
+2021/08/15 12:12:53.598  [C] [config.go:197]  C:/Program Files/Go/src/runtime/asm_amd64.s:1371

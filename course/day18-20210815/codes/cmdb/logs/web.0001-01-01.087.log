@@ -1,0 +1,3 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:59454: remote error: tls: unknown certificate
+2021/08/15 16:23:13.586  [M] [router.go:1014]  ::1 - - [15/Aug/2021 04:23:13] "GET /v1/agent/config/?uuid=54c5b5660d8d4962b86315575d42e5bb&version= HTTP/1.1 200 0" 0.001287  Go-http-client/1.1
+2021/08/15 16:23:13.616  [M] [router.go:1014]  ::1 - - [15/Aug/2021 04:23:13] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.030670  Go-http-client/1.1

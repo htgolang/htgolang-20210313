@@ -1,0 +1,2 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/08/15 12:12:43.653  [M] [router.go:1014]  ::1 - - [15/Aug/2021 12:12:43] "POST /v1/agent/heartbeat/ HTTP/1.1 200 60" 0.060802  Go-http-client/1.1

@@ -1,0 +1,10 @@
+
+server:
+  addr: https://localhost:8888/v1
+  token: 820923a1a2dad74e8d279c48b8a1160c
+
+prometheus:
+  tpl_file: ./etc/conf/prometheus.yaml
+  config_file: ./tmp/prometheus.yml
+  prom_tool: /opt/prometheus/prometheus_server/promtool
+  reload_cmd: systemctl reload prometheus-server
