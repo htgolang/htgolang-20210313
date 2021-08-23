@@ -1,0 +1,5 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:64357: remote error: tls: unknown certificate
+2021/08/22 14:44:53.354  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:44:53] "POST /asset/config HTTP/2.0 200 72" 0.067977 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:44:59.436  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:44:59.436668 +0800 CST m=+0.058670401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:45:00.647  [I] [parser.go:413]  generate router from comments
+2021/08/22 14:45:00.651  [I] [server.go:208]  https server Running on https://:8888

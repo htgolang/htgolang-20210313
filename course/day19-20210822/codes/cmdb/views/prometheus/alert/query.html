@@ -1,0 +1,79 @@
+<div class="mb-1">
+    <div class="float-right">
+        <form class="form-inline" action="{{ urlfor `PrometheusAlertController.Query`}}" method="GET">
+            <label class="sr-only">查询内容: </label>
+            <input type="text" class="form-control form-control-sm mr-2" value="{{ .q }}" placeholder="查询" name="q"/>
+            <input type="submit" class="btn btn-info btn-sm" value="查询" />
+        </form>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<table class="table table-bordered table-sm table-striped table-hover">
+    <thead>
+        <tr>
+            <th>主机</th>
+            <th>告警时间(恢复时间)</th>
+            <th>告警名称</th>
+            <th>告警状态</th>
+            <th>告警描述</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .objects }}
+        <tr>
+            <td><a href="{{ .GeneratorURL }}" target="_blank">{{ .Instance }}</a></td>
+            <td>
+                {{ date .StartsAt "Y-m-d H:i:s" }}
+                {{ if eq 1 .Status }}
+                    ({{ date .EndsAt "Y-m-d H:i:s" }})
+                {{ end }}
+            </td>
+            <td>{{ .Name }}</td>
+            <td>{{ .Severity }}</td>
+            <td>{{ .Description }}</td>
+            <td>
+                {{ if eq 1 .Status }}
+                    已解决
+                {{ else }}
+                    已触发
+                {{ end }}
+            </td>
+            <td>
+                <a class="btn btn-sm btn-warning" href="{{ urlfor `PrometheusAlertController.Modify` }}?id={{ .Id }}">编辑</a>
+                <a class="btn btn-sm btn-danger" href="{{ urlfor `PrometheusAlertController.Delete` }}?id={{ .Id }}">删除</a>
+            </td>
+        </tr>
+        {{ else }}
+        <tr>
+            <td colspan="6">暂无数据</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
+{{ if .paginator.HasPages }}
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-end">
+        <li class="page-item {{if not .paginator.HasPrev }}disabled{{ end }}">
+            <a class="page-link" href="{{ .paginator.PageLinkFirst }}">首页</a>
+        </li>
+        <li class="page-item {{if not .paginator.HasPrev }}disabled{{ end }}">
+            <a class="page-link" href="{{ .paginator.PageLinkPrev }}">上一页</a>
+        </li>
+
+        {{ range $index, $page := .paginator.Pages}}
+        <li class="page-item {{ if $.paginator.IsActive $page }}active{{ end }}">
+            <a class="page-link" href="{{ $.paginator.PageLink $page }}">{{ $page }}</a>
+        </li>
+        {{ end }}
+
+        <li class="page-item {{if not .paginator.HasNext }}disabled{{ end }}">
+            <a class="page-link" href="{{ .paginator.PageLinkNext }}">下一页</a>
+        </li>
+        <li class="page-item {{if not .paginator.HasNext }}disabled{{ end }}">
+            <a class="page-link" href="{{ .paginator.PageLinkLast }}">最后一页</a>
+        </li>
+    </ul>
+</nav>
+{{ end }}

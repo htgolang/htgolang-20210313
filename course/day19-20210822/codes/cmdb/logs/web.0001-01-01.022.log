@@ -1,0 +1,5 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:49684: EOF
+2021/08/22 14:52:40.134  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:52:40] "GET /asset/query HTTP/2.0 200 0" 0.042674 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:52:40.957  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:52:40] "GET /asset/query HTTP/2.0 200 0" 0.045998 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:52:56.771  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:52:56.7710829 +0800 CST m=+60.120125501, prevTime: 2021-08-22 14:51:56.7701536 +0800 CST m=+0.119196201
+2021/08/22 14:52:56.772  [I] [asset.go:56]  sync asset info: []*utils.IPRange{(*utils.IPRange)(0xc000524040), (*utils.IPRange)(0xc000524080)}, []string{"8888", "22"}

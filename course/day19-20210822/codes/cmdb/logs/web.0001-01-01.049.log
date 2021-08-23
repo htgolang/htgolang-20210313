@@ -1,0 +1,26 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 10.0.0.1:54879: EOF
+2021/08/22 15:03:59.805  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:03:59] "GET /asset/scan HTTP/2.0 302 0" 0.013049 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:03:59.873  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:03:59] "GET /asset/query HTTP/2.0 200 0" 0.046358 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:04:00.706  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:04:00] "GET /asset/query HTTP/2.0 200 0" 0.021851 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:04:00.803  [D] [log.go:336]  test connect: 10.0.0.5[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.6[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.9[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.10[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.7[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.8[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.2[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.3[8888](false)
+2021/08/22 15:04:00.804  [D] [log.go:336]  test connect: 10.0.0.4[8888](false)
+2021/08/22 15:04:01.040  [D] [log.go:336]  test connect: 10.0.0.2[22](true)
+2021/08/22 15:04:01.202  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:04:01] "GET /asset/query HTTP/2.0 200 0" 0.045911 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:04:01.548  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:04:01] "GET /asset/query HTTP/2.0 200 0" 0.064764 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:04:01.912  [D] [log.go:336]  test connect: 10.0.0.5[22](false)
+2021/08/22 15:04:01.993  [D] [log.go:336]  test connect: 10.0.0.6[22](false)
+2021/08/22 15:04:01.994  [D] [log.go:336]  test connect: 10.0.0.9[22](false)
+2021/08/22 15:04:01.995  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:04:01] "GET /asset/query HTTP/2.0 200 0" 0.034710 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:04:02.016  [D] [log.go:336]  test connect: 10.0.0.10[22](false)
+2021/08/22 15:04:02.021  [D] [log.go:336]  test connect: 10.0.0.7[22](false)
+2021/08/22 15:04:02.036  [D] [log.go:336]  test connect: 10.0.0.8[22](false)
+2021/08/22 15:04:02.127  [D] [log.go:336]  test connect: 10.0.0.3[22](false)
+2021/08/22 15:04:02.127  [D] [log.go:336]  test connect: 10.0.0.4[22](false)
+2021/08/22 15:04:02.275  [D] [log.go:336]  test connect: 127.0.0.1[8888](true)

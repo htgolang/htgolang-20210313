@@ -1,0 +1,5 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:53304: EOF
+2021/08/22 14:52:26.770  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:52:26.7706614 +0800 CST m=+30.119704001, prevTime: 2021-08-22 14:51:56.7701536 +0800 CST m=+0.119196201
+2021/08/22 14:52:29.773  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:52:29] "GET /asset/query HTTP/2.0 200 0" 0.034681 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:52:30.422  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /asset/scan HTTP/2.0 302 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:52:30.422  [D] [log.go:336]  test connect: 10.0.0.1[8888](true)

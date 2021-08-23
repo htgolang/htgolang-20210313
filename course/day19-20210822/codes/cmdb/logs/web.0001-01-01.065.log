@@ -1,0 +1,63 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:54708: EOF
+2021/08/22 15:24:33.767  [D] [log.go:336]  test connect: 192.168.0.3[8888](false)
+2021/08/22 15:24:33.768  [D] [log.go:336]  test connect: 10.0.0.250[8888](false)
+2021/08/22 15:24:33.768  [D] [log.go:336]  test connect: 10.0.0.252[8888](false)
+2021/08/22 15:24:33.768  [D] [log.go:336]  test connect: 10.0.0.251[8888](false)
+2021/08/22 15:24:33.769  [D] [log.go:336]  test connect: 10.0.0.253[8888](false)
+2021/08/22 15:24:33.769  [D] [log.go:336]  test connect: 10.0.0.255[8888](false)
+2021/08/22 15:24:33.769  [D] [log.go:336]  test connect: 10.0.0.254[8888](false)
+2021/08/22 15:24:33.770  [D] [log.go:336]  test connect: 192.168.0.1[8888](false)
+2021/08/22 15:24:33.770  [D] [log.go:336]  test connect: 192.168.0.2[8888](false)
+2021/08/22 15:24:34.769  [D] [log.go:336]  test connect: 192.168.0.3[22](false)
+2021/08/22 15:24:34.772  [D] [log.go:336]  test connect: 10.0.0.250[22](false)
+2021/08/22 15:24:34.774  [D] [log.go:336]  test connect: 10.0.0.251[22](false)
+2021/08/22 15:24:34.774  [D] [log.go:336]  test connect: 10.0.0.252[22](false)
+2021/08/22 15:24:34.775  [D] [log.go:336]  test connect: 10.0.0.253[22](false)
+2021/08/22 15:24:34.777  [D] [log.go:336]  test connect: 10.0.0.255[22](false)
+2021/08/22 15:24:34.792  [D] [log.go:336]  test connect: 10.0.0.254[22](false)
+2021/08/22 15:24:34.795  [D] [log.go:336]  test connect: 192.168.0.2[22](false)
+2021/08/22 15:24:34.795  [D] [log.go:336]  test connect: 192.168.0.1[22](false)
+2021/08/22 15:24:35.797  [D] [log.go:336]  test connect: 192.168.0.9[8888](false)
+2021/08/22 15:24:35.797  [D] [log.go:336]  test connect: 192.168.0.8[8888](false)
+2021/08/22 15:24:35.797  [D] [log.go:336]  test connect: 192.168.0.4[8888](false)
+2021/08/22 15:24:35.797  [D] [log.go:336]  test connect: 192.168.0.7[8888](false)
+2021/08/22 15:24:35.797  [D] [log.go:336]  test connect: 192.168.0.10[8888](false)
+2021/08/22 15:24:35.797  [D] [log.go:336]  test connect: 192.168.0.6[8888](false)
+2021/08/22 15:24:35.797  [D] [log.go:336]  test connect: 192.168.0.5[8888](false)
+2021/08/22 15:24:36.799  [D] [log.go:336]  test connect: 192.168.0.8[22](false)
+2021/08/22 15:24:36.799  [D] [log.go:336]  test connect: 192.168.0.9[22](false)
+2021/08/22 15:24:36.800  [D] [log.go:336]  test connect: 192.168.0.4[22](false)
+2021/08/22 15:24:36.801  [D] [log.go:336]  test connect: 192.168.0.7[22](false)
+2021/08/22 15:24:36.806  [D] [log.go:336]  test connect: 192.168.0.6[22](false)
+2021/08/22 15:24:36.806  [D] [log.go:336]  test connect: 192.168.0.10[22](false)
+2021/08/22 15:24:36.813  [D] [log.go:336]  test connect: 192.168.0.5[22](false)
+2021/08/22 15:24:36.813  [I] [log.go:331]  sync asset elasped: 54.7355548s
+2021/08/22 15:24:53.021  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:24:52] "GET /asset/config HTTP/2.0 200 0" 0.030445 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:24:53.227  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:24:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.032676  Alertmanager/0.22.2
+2021/08/22 15:24:55.852  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:24:55.8520436 +0800 CST m=+90.068513301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:25:25.852  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:25:25.8524784 +0800 CST m=+120.068948101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:25:55.852  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:25:55.8524956 +0800 CST m=+150.068965301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:26:25.852  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:26:25.8524994 +0800 CST m=+180.068969101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:26:55.853  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:26:55.8532926 +0800 CST m=+210.069762301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:27:25.854  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:27:25.854538 +0800 CST m=+240.071007701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:27:53.196  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:27:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006158  Alertmanager/0.22.2
+2021/08/22 15:27:55.862  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:27:55.8621606 +0800 CST m=+270.078630301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:28:25.859  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:28:25.859931 +0800 CST m=+300.076400701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:28:55.853  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:28:55.8531363 +0800 CST m=+330.069606001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:29:25.857  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:29:25.8575444 +0800 CST m=+360.074014101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:29:55.853  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:29:55.8533398 +0800 CST m=+390.069809501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:30:25.859  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:30:25.8596115 +0800 CST m=+420.076081201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:30:53.198  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:30:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.009517  Alertmanager/0.22.2
+2021/08/22 15:30:55.853  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:30:55.8533099 +0800 CST m=+450.069779601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:31:25.861  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:31:25.8613511 +0800 CST m=+480.077820801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:31:55.852  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:31:55.8528351 +0800 CST m=+510.069304801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:32:25.866  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:32:25.8655123 +0800 CST m=+540.081982001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:32:55.852  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:32:55.8528805 +0800 CST m=+570.069350201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:33:25.857  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:33:25.8576486 +0800 CST m=+600.074118301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:33:53.190  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:33:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002950  Alertmanager/0.22.2
+2021/08/22 15:33:55.853  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:33:55.8539788 +0800 CST m=+630.070448501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:34:25.864  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:34:25.8643147 +0800 CST m=+660.080784401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:34:55.852  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:34:55.8526589 +0800 CST m=+690.069128601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:35:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:35:32.7276576 +0800 CST m=+0.096597501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:35:34.921  [I] [parser.go:413]  generate router from comments
+2021/08/22 15:35:34.925  [I] [server.go:208]  https server Running on https://:8888

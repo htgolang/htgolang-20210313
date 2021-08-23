@@ -1,0 +1,5 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:50848: EOF
+2021/08/22 14:45:53.117  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 02:45:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003129  Alertmanager/0.22.2
+2021/08/22 14:45:59.437  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:45:59.4370419 +0800 CST m=+60.059044301, prevTime: 2021-08-22 14:45:29.4380763 +0800 CST m=+30.060078701
+2021/08/22 14:46:29.438  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:46:29.4384575 +0800 CST m=+90.060459901, prevTime: 2021-08-22 14:45:29.4380763 +0800 CST m=+30.060078701
+2021/08/22 14:46:29.439  [I] [asset.go:56]  sync asset info: []*utils.IPRange{(*utils.IPRange)(0xc000483000), (*utils.IPRange)(0xc000483040)}, []string{"8888", "22"}

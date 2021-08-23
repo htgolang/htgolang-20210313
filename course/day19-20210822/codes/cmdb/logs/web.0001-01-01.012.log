@@ -1,0 +1,10 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:63059: EOF
+2021/08/22 14:48:04.052  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:48:04] "GET /asset/query HTTP/2.0 200 0" 0.026991 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:48:11.342  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:48:11] "GET /asset/query HTTP/2.0 200 0" 0.021948 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:48:12.028  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:48:11] "GET /asset/query HTTP/2.0 200 0" 0.031143 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:48:12.466  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:48:12] "GET /asset/query HTTP/2.0 200 0" 0.030501 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:48:12.707  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:48:12] "GET /asset/query HTTP/2.0 200 0" 0.083223 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:48:29.438  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:48:29.4381778 +0800 CST m=+210.060180201, prevTime: 2021-08-22 14:47:59.4370346 +0800 CST m=+180.059037001
+2021/08/22 14:48:53.134  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 02:48:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.012917  Alertmanager/0.22.2
+2021/08/22 14:48:59.439  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:48:59.4397896 +0800 CST m=+240.061792001, prevTime: 2021-08-22 14:47:59.4370346 +0800 CST m=+180.059037001
+2021/08/22 14:48:59.451  [I] [asset.go:56]  sync asset info: []*utils.IPRange{(*utils.IPRange)(0xc000801840), (*utils.IPRange)(0xc000801880)}, []string{"8888", "22"}

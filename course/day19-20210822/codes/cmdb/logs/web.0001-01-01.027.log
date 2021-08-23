@@ -1,0 +1,4 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:63158: EOF
+2021/08/22 14:53:56.771  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:53:56.7716211 +0800 CST m=+120.120663701, prevTime: 2021-08-22 14:52:56.7710829 +0800 CST m=+60.120125501
+2021/08/22 14:53:56.771  [I] [asset.go:56]  sync asset info: []*utils.IPRange{(*utils.IPRange)(0xc000524040), (*utils.IPRange)(0xc000524080)}, []string{"8888", "22"}
+2021/08/22 14:53:56.772  [D] [log.go:336]  test connect: 10.0.0.1[8888](true)

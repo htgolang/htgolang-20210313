@@ -1,0 +1,18 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:51711: EOF
+2021/08/22 14:56:10.152  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:56:10] "GET /asset/query HTTP/2.0 200 0" 0.047288 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:56:11.610  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:56:11] "GET /asset/query HTTP/2.0 200 0" 0.046723 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:56:17.721  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:56:17.721227 +0800 CST m=+30.089295801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:56:26.087  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:56:26] "GET /asset/config HTTP/2.0 200 0" 0.015830 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:56:30.992  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:56:30] "GET /asset/query HTTP/2.0 200 0" 0.038325 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:56:47.721  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:56:47.7214393 +0800 CST m=+60.089508101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:57:17.722  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:57:17.722435 +0800 CST m=+90.090503801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:57:47.721  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:57:47.7216584 +0800 CST m=+120.089727201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:57:53.129  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 02:57:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005975  Alertmanager/0.22.2
+2021/08/22 14:58:17.721  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:58:17.7212618 +0800 CST m=+150.089330601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:58:47.722  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:58:47.7225508 +0800 CST m=+180.090619601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:59:17.721  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:59:17.7218313 +0800 CST m=+210.089900101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:59:47.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 14:59:47.7271924 +0800 CST m=+240.095261201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:00:17.722  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:00:17.7223463 +0800 CST m=+270.090415101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:00:39.070  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:00:39.0703159 +0800 CST m=+0.063304001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:00:40.461  [I] [parser.go:413]  generate router from comments
+2021/08/22 15:00:40.465  [I] [server.go:208]  https server Running on https://:8888

@@ -1,0 +1,21 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:59306: remote error: tls: unknown certificate
+2021/08/22 14:49:57.192  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:49:57] "GET /asset/query HTTP/2.0 200 0" 0.023449 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:49:58.004  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:49:57] "GET /asset/query HTTP/2.0 200 0" 0.016829 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:49:58.540  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:49:58] "GET /asset/query HTTP/2.0 200 0" 0.019032 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:50:17.499  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:50:17.49901 +0800 CST m=+30.065464601, prevTime: 2021-08-22 14:49:47.4979804 +0800 CST m=+0.064435001
+2021/08/22 14:50:31.567  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:50:31] "GET /asset/query HTTP/2.0 200 0" 0.029224 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:50:32.242  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:50:32] "GET /asset/query HTTP/2.0 200 0" 0.025515 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:50:32.452  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:50:32] "GET /asset/query HTTP/2.0 200 0" 0.034720 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:50:47.498  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:50:47.4980222 +0800 CST m=+60.064476801, prevTime: 2021-08-22 14:49:47.4979804 +0800 CST m=+0.064435001
+2021/08/22 14:50:47.550  [I] [asset.go:56]  sync asset info: []*utils.IPRange{(*utils.IPRange)(0xc000608100), (*utils.IPRange)(0xc000608140)}, []string{"8888", "22"}
+2021/08/22 14:50:47.602  [D] [log.go:336]  test connect: 10.0.0.1
+2021/08/22 14:50:47.665  [D] [log.go:336]  test connect: 10.0.0.2
+2021/08/22 14:50:47.786  [D] [log.go:336]  test connect: 10.0.0.3
+2021/08/22 14:50:47.924  [D] [log.go:336]  test connect: 10.0.0.4
+2021/08/22 14:50:48.060  [D] [log.go:336]  test connect: 10.0.0.5
+2021/08/22 14:50:48.141  [D] [log.go:336]  test connect: 10.0.0.6
+2021/08/22 14:50:48.190  [D] [log.go:336]  test connect: 10.0.0.7
+2021/08/22 14:50:48.267  [D] [log.go:336]  test connect: 10.0.0.8
+2021/08/22 14:50:48.292  [D] [log.go:336]  test connect: 10.0.0.9
+2021/08/22 14:50:48.342  [D] [log.go:336]  test connect: 10.0.0.10
+2021/08/22 14:50:48.362  [D] [log.go:336]  test connect: 127.0.0.1

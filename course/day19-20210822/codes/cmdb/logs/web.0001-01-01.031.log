@@ -1,0 +1,25 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:53097: remote error: tls: unknown certificate
+2021/08/22 14:54:19.990  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:54:19] "GET /asset/query HTTP/2.0 200 0" 0.033798 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:54:20.220  [D] [log.go:336]  test connect: 10.0.0.2[8888](false)
+2021/08/22 14:54:20.224  [D] [log.go:336]  test connect: 10.0.0.2[22](true)
+2021/08/22 14:54:21.300  [D] [log.go:336]  test connect: 10.0.0.3[8888](false)
+2021/08/22 14:54:22.302  [D] [log.go:336]  test connect: 10.0.0.3[22](false)
+2021/08/22 14:54:22.511  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:54:22] "GET /asset/query HTTP/2.0 200 0" 0.041345 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:54:23.313  [D] [log.go:336]  test connect: 10.0.0.4[8888](false)
+2021/08/22 14:54:24.317  [D] [log.go:336]  test connect: 10.0.0.4[22](false)
+2021/08/22 14:54:24.433  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:54:24] "GET /asset/query HTTP/2.0 200 0" 0.016597 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:54:25.054  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:54:25] "GET /asset/query HTTP/2.0 200 0" 0.018556 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:54:25.273  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:54:25] "GET /asset/query HTTP/2.0 200 0" 0.028623 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:54:25.336  [D] [log.go:336]  test connect: 10.0.0.5[8888](false)
+2021/08/22 14:54:26.526  [D] [log.go:336]  test connect: 10.0.0.5[22](false)
+2021/08/22 14:54:27.550  [D] [log.go:336]  test connect: 10.0.0.6[8888](false)
+2021/08/22 14:54:28.579  [D] [log.go:336]  test connect: 10.0.0.6[22](false)
+2021/08/22 14:54:29.593  [D] [log.go:336]  test connect: 10.0.0.7[8888](false)
+2021/08/22 14:54:30.594  [D] [log.go:336]  test connect: 10.0.0.7[22](false)
+2021/08/22 14:54:31.595  [D] [log.go:336]  test connect: 10.0.0.8[8888](false)
+2021/08/22 14:54:32.596  [D] [log.go:336]  test connect: 10.0.0.8[22](false)
+2021/08/22 14:54:33.596  [D] [log.go:336]  test connect: 10.0.0.9[8888](false)
+2021/08/22 14:54:34.600  [D] [log.go:336]  test connect: 10.0.0.9[22](false)
+2021/08/22 14:54:35.607  [D] [log.go:336]  test connect: 10.0.0.10[8888](false)
+2021/08/22 14:54:36.611  [D] [log.go:336]  test connect: 10.0.0.10[22](false)
+2021/08/22 14:54:36.619  [D] [log.go:336]  test connect: 127.0.0.1[8888](true)

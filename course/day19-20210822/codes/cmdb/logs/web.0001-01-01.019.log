@@ -1,0 +1,22 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 10.0.0.1:62252: EOF
+2021/08/22 14:52:18.506  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:52:18] "GET /asset/scan HTTP/2.0 302 0" 0.011991 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:52:18.569  [D] [log.go:336]  test connect: 10.0.0.2[8888](false)
+2021/08/22 14:52:18.571  [D] [log.go:336]  test connect: 10.0.0.2[22](false)
+2021/08/22 14:52:18.572  [D] [log.go:336]  test connect: 10.0.0.3[8888](false)
+2021/08/22 14:52:18.580  [D] [log.go:336]  test connect: 10.0.0.3[22](false)
+2021/08/22 14:52:18.585  [M] [router.go:1014]  ::1 - - [22/Aug/2021 02:52:18] "GET /asset/query HTTP/2.0 200 0" 0.051051 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 14:52:18.585  [D] [log.go:336]  test connect: 10.0.0.4[8888](false)
+2021/08/22 14:52:18.586  [D] [log.go:336]  test connect: 10.0.0.4[22](false)
+2021/08/22 14:52:18.588  [D] [log.go:336]  test connect: 10.0.0.5[8888](false)
+2021/08/22 14:52:18.591  [D] [log.go:336]  test connect: 10.0.0.5[22](false)
+2021/08/22 14:52:18.600  [D] [log.go:336]  test connect: 10.0.0.6[8888](false)
+2021/08/22 14:52:18.602  [D] [log.go:336]  test connect: 10.0.0.6[22](false)
+2021/08/22 14:52:18.610  [D] [log.go:336]  test connect: 10.0.0.7[8888](false)
+2021/08/22 14:52:18.660  [D] [log.go:336]  test connect: 10.0.0.7[22](false)
+2021/08/22 14:52:18.691  [D] [log.go:336]  test connect: 10.0.0.8[8888](false)
+2021/08/22 14:52:18.760  [D] [log.go:336]  test connect: 10.0.0.8[22](false)
+2021/08/22 14:52:18.839  [D] [log.go:336]  test connect: 10.0.0.9[8888](false)
+2021/08/22 14:52:18.843  [D] [log.go:336]  test connect: 10.0.0.9[22](false)
+2021/08/22 14:52:18.850  [D] [log.go:336]  test connect: 10.0.0.10[8888](false)
+2021/08/22 14:52:18.851  [D] [log.go:336]  test connect: 10.0.0.10[22](false)
+2021/08/22 14:52:18.853  [D] [log.go:336]  test connect: 127.0.0.1[8888](true)

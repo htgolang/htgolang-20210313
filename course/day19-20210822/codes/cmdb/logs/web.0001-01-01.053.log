@@ -1,0 +1,5 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:55044: EOF
+2021/08/22 15:05:08.586  [I] [log.go:331]  sync asset elasped: 2.0121843s
+2021/08/22 15:05:25.257  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:05:25.2572554 +0800 CST m=+0.061965501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:05:26.926  [I] [parser.go:413]  generate router from comments
+2021/08/22 15:05:26.933  [I] [server.go:208]  https server Running on https://:8888

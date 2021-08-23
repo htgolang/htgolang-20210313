@@ -1,0 +1,16 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:49807: EOF
+2021/08/22 14:49:17.904  [D] [asset.go:54]  check sync asset: true, now: 2021-08-22 14:49:17.9042999 +0800 CST m=+0.065824801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 14:49:17.910  [I] [asset.go:56]  sync asset info: []*utils.IPRange{(*utils.IPRange)(0xc000069d20), (*utils.IPRange)(0xc000069d60)}, []string{"8888", "22"}
+2021/08/22 14:49:17.913  [D] [log.go:336]  test connect: 10.0.0.1
+2021/08/22 14:49:17.922  [D] [log.go:336]  test connect: 10.0.0.2
+2021/08/22 14:49:17.988  [D] [log.go:336]  test connect: 10.0.0.3
+2021/08/22 14:49:17.992  [D] [log.go:336]  test connect: 10.0.0.4
+2021/08/22 14:49:17.994  [D] [log.go:336]  test connect: 10.0.0.5
+2021/08/22 14:49:17.997  [D] [log.go:336]  test connect: 10.0.0.6
+2021/08/22 14:49:18.004  [D] [log.go:336]  test connect: 10.0.0.7
+2021/08/22 14:49:18.007  [D] [log.go:336]  test connect: 10.0.0.8
+2021/08/22 14:49:18.009  [D] [log.go:336]  test connect: 10.0.0.9
+2021/08/22 14:49:18.020  [D] [log.go:336]  test connect: 10.0.0.10
+2021/08/22 14:49:18.024  [D] [log.go:336]  test connect: 127.0.0.1
+2021/08/22 14:49:19.635  [I] [parser.go:413]  generate router from comments
+2021/08/22 14:49:19.642  [I] [server.go:208]  https server Running on https://:8888

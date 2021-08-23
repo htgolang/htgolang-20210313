@@ -1,0 +1,162 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:60798: remote error: tls: unknown certificate
+2021/08/22 15:35:48.040  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:35:47] "POST /asset/config HTTP/2.0 200 53" 0.060302 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:35:51.047  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:35:50] "GET /asset/query HTTP/2.0 200 0" 0.082340 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:35:52.193  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /asset/scan HTTP/2.0 302 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:35:52.197  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:35:52] "GET /asset/scan HTTP/2.0 302 0" 0.031995 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:35:52.281  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:35:52] "GET /asset/query HTTP/2.0 200 0" 0.078074 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:35:53.194  [D] [log.go:336]  test connect: 127.0.0.1[1](false)
+2021/08/22 15:35:54.208  [D] [log.go:336]  test connect: 127.0.0.1[2](false)
+2021/08/22 15:35:55.271  [D] [log.go:336]  test connect: 127.0.0.1[3](false)
+2021/08/22 15:35:56.273  [D] [log.go:336]  test connect: 127.0.0.1[4](false)
+2021/08/22 15:35:57.273  [D] [log.go:336]  test connect: 127.0.0.1[5](false)
+2021/08/22 15:35:58.275  [D] [log.go:336]  test connect: 127.0.0.1[6](false)
+2021/08/22 15:35:59.276  [D] [log.go:336]  test connect: 127.0.0.1[7](false)
+2021/08/22 15:36:00.278  [D] [log.go:336]  test connect: 127.0.0.1[8](false)
+2021/08/22 15:36:01.280  [D] [log.go:336]  test connect: 127.0.0.1[9](false)
+2021/08/22 15:36:02.281  [D] [log.go:336]  test connect: 127.0.0.1[10](false)
+2021/08/22 15:36:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:36:02.7287965 +0800 CST m=+30.097736401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:36:03.283  [D] [log.go:336]  test connect: 127.0.0.1[11](false)
+2021/08/22 15:36:04.286  [D] [log.go:336]  test connect: 127.0.0.1[12](false)
+2021/08/22 15:36:05.292  [D] [log.go:336]  test connect: 127.0.0.1[13](false)
+2021/08/22 15:36:06.294  [D] [log.go:336]  test connect: 127.0.0.1[14](false)
+2021/08/22 15:36:07.295  [D] [log.go:336]  test connect: 127.0.0.1[15](false)
+2021/08/22 15:36:08.296  [D] [log.go:336]  test connect: 127.0.0.1[16](false)
+2021/08/22 15:36:09.297  [D] [log.go:336]  test connect: 127.0.0.1[17](false)
+2021/08/22 15:36:10.298  [D] [log.go:336]  test connect: 127.0.0.1[18](false)
+2021/08/22 15:36:11.300  [D] [log.go:336]  test connect: 127.0.0.1[19](false)
+2021/08/22 15:36:12.301  [D] [log.go:336]  test connect: 127.0.0.1[20](false)
+2021/08/22 15:36:12.308  [D] [log.go:336]  test connect: 127.0.0.1[21](true)
+2021/08/22 15:36:12.342  [I] [log.go:331]  sync asset elasped: 20.1486833s
+2021/08/22 15:36:27.628  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:36:27] "GET /asset/config HTTP/2.0 200 0" 0.009770 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:36:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:36:32.728151 +0800 CST m=+60.097090901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:36:47.295  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:36:47] "POST /asset/config HTTP/2.0 200 52" 0.051087 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:36:48.509  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:36:48] "GET /asset/query HTTP/2.0 200 0" 0.078239 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:36:49.629  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /asset/scan HTTP/2.0 302 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:36:49.630  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:36:49] "GET /asset/scan HTTP/2.0 302 0" 0.004376 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:36:49.707  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:36:49] "GET /asset/query HTTP/2.0 200 0" 0.071711 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:36:50.630  [D] [log.go:336]  test connect: 127.0.0.1[10](false)
+2021/08/22 15:36:51.631  [D] [log.go:336]  test connect: 127.0.0.1[11](false)
+2021/08/22 15:36:52.633  [D] [log.go:336]  test connect: 127.0.0.1[12](false)
+2021/08/22 15:36:53.197  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:36:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002213  Alertmanager/0.22.2
+2021/08/22 15:36:53.633  [D] [log.go:336]  test connect: 127.0.0.1[13](false)
+2021/08/22 15:36:54.635  [D] [log.go:336]  test connect: 127.0.0.1[14](false)
+2021/08/22 15:36:55.636  [D] [log.go:336]  test connect: 127.0.0.1[15](false)
+2021/08/22 15:36:56.638  [D] [log.go:336]  test connect: 127.0.0.1[16](false)
+2021/08/22 15:36:57.639  [D] [log.go:336]  test connect: 127.0.0.1[17](false)
+2021/08/22 15:36:58.641  [D] [log.go:336]  test connect: 127.0.0.1[18](false)
+2021/08/22 15:36:59.646  [D] [log.go:336]  test connect: 127.0.0.1[19](false)
+2021/08/22 15:37:00.648  [D] [log.go:336]  test connect: 127.0.0.1[20](false)
+2021/08/22 15:37:00.649  [D] [log.go:336]  test connect: 127.0.0.1[21](true)
+2021/08/22 15:37:00.651  [I] [log.go:331]  sync asset elasped: 11.0216125s
+2021/08/22 15:37:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:37:02.7281615 +0800 CST m=+90.097101401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:37:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:37:32.7278378 +0800 CST m=+120.096777701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:37:59.174  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:37:59] "GET /asset/config HTTP/2.0 200 0" 0.013821 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:38:02.740  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:38:02.7406216 +0800 CST m=+150.109561501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:38:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:38:32.7280599 +0800 CST m=+180.096999801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:39:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:39:02.7277358 +0800 CST m=+210.096675701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:39:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:39:32.728584 +0800 CST m=+240.097523901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:39:53.197  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:39:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004181  Alertmanager/0.22.2
+2021/08/22 15:40:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:40:02.728405 +0800 CST m=+270.097344901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:40:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:40:32.7292537 +0800 CST m=+300.098193601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:41:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:41:02.7283553 +0800 CST m=+330.097295201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:41:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:41:32.7284482 +0800 CST m=+360.097388101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:41:43.108  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:41:43] "POST /asset/config HTTP/2.0 200 51" 0.046892 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:41:44.700  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:41:44] "GET /asset/query HTTP/2.0 200 0" 0.071871 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:41:45.577  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /asset/scan HTTP/2.0 302 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:41:45.577  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:41:45] "GET /asset/scan HTTP/2.0 302 0" 0.014022 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:41:45.664  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:41:45] "GET /asset/query HTTP/2.0 200 0" 0.079512 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:41:46.579  [D] [log.go:336]  test connect: 10.0.0.3[10](false)
+2021/08/22 15:41:47.579  [D] [log.go:336]  test connect: 10.0.0.3[11](false)
+2021/08/22 15:41:48.580  [D] [log.go:336]  test connect: 10.0.0.3[12](false)
+2021/08/22 15:41:49.580  [D] [log.go:336]  test connect: 10.0.0.3[13](false)
+2021/08/22 15:41:50.582  [D] [log.go:336]  test connect: 10.0.0.3[14](false)
+2021/08/22 15:41:51.583  [D] [log.go:336]  test connect: 10.0.0.3[15](false)
+2021/08/22 15:41:52.584  [D] [log.go:336]  test connect: 10.0.0.3[16](false)
+2021/08/22 15:41:53.585  [D] [log.go:336]  test connect: 10.0.0.3[17](false)
+2021/08/22 15:41:54.585  [D] [log.go:336]  test connect: 10.0.0.3[18](false)
+2021/08/22 15:41:55.586  [D] [log.go:336]  test connect: 10.0.0.3[19](false)
+2021/08/22 15:41:56.587  [D] [log.go:336]  test connect: 10.0.0.3[20](false)
+2021/08/22 15:41:57.588  [D] [log.go:336]  test connect: 10.0.0.3[21](false)
+2021/08/22 15:41:58.599  [D] [log.go:336]  test connect: 10.0.0.3[22](false)
+2021/08/22 15:41:59.602  [D] [log.go:336]  test connect: 10.0.0.3[23](false)
+2021/08/22 15:42:00.604  [D] [log.go:336]  test connect: 10.0.0.3[24](false)
+2021/08/22 15:42:01.605  [D] [log.go:336]  test connect: 10.0.0.3[25](false)
+2021/08/22 15:42:02.606  [D] [log.go:336]  test connect: 10.0.0.3[26](false)
+2021/08/22 15:42:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:42:02.7278443 +0800 CST m=+390.096784201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:42:03.612  [D] [log.go:336]  test connect: 10.0.0.3[27](false)
+2021/08/22 15:42:04.613  [D] [log.go:336]  test connect: 10.0.0.3[28](false)
+2021/08/22 15:42:05.615  [D] [log.go:336]  test connect: 10.0.0.3[29](false)
+2021/08/22 15:42:06.617  [D] [log.go:336]  test connect: 10.0.0.3[30](false)
+2021/08/22 15:42:07.619  [D] [log.go:336]  test connect: 10.0.0.3[31](false)
+2021/08/22 15:42:08.623  [D] [log.go:336]  test connect: 10.0.0.3[32](false)
+2021/08/22 15:42:08.627  [I] [log.go:331]  sync asset elasped: 23.0503514s
+2021/08/22 15:42:13.755  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:42:13] "GET /asset/query HTTP/2.0 200 0" 0.078310 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:42:26.320  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:42:26] "GET /asset/query HTTP/2.0 200 0" 0.075943 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:42:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:42:32.7277649 +0800 CST m=+420.096704801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:42:53.197  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:42:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002007  Alertmanager/0.22.2
+2021/08/22 15:43:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:43:02.7277821 +0800 CST m=+450.096722001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:43:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:43:32.7278768 +0800 CST m=+480.096816701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:44:00.595  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /asset/scan HTTP/2.0 302 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:00.595  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:00] "GET /asset/scan HTTP/2.0 302 0" 0.005864 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:00.612  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:00] "GET /asset/query HTTP/2.0 200 0" 0.013953 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:01.595  [D] [log.go:336]  test connect: 10.0.0.3[10](false)
+2021/08/22 15:44:02.424  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:02] "GET /asset/query HTTP/2.0 200 0" 0.010307 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:02.596  [D] [log.go:336]  test connect: 10.0.0.3[11](false)
+2021/08/22 15:44:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:44:02.728806 +0800 CST m=+510.097745901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:44:02.997  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:02] "GET /asset/query HTTP/2.0 200 0" 0.003999 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:03.529  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:03] "GET /asset/query HTTP/2.0 200 0" 0.005527 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:03.625  [D] [log.go:336]  test connect: 10.0.0.3[12](false)
+2021/08/22 15:44:03.927  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:03] "GET /asset/query HTTP/2.0 200 0" 0.005184 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:04.324  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:04] "GET /asset/query HTTP/2.0 200 0" 0.019946 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:04.654  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:04] "GET /asset/query HTTP/2.0 200 0" 0.008949 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:04.723  [D] [log.go:336]  test connect: 10.0.0.3[13](false)
+2021/08/22 15:44:05.174  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:05] "GET /asset/query HTTP/2.0 200 0" 0.015223 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:05.600  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:05] "GET /asset/query HTTP/2.0 200 0" 0.005002 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:05.762  [D] [log.go:336]  test connect: 10.0.0.3[14](false)
+2021/08/22 15:44:06.193  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:06] "GET /asset/query HTTP/2.0 200 0" 0.006000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:06.395  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:06] "GET /asset/query HTTP/2.0 200 0" 0.015931 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:06.775  [D] [log.go:336]  test connect: 10.0.0.3[15](false)
+2021/08/22 15:44:06.798  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:06] "GET /asset/query HTTP/2.0 200 0" 0.003998 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:07.158  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:07] "GET /asset/query HTTP/2.0 200 0" 0.003997 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:07.547  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:07] "GET /asset/query HTTP/2.0 200 0" 0.034596 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:07.781  [D] [log.go:336]  test connect: 10.0.0.3[16](false)
+2021/08/22 15:44:07.890  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:07] "GET /asset/query HTTP/2.0 200 0" 0.024083 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:08.136  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:08] "GET /asset/query HTTP/2.0 200 0" 0.011522 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:08.631  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:08] "GET /asset/query HTTP/2.0 200 0" 0.009546 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:08.797  [D] [log.go:336]  test connect: 10.0.0.3[17](false)
+2021/08/22 15:44:08.932  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:08] "GET /asset/query HTTP/2.0 200 0" 0.007515 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:09.388  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:09] "GET /asset/query HTTP/2.0 200 0" 0.015747 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:09.800  [D] [log.go:336]  test connect: 10.0.0.3[18](false)
+2021/08/22 15:44:10.743  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:10] "GET /asset/query HTTP/2.0 200 0" 0.013603 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:10.814  [D] [log.go:336]  test connect: 10.0.0.3[19](false)
+2021/08/22 15:44:11.842  [D] [log.go:336]  test connect: 10.0.0.3[20](false)
+2021/08/22 15:44:12.236  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:12] "GET /asset/config HTTP/2.0 200 0" 0.009147 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:12.843  [D] [log.go:336]  test connect: 10.0.0.3[21](false)
+2021/08/22 15:44:13.844  [D] [log.go:336]  test connect: 10.0.0.3[22](false)
+2021/08/22 15:44:14.844  [D] [log.go:336]  test connect: 10.0.0.3[23](false)
+2021/08/22 15:44:15.844  [D] [log.go:336]  test connect: 10.0.0.3[24](false)
+2021/08/22 15:44:16.846  [D] [log.go:336]  test connect: 10.0.0.3[25](false)
+2021/08/22 15:44:17.848  [D] [log.go:336]  test connect: 10.0.0.3[26](false)
+2021/08/22 15:44:18.850  [D] [log.go:336]  test connect: 10.0.0.3[27](false)
+2021/08/22 15:44:19.851  [D] [log.go:336]  test connect: 10.0.0.3[28](false)
+2021/08/22 15:44:20.852  [D] [log.go:336]  test connect: 10.0.0.3[29](false)
+2021/08/22 15:44:21.853  [D] [log.go:336]  test connect: 10.0.0.3[30](false)
+2021/08/22 15:44:22.854  [D] [log.go:336]  test connect: 10.0.0.3[31](false)
+2021/08/22 15:44:23.334  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:23] "POST /asset/config HTTP/2.0 200 55" 0.061146 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:23.856  [D] [log.go:336]  test connect: 10.0.0.3[32](false)
+2021/08/22 15:44:23.856  [I] [log.go:331]  sync asset elasped: 23.2616685s
+2021/08/22 15:44:24.696  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:24] "GET /asset/query HTTP/2.0 200 0" 0.014221 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:25.727  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /asset/scan HTTP/2.0 302 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:25.738  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:25] "GET /asset/scan HTTP/2.0 302 0" 0.024090 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:25.737  [D] [log.go:336]  test connect: 10.0.0.2[22](true)
+2021/08/22 15:44:25.777  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:44:25] "GET /asset/query HTTP/2.0 200 0" 0.020232 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:44:26.726  [D] [log.go:336]  test connect: 10.0.0.9[22](false)
+2021/08/22 15:44:26.726  [D] [log.go:336]  test connect: 10.0.0.5[22](false)
+2021/08/22 15:44:26.727  [D] [log.go:336]  test connect: 10.0.0.3[22](false)
+2021/08/22 15:44:26.727  [D] [log.go:336]  test connect: 10.0.0.4[22](false)
+2021/08/22 15:44:26.727  [D] [log.go:336]  test connect: 10.0.0.8[22](false)
+2021/08/22 15:44:26.727  [D] [log.go:336]  test connect: 10.0.0.0[22](false)
+2021/08/22 15:44:26.727  [D] [log.go:336]  test connect: 10.0.0.1[22](false)
+2021/08/22 15:44:26.727  [D] [log.go:336]  test connect: 10.0.0.7[22](false)
+2021/08/22 15:44:26.727  [D] [log.go:336]  test connect: 10.0.0.6[22](false)
+2021/08/22 15:44:26.739  [D] [log.go:336]  test connect: 10.0.0.1[8888](true)

@@ -1,0 +1,48 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:53286: EOF
+2021/08/22 15:06:56.566  [I] [log.go:331]  sync asset elasped: 2.072926s
+2021/08/22 15:06:56.632  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:06:56] "GET /asset/query HTTP/2.0 200 0" 0.078635 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:06:57.034  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:06:56] "GET /asset/query HTTP/2.0 200 0" 0.064981 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:06:57.430  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:06:57] "GET /asset/query HTTP/2.0 200 0" 0.073234 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:07:01.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:07:01.7016015 +0800 CST m=+60.071308001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:07:31.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:07:31.7008754 +0800 CST m=+90.070581901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:08:01.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:08:01.7000275 +0800 CST m=+120.069734001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:08:31.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:08:31.7001374 +0800 CST m=+150.069843901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:09:01.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:09:01.7015924 +0800 CST m=+180.071298901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:09:31.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:09:31.7018457 +0800 CST m=+210.071552201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:09:53.140  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:09:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.012979  Alertmanager/0.22.2
+2021/08/22 15:10:01.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:10:01.7000706 +0800 CST m=+240.069777101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:10:31.709  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:10:31.7097991 +0800 CST m=+270.079505601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:11:01.704  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:11:01.7042165 +0800 CST m=+300.073923001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:11:31.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:11:31.7017374 +0800 CST m=+330.071443901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:12:01.742  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:12:01.7421964 +0800 CST m=+360.111902901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:12:31.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:12:31.7006392 +0800 CST m=+390.070345701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:12:53.148  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:12:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.019012  Alertmanager/0.22.2
+2021/08/22 15:13:01.717  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:13:01.7170394 +0800 CST m=+420.086745901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:13:31.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:13:31.7008829 +0800 CST m=+450.070589401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:14:01.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:14:01.7012167 +0800 CST m=+480.070923201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:14:31.712  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:14:31.7122319 +0800 CST m=+510.081938401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:15:01.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:15:01.7003753 +0800 CST m=+540.070081801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:15:31.702  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:15:31.7020421 +0800 CST m=+570.071748601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:15:53.187  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:15:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.045815  Alertmanager/0.22.2
+2021/08/22 15:16:01.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:16:01.7004173 +0800 CST m=+600.070123801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:16:31.705  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:16:31.7055743 +0800 CST m=+630.075280801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:17:01.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:17:01.7004956 +0800 CST m=+660.070202101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:17:31.709  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:17:31.7096162 +0800 CST m=+690.079322701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:18:01.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:18:01.7018547 +0800 CST m=+720.071561201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:18:31.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:18:31.7011873 +0800 CST m=+750.070893801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:18:53.205  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:18:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.018098  Alertmanager/0.22.2
+2021/08/22 15:19:01.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:19:01.7000004 +0800 CST m=+780.069706901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:19:31.711  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:19:31.7115646 +0800 CST m=+810.081271101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:20:01.706  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:20:01.7066911 +0800 CST m=+840.076397601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:20:31.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:20:31.7002354 +0800 CST m=+870.069941901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:21:01.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:21:01.700671 +0800 CST m=+900.070377501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:21:31.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:21:31.7015275 +0800 CST m=+930.071234001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:21:53.209  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:21:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.015880  Alertmanager/0.22.2
+2021/08/22 15:22:01.701  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:22:01.7014178 +0800 CST m=+960.071124301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:22:05.976  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:22:05] "GET /asset/config HTTP/2.0 200 0" 0.046724 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:22:31.700  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:22:31.7000785 +0800 CST m=+990.069785001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:22:45.530  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:22:45] "POST /asset/config HTTP/2.0 200 99" 0.052316 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:22:47.373  [M] [router.go:1014]  ::1 - - [22/Aug/2021 03:22:47] "GET /asset/query HTTP/2.0 200 0" 0.048072 https://localhost:8888/asset/config Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:22:48.517  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /asset/scan HTTP/2.0 302 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 15:22:48.518  [D] [log.go:336]  test connect: 0.0.0.0[8888](true)
+2021/08/22 15:22:48.519  [D] [log.go:336]  test connect: 0.0.0.0[8888](true)
