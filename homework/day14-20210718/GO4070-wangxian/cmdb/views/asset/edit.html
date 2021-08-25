@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col-4 offset-4">
+        <form action="/asset/edit/" method="POST">
+            <div>
+                <input type="text" name="id" value="{{ .Form.Id }}" hidden="">
+            </div>
+            <div class="form-group row">
+                <label class="col-2 col-form-label">IP</label>
+                <div class="col-6">
+                    <input class="form-control {{ if .ErrMsgs.ip }} is-invalid {{ end }}" type="text" name="ip" value="{{ .Form.Ip }}">
+                    {{ if .ErrMsgs.ip }}
+                        <div class="invalid-feedback">{{ index .ErrMsgs.ip 0 }}</div>
+                    {{ end }}
+                </div>
+                
+            </div>
+            <div class="form-group row">
+                <label class="col-2 col-form-label">位置</label>
+                <div class="col-6">
+                    <input class="form-control {{ if .ErrMsgs.addr }} is-invalid {{ end }}" type="text" name="addr" value="{{ .Form.Addr }}">
+                    {{ if .ErrMsgs.addr }}
+                    <div class="invalid-feedback">{{ index .ErrMsgs.addr 0 }}</div>
+                    {{ end }}
+                </div>
+            </div>
+    
+            {{ if .ErrMsg.asset }}
+            <div class="invalid-feedback">
+                
+                {{ index .ErrMsg.asset 0 }}
+            </div>
+            {{ end }}
+    
+            <div class="form-group row">
+                <div class="col-8">
+                    <input class="btn btn-primary float-right" type="submit" value="提交">
+                </div>
+            </div>
+            </form>
+    </div>
+</div>
+

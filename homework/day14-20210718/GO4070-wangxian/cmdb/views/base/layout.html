@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ .CurrentTitle }}</title>
+        <link rel="stylesheet" href="/static/bootstrap-4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/layout.css">
+        {{ .CssSection }}
+    </head>
+    <body>
+        {{ template "base/header.html" . }}
+        <div class="container-fluid">
+            {{ .LayoutContent }}
+            
+        </div>
+        {{ .JsSection }}
+    </body>
+</html>

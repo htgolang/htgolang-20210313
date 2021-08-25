@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col-4 offset-4">
+        {{ if .Success }}
+        <div style="color: green;">{{ .Success }}</div>
+        {{ end }}
+        <form action="/user/modifypw/" method="POST">
+        <div class="form-group row">
+            <label class="col-2 col-form-label">原密码</label>
+            <div class="col-6">
+                <input class="form-control {{ if .ErrMsgs.oldpassword }} is-invalid {{ end }}" type="password" name="oldpassword">
+                {{ if .ErrMsgs.oldpassword }}
+                    <div class="invalid-feedback">{{ index .ErrMsgs.oldpassword 0 }}</div>
+                {{ end }}
+            </div> 
+        </div>
+
+        <div class="form-group row">
+            <label class="col-2 col-form-label" for="">新密码</label>
+            <div class="col-6">
+                <input class="form-control {{ if .ErrMsgs.newpassword }} is-invalid {{ end }}" type="password" name="newpassword">
+                {{ if .ErrMsgs.newpassword }}
+                    <div class="invalid-feedback">{{ index .ErrMsgs.newpassword 0 }}</div>
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-2 col-form-label" for="">确认密码</label>
+            <div class="col-6">
+                <input class="form-control {{ if .ErrMsgs.confirmpw }} is-invalid {{ end }}" type="password" name="confirmpw">
+                {{ if .ErrMsgs.confirmpw }}
+                    <div class="invalid-feedback">{{ index .ErrMsgs.confirmpw 0 }}</div>
+                {{ end }}
+            </div>
+        </div>
+
+        {{ if .ErrMsg.userpassword }}
+            <div class="invalid-feedback">{{ index .ErrMsg.userpassword 0 }}</div>
+        {{ end }}
+
+        <div class="row">
+            <div class="col-8">
+                <input class="btn btn-primary float-right" type="submit" value="提交">
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+        

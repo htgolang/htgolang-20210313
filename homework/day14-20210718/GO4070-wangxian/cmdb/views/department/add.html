@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-4 offset-4">
+        <form action="/department/add/" method="POST">
+            <div class="form-group row">
+                <label class="col-2 col-form-label">部门名称</label>
+                <div class="col-6">
+                    <input class="form-control {{ if .ErrMsgs.name }} is-invalid {{ end }}" type="text" name="name">
+                    {{ if .ErrMsgs.name }}
+                    <div class="invalid-feedback">{{ index .ErrMsgs.name 0 }}</div>
+                    {{ end }}
+                </div>
+
+            </div>
+            {{ if .ErrMsgs.department }}
+            <div class="invalid-feedback">
+                {{ index .ErrMsgs.department 0 }}
+            </div>
+            {{ end }}
+
+            <div class="form-group row">
+                <div class="col-8">
+                    <input class="btn btn-primary float-right" type="submit" value="提交">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+

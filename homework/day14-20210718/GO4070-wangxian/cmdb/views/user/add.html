@@ -1,0 +1,126 @@
+
+            <div class="row">
+                <div class="col-4 offset-4">
+                    <form action="/user/add/" method="POST">
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">用户名</label>
+                            <div class="col-6">
+                                <input class="form-control {{ if .ErrMsgs.username }} is-invalid {{ end }}" type="text" name="username">
+                                {{ if .ErrMsgs.username }}
+                                <div class="invalid-feedback">
+                                    {{ index .ErrMsgs.username 0 }}
+                                </div>
+                                {{ end }}
+                            </div>
+                            
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-2 form-check-label">性别</label>
+                            <div class="col-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="sex" value="1" checked="">
+                                    <label class="form-check-label" for="">男</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="sex" value="0">
+                                    <label class="form-check-label" for="">女</label>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">生日</label>
+                            <div class="col-6">
+                                <input class="form-control {{ if .ErrMsgs.birthday }} is-invalid {{ end }}" type="date" name="birthday">
+                                {{ if .ErrMsgs.birthday }}
+                                <div class="invalid-feedback">
+                                    {{ index .ErrMsgs.birthday 0 }}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">手机</label>
+                            <div class="col-6">
+                                <input class="form-control {{ if .ErrMsgs.tel }} is-invalid {{ end }}" type="tel" name="tel">
+                                {{ if .ErrMsgs.tel }}
+                                <div class="invalid-feedback">
+                                    {{ index  .ErrMsgs.tel 0 }}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">邮箱</label>
+                            <div class="col-6">
+                                <input class="form-control {{ if  .ErrMsgs.email  }} is-invalid {{ end }}" type="text" name="email">
+                                {{ if  .ErrMsgs.email  }}
+                                    <div class="invalid-feedback">{{ index  .ErrMsgs.email 0 }}</div>
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">地址</label>
+                            <div class="col-6">
+                                <input class="form-control {{ if  .ErrMsgs.addr  }} is-invalid {{ end }}" type="text" name="addr">
+                                {{ if  .ErrMsgs.addr  }}
+                                    <div class="invalid-feedback">{{ index  .ErrMsgs.addr 0 }}</div>
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">角色</label>
+                            <div class="col-6">
+                                <select class="custom-select" name="roleid">
+                                    {{ range .Roles }}
+                                    <option value="{{ .Id }}">{{ .Name }}</option>
+                                    {{ else }}
+                                    <option value="4">测试</option>
+                                    {{ end }}
+                                </select>
+                            </div> 
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">密码</label>
+                            <div class="col-6">
+                                <input class="form-control {{ if  .ErrMsgs.password  }} is-invalid {{ end }}" type="password" name="password">
+                                {{ if  .ErrMsgs.password  }}
+                                    <div class="invalid-feedback">{{ index  .ErrMsgs.password 0 }}</div>
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label">确认密码</label>
+                            <div class="col-6">
+                                <input class="form-control {{ if  .ErrMsgs.confirmpw  }} is-invalid {{ end }}" type="password" name="confirmpw">
+                                {{ if  .ErrMsgs.confirmpw  }}
+                                    <div class="invalid-feedback">{{ index  .ErrMsgs.confirmpw 0 }}</div>
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-2 col-form-label" style="padding-bottom: 20px;">用户描述</label>
+                            <div class="col-6">
+                                <textarea class="form-control" name="description" cols="30" rows="5" maxlength="100" placeholder="用户描述信息"></textarea>
+                            </div>
+                        </div>
+            
+                        {{ if  .ErrMsgs.user  }}
+                        <div class="invalid-feedback">{{ index  .ErrMsgs.user 0 }}</div>
+                        {{ end }}
+            
+                        <div class="form-group row">
+                            <div class="col-8">
+                                <input class="btn btn-primary float-right" type="submit" value="提交">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>

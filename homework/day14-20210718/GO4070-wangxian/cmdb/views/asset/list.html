@@ -1,0 +1,43 @@
+
+<div class="row mb-2">
+    <div class="col-1">
+        <a href="/asset/add/" class="btn btn-sm btn-primary">新增</a>
+    </div>
+
+    <div class="col">
+        <form class="form-inline float-right" action="/asset/query/">
+            <label for="" class="sr-only">查询关键字</label>
+            <input class="form-control form-control-sm mr-2" type="text" name="q" placeholder="关键字">
+            <input type="submit" class="btn btn-sm btn-info" value="查询">
+        </form>
+    </div>
+</div>
+
+<table class="table table-sm table-borderless table-hover">
+    <thead class="table-primary">
+        <tr>
+            <th>ID</th>
+            <th>IP</th>
+            <th>位置</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Assets }}
+        <tr>
+            <td>{{ .Id }}</td>
+            <td>{{ .Ip }}</td>
+            <td>{{ .Addr }}</td>
+            <td>
+                <a class="btn btn-sm btn-warning" href="/asset/edit/?id={{ .Id }}">编辑</a>
+                <a class="btn btn-sm btn-danger" href="/asset/delete/?id={{ .Id }}">删除</a>
+            </td>
+        </tr>
+        {{ else }}
+        <tr>
+            <td colspan="4">暂无数据</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
