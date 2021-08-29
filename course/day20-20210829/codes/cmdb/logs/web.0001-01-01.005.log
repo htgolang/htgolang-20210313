@@ -1,0 +1,40 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:58359: remote error: tls: unknown certificate
+2021/08/29 16:14:02.410  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:14:02] "GET /osquerytask/query HTTP/2.0 200 0" 0.022340  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:14:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:14:30.298493 +0800 CST m=+30.086141201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:15:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:15:00.298741 +0800 CST m=+60.086389201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:15:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:15:30.2983902 +0800 CST m=+90.086038401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:16:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:16:00.2980597 +0800 CST m=+120.085707901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:16:02.124  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:16:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003116  Alertmanager/0.22.2
+2021/08/29 16:16:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:16:30.2985563 +0800 CST m=+150.086204501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:17:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:17:00.2984086 +0800 CST m=+180.086056801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:17:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:17:30.2983896 +0800 CST m=+210.086037801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:18:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:18:00.298033 +0800 CST m=+240.085681201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:18:30.299  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:18:30.2997565 +0800 CST m=+270.087404701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:19:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:19:00.2981636 +0800 CST m=+300.085811801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:19:02.157  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:19:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.023301  Alertmanager/0.22.2
+2021/08/29 16:19:30.297  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:19:30.2979052 +0800 CST m=+330.085553401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:20:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:20:00.2983179 +0800 CST m=+360.085966101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:20:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:20:30.2985203 +0800 CST m=+390.086168501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:21:00.299  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:21:00.299286 +0800 CST m=+420.086934201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:21:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:21:30.2980232 +0800 CST m=+450.085671401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:22:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:22:00.298266 +0800 CST m=+480.085914201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:22:02.125  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:22:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004655  Alertmanager/0.22.2
+2021/08/29 16:22:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:22:30.2987154 +0800 CST m=+510.086363601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:23:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:23:00.2979581 +0800 CST m=+540.085606301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:23:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:23:30.2987167 +0800 CST m=+570.086364901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:23:55.850  [E] [template.go:227]  parse template err: osquery/task/query.html template: osquery/task/query.html:30: missing value for command
+2021/08/29 16:23:55.851  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:23:55] "GET /osquerytask/query HTTP/2.0 200 0" 0.024903  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:23:57.959  [E] [template.go:227]  parse template err: osquery/task/query.html template: osquery/task/query.html:30: missing value for command
+2021/08/29 16:23:57.961  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:23:57] "GET /osquerytask/query HTTP/2.0 200 0" 0.009922  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:23:58.555  [E] [template.go:227]  parse template err: osquery/task/query.html template: osquery/task/query.html:30: missing value for command
+2021/08/29 16:23:58.558  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:23:58] "GET /osquerytask/query HTTP/2.0 200 0" 0.008506  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:24:00.300  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:24:00.3000328 +0800 CST m=+600.087681001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:24:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:24:30.2980639 +0800 CST m=+630.085712101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:25:00.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:25:00.2988517 +0800 CST m=+660.086499901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:25:02.126  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:25:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002564  Alertmanager/0.22.2
+2021/08/29 16:25:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:25:30.2980799 +0800 CST m=+690.085728101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:26:00.297  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:26:00.2979743 +0800 CST m=+720.085622501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:26:30.298  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:26:30.2987093 +0800 CST m=+750.086357501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:27:44.321  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:27:44.3213174 +0800 CST m=+0.064021501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:27:45.786  [I] [parser.go:413]  generate router from comments
+2021/08/29 16:27:45.789  [I] [server.go:208]  https server Running on https://:8888

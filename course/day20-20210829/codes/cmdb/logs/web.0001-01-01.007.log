@@ -1,0 +1,64 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:63158: remote error: tls: unknown certificate
+2021/08/29 16:28:55.912  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:28:55] "GET /osquerytask/query HTTP/2.0 200 0" 0.077988  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:29:17.874  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:29:17] "GET /osquerytask/query HTTP/2.0 200 0" 0.038754  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:29:21.253  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:29:21] "POST /osquerytask/query HTTP/2.0 200 6" 0.036133 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:29:22.757  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:29:22] "POST /osquerytask/query HTTP/2.0 200 10" 0.041433 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:29:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:29:24.0383504 +0800 CST m=+30.057174601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:29:26.110  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:29:26] "POST /osquerytask/query HTTP/2.0 200 10" 0.032987 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:29:39.367  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:29:39] "POST /osquerytask/query HTTP/2.0 200 10" 0.101450 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:29:54.039  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:29:54.0392497 +0800 CST m=+60.058073901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:30:04.052  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:30:03] "GET /osquerytask/query HTTP/2.0 200 0" 0.054032 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:30:05.346  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:30:05] "GET /osquerytask/query HTTP/2.0 200 0" 0.029124 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:30:05.972  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:30:05] "GET /osquerytask/query HTTP/2.0 200 0" 0.028324 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:30:06.152  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:30:06] "GET /osquerytask/query HTTP/2.0 200 0" 0.037972 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:30:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:30:24.0384402 +0800 CST m=+90.057264401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:30:31.022  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:30:30] "GET /osquerytask/query HTTP/2.0 200 0" 0.028264 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:30:54.044  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:30:54.0443338 +0800 CST m=+120.063158001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:31:02.133  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:31:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001979  Alertmanager/0.22.2
+2021/08/29 16:31:11.669  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:31:11] "GET /osquerytask/query HTTP/2.0 200 0" 0.018804  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:31:13.134  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:31:13] "POST /osquerytask/query HTTP/2.0 200 5" 0.014536 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:31:14.218  [D] [template.go:71]  template Execute err: template: osquery/task/create.html:38:63: executing "osquery/task/create.html" at <eq .form.Sex 1>: error calling eq: invalid type for comparison
+2021/08/29 16:31:14.220  [E] [router.go:896]  template: osquery/task/create.html:38:63: executing "osquery/task/create.html" at <eq .form.Sex 1>: error calling eq: invalid type for comparison
+2021/08/29 16:31:14.220  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:31:14] "GET /osquerytask/create HTTP/2.0 200 0" 0.015322 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:31:17.872  [D] [template.go:71]  template Execute err: template: osquery/task/create.html:38:63: executing "osquery/task/create.html" at <eq .form.Sex 1>: error calling eq: invalid type for comparison
+2021/08/29 16:31:17.873  [E] [router.go:896]  template: osquery/task/create.html:38:63: executing "osquery/task/create.html" at <eq .form.Sex 1>: error calling eq: invalid type for comparison
+2021/08/29 16:31:17.874  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:31:17] "GET /osquerytask/create HTTP/2.0 200 0" 0.011598  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:31:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:31:24.038154 +0800 CST m=+150.056978201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:31:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:31:54.0378204 +0800 CST m=+180.056644601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:32:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:32:24.0382576 +0800 CST m=+210.057081801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:32:54.046  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:32:54.0461783 +0800 CST m=+240.065002501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:33:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:33:24.0382006 +0800 CST m=+270.057024801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:33:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:33:54.0377517 +0800 CST m=+300.056575901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:34:02.159  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:34:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.011974  Alertmanager/0.22.2
+2021/08/29 16:34:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:34:24.0384171 +0800 CST m=+330.057241301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:34:54.039  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:34:54.0393253 +0800 CST m=+360.058149501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:35:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:35:24.0389356 +0800 CST m=+390.057759801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:35:54.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:35:54.0381275 +0800 CST m=+420.056951701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:36:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:36:24.0389473 +0800 CST m=+450.057771501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:36:54.041  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:36:54.0404828 +0800 CST m=+480.059307001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:37:02.137  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:37:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005897  Alertmanager/0.22.2
+2021/08/29 16:37:24.039  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:37:24.0392023 +0800 CST m=+510.058026501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:37:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:37:54.0378967 +0800 CST m=+540.056720901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:38:24.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:38:24.037461 +0800 CST m=+570.056285201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:38:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:38:54.0374548 +0800 CST m=+600.056279001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:39:24.039  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:39:24.0393812 +0800 CST m=+630.058205401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:39:54.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:39:54.0382235 +0800 CST m=+660.057047701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:40:02.136  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:40:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003000  Alertmanager/0.22.2
+2021/08/29 16:40:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:40:24.0380033 +0800 CST m=+690.056827501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:40:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:40:54.0373632 +0800 CST m=+720.056187401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:41:24.039  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:41:24.0392002 +0800 CST m=+750.058024401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:41:54.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:41:54.0385188 +0800 CST m=+780.057343001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:42:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:42:24.0382855 +0800 CST m=+810.057109701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:42:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:42:54.0379317 +0800 CST m=+840.056755901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:43:02.150  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:43:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.014329  Alertmanager/0.22.2
+2021/08/29 16:43:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:43:24.0382878 +0800 CST m=+870.057112001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:43:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:43:54.0376441 +0800 CST m=+900.056468301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:44:24.038  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:44:24.0382211 +0800 CST m=+930.057045301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:44:54.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:44:54.037991 +0800 CST m=+960.056815201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:45:24.037  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:45:24.0376329 +0800 CST m=+990.056457101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:47:51.921  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:47:51.9211759 +0800 CST m=+0.115141101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:47:53.487  [I] [parser.go:413]  generate router from comments
+2021/08/29 16:47:53.489  [I] [server.go:208]  https server Running on https://:8888
+2021/08/29 16:48:02.180  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 04:48:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.025429  Alertmanager/0.22.2
+2021/08/29 16:48:21.921  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:48:21.9212366 +0800 CST m=+30.115201801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:48:51.922  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:48:51.9223024 +0800 CST m=+60.116267601, prevTime: 1970-01-01 08:00:00 +0800 CST

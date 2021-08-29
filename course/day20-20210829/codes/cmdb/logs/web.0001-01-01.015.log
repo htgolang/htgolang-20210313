@@ -1,0 +1,24 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:58120: remote error: tls: unknown certificate
+2021/08/29 18:31:38.490  [C] [config.go:190]  the request url is  /osquerytask/result
+2021/08/29 18:31:38.493  [C] [config.go:191]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2021/08/29 18:31:38.495  [C] [config.go:197]  C:/Program Files/Go/src/runtime/panic.go:965
+2021/08/29 18:31:38.495  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:120
+2021/08/29 18:31:38.500  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:137
+2021/08/29 18:31:38.502  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:134
+2021/08/29 18:31:38.503  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day20-20210829/codes/cmdb/services/osquery.go:109
+2021/08/29 18:31:38.505  [C] [config.go:197]  D:/codes/htgolang-20210313/course/day20-20210829/codes/cmdb/controllers/osquery.go:55
+2021/08/29 18:31:38.506  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:476
+2021/08/29 18:31:38.507  [C] [config.go:197]  C:/Program Files/Go/src/reflect/value.go:337
+2021/08/29 18:31:38.509  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/08/29 18:31:38.512  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/08/29 18:31:38.514  [C] [config.go:197]  C:/Users/Administrator/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/08/29 18:31:38.518  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:2887
+2021/08/29 18:31:38.526  [C] [config.go:197]  C:/Program Files/Go/src/net/http/server.go:3459
+2021/08/29 18:31:38.528  [C] [config.go:197]  C:/Program Files/Go/src/net/http/h2_bundle.go:5723
+2021/08/29 18:31:38.528  [C] [config.go:197]  C:/Program Files/Go/src/runtime/asm_amd64.s:1371
+2021/08/29 18:31:57.725  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:31:57] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005649  Alertmanager/0.22.2
+2021/08/29 18:32:03.915  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:32:03.9152754 +0800 CST m=+30.098493701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:32:33.914  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:32:33.914747 +0800 CST m=+60.097965301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:32:53.203  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:32:53.2037217 +0800 CST m=+0.121272001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:32:55.771  [I] [parser.go:413]  generate router from comments
+2021/08/29 18:32:55.776  [I] [server.go:208]  https server Running on https://:8888

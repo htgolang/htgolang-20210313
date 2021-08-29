@@ -14,7 +14,7 @@ func main() {
 		log.Fatal(err)
 	}
 	defer client.Close()
-	resp, err := client.Query("select * from tmp_files;")
+	resp, err := client.Query("select * from system_info;")
 	if err != nil {
 		log.Fatal(err)
 	}

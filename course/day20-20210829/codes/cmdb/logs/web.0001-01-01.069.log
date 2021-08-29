@@ -1,0 +1,501 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from 127.0.0.1:53958: EOF
+2021/08/22 15:47:26.274  [D] [log.go:336]  test connect: 192.168.0.254[8888](false)
+2021/08/22 15:47:26.274  [D] [log.go:336]  test connect: 192.168.0.255[8888](false)
+2021/08/22 15:47:26.277  [I] [log.go:331]  sync asset elasped: 1m44.668202s
+2021/08/22 15:47:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:47:32.7278119 +0800 CST m=+720.096751801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:48:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:48:02.7286896 +0800 CST m=+750.097629501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:48:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:48:32.7286067 +0800 CST m=+780.097546601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:48:53.205  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:48:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006341  Alertmanager/0.22.2
+2021/08/22 15:49:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:49:02.7283575 +0800 CST m=+810.097297401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:49:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:49:32.7282182 +0800 CST m=+840.097158101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:50:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:50:02.7293215 +0800 CST m=+870.098261401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:50:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:50:32.7281332 +0800 CST m=+900.097073101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:51:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:51:02.7286314 +0800 CST m=+930.097571301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:51:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:51:32.7280732 +0800 CST m=+960.097013101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:51:53.203  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:51:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003065  Alertmanager/0.22.2
+2021/08/22 15:52:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:52:02.7285381 +0800 CST m=+990.097478001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:52:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:52:32.7297497 +0800 CST m=+1020.098689601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:53:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:53:02.7292877 +0800 CST m=+1050.098227601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:53:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:53:32.7278543 +0800 CST m=+1080.096794201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:54:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:54:02.7291271 +0800 CST m=+1110.098067001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:54:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:54:32.7295776 +0800 CST m=+1140.098517501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:54:53.205  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:54:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002082  Alertmanager/0.22.2
+2021/08/22 15:55:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:55:02.7287157 +0800 CST m=+1170.097655601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:55:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:55:32.7286993 +0800 CST m=+1200.097639201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:56:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:56:02.7292836 +0800 CST m=+1230.098223501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:56:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:56:32.7292963 +0800 CST m=+1260.098236201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:57:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:57:02.7292656 +0800 CST m=+1290.098205501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:57:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:57:32.7281779 +0800 CST m=+1320.097117801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:57:53.208  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 03:57:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004621  Alertmanager/0.22.2
+2021/08/22 15:58:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:58:02.7285785 +0800 CST m=+1350.097518401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:58:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:58:32.7283196 +0800 CST m=+1380.097259501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:59:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:59:02.7283602 +0800 CST m=+1410.097300101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 15:59:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 15:59:32.7285099 +0800 CST m=+1440.097449801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:00:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:00:02.7278639 +0800 CST m=+1470.096803801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:00:26.251  [M] [router.go:1014]  ::1 - - [22/Aug/2021 04:00:26] "GET /asset/query HTTP/2.0 200 0" 0.040486 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/22 16:00:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:00:32.72832 +0800 CST m=+1500.097259901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:00:53.207  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:00:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002000  Alertmanager/0.22.2
+2021/08/22 16:01:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:01:02.7292202 +0800 CST m=+1530.098160101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:01:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:01:32.7284145 +0800 CST m=+1560.097354401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:02:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:02:02.7291544 +0800 CST m=+1590.098094301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:02:32.834  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:02:32.8330314 +0800 CST m=+1620.201971301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:03:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:03:02.7284505 +0800 CST m=+1650.097390401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:03:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:03:32.7283944 +0800 CST m=+1680.097334301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:03:53.212  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:03:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005483  Alertmanager/0.22.2
+2021/08/22 16:04:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:04:02.7284586 +0800 CST m=+1710.097398501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:04:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:04:32.7285171 +0800 CST m=+1740.097457001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:05:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:05:02.7282404 +0800 CST m=+1770.097180301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:05:32.732  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:05:32.7320518 +0800 CST m=+1800.100991701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:06:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:06:02.7297219 +0800 CST m=+1830.098661801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:06:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:06:32.7278547 +0800 CST m=+1860.096794601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:06:53.211  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:06:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001486  Alertmanager/0.22.2
+2021/08/22 16:07:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:07:02.7284886 +0800 CST m=+1890.097428501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:07:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:07:32.7277964 +0800 CST m=+1920.096736301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:08:02.732  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:08:02.7322019 +0800 CST m=+1950.101141801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:08:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:08:32.7295919 +0800 CST m=+1980.098531801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:09:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:09:02.7291961 +0800 CST m=+2010.098136001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:09:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:09:32.7278321 +0800 CST m=+2040.096772001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:09:53.214  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:09:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002689  Alertmanager/0.22.2
+2021/08/22 16:10:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:10:02.7297049 +0800 CST m=+2070.098644801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:10:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:10:32.7285667 +0800 CST m=+2100.097506601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:11:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:11:02.7286192 +0800 CST m=+2130.097559101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:11:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:11:32.7285917 +0800 CST m=+2160.097531601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:12:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:12:02.7282293 +0800 CST m=+2190.097169201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:12:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:12:32.7293825 +0800 CST m=+2220.098322401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:12:53.217  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:12:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003014  Alertmanager/0.22.2
+2021/08/22 16:13:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:13:02.7280088 +0800 CST m=+2250.096948701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:13:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:13:32.7284529 +0800 CST m=+2280.097392801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:14:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:14:02.7283968 +0800 CST m=+2310.097336701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:14:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:14:32.7288442 +0800 CST m=+2340.097784101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:15:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:15:02.7285255 +0800 CST m=+2370.097465401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:15:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:15:32.7295645 +0800 CST m=+2400.098504401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:15:53.219  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:15:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001981  Alertmanager/0.22.2
+2021/08/22 16:16:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:16:02.728564 +0800 CST m=+2430.097503901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:16:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:16:32.7286937 +0800 CST m=+2460.097633601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:17:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:17:02.7279199 +0800 CST m=+2490.096859801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:17:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:17:32.7279601 +0800 CST m=+2520.096900001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:18:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:18:02.7280466 +0800 CST m=+2550.096986501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:18:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:18:32.7299115 +0800 CST m=+2580.098851401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:18:53.248  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:18:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.023619  Alertmanager/0.22.2
+2021/08/22 16:19:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:19:02.7293986 +0800 CST m=+2610.098338501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:19:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:19:32.7277887 +0800 CST m=+2640.096728601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:20:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:20:02.728394 +0800 CST m=+2670.097333901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:20:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:20:32.7282511 +0800 CST m=+2700.097191001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:21:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:21:02.7278005 +0800 CST m=+2730.096740401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:21:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:21:32.7297368 +0800 CST m=+2760.098676701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:21:53.223  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:21:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002356  Alertmanager/0.22.2
+2021/08/22 16:22:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:22:02.7286676 +0800 CST m=+2790.097607501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:22:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:22:32.7281819 +0800 CST m=+2820.097121801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:23:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:23:02.7284301 +0800 CST m=+2850.097370001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:23:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:23:32.7283377 +0800 CST m=+2880.097277601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:24:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:24:02.7280534 +0800 CST m=+2910.096993301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:24:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:24:32.7288359 +0800 CST m=+2940.097775801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:24:53.225  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:24:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001936  Alertmanager/0.22.2
+2021/08/22 16:25:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:25:02.7285469 +0800 CST m=+2970.097486801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:25:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:25:32.7285163 +0800 CST m=+3000.097456201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:26:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:26:02.7279601 +0800 CST m=+3030.096900001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:26:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:26:32.7281872 +0800 CST m=+3060.097127101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:27:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:27:02.7279731 +0800 CST m=+3090.096913001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:27:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:27:32.7281174 +0800 CST m=+3120.097057301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:27:53.230  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:27:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005386  Alertmanager/0.22.2
+2021/08/22 16:28:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:28:02.7282964 +0800 CST m=+3150.097236301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:28:32.732  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:28:32.7329378 +0800 CST m=+3180.101877701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:29:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:29:02.7279925 +0800 CST m=+3210.096932401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:29:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:29:32.7297555 +0800 CST m=+3240.098695401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:30:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:30:02.7283506 +0800 CST m=+3270.097290501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:30:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:30:32.7280504 +0800 CST m=+3300.096990301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:30:53.318  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:30:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.088917  Alertmanager/0.22.2
+2021/08/22 16:31:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:31:02.7281803 +0800 CST m=+3330.097120201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:31:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:31:32.7279206 +0800 CST m=+3360.096860501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:32:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:32:02.7279355 +0800 CST m=+3390.096875401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:32:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:32:32.7287419 +0800 CST m=+3420.097681801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:33:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:33:02.7279011 +0800 CST m=+3450.096841001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:33:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:33:32.7287249 +0800 CST m=+3480.097664801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:33:53.235  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:33:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003347  Alertmanager/0.22.2
+2021/08/22 16:34:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:34:02.7283728 +0800 CST m=+3510.097312701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:34:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:34:32.7283291 +0800 CST m=+3540.097269001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:35:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:35:02.7279896 +0800 CST m=+3570.096929501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:35:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:35:32.7280807 +0800 CST m=+3600.097020601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:36:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:36:02.7282175 +0800 CST m=+3630.097157401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:36:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:36:32.7297061 +0800 CST m=+3660.098646001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:36:53.237  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:36:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004757  Alertmanager/0.22.2
+2021/08/22 16:37:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:37:02.7276961 +0800 CST m=+3690.096636001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:37:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:37:32.7283367 +0800 CST m=+3720.097276601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:38:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:38:02.7279299 +0800 CST m=+3750.096869801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:38:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:38:32.7283106 +0800 CST m=+3780.097250501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:39:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:39:02.7292505 +0800 CST m=+3810.098190401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:39:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:39:32.7291315 +0800 CST m=+3840.098071401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:39:53.236  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:39:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002224  Alertmanager/0.22.2
+2021/08/22 16:40:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:40:02.7279422 +0800 CST m=+3870.096882101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:40:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:40:32.7284957 +0800 CST m=+3900.097435601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:41:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:41:02.7282726 +0800 CST m=+3930.097212501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:41:32.739  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:41:32.7284967 +0800 CST m=+3960.097436601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:42:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:42:02.7279234 +0800 CST m=+3990.096863301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:42:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:42:32.7296237 +0800 CST m=+4020.098563601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:42:53.238  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:42:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001985  Alertmanager/0.22.2
+2021/08/22 16:43:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:43:02.7289399 +0800 CST m=+4050.097879801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:43:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:43:32.7287151 +0800 CST m=+4080.097655001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:44:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:44:02.7278391 +0800 CST m=+4110.096779001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:44:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:44:32.728742 +0800 CST m=+4140.097681901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:45:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:45:02.7286262 +0800 CST m=+4170.097566101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:45:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:45:32.7286823 +0800 CST m=+4200.097622201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:45:53.245  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:45:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006480  Alertmanager/0.22.2
+2021/08/22 16:46:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:46:02.7281681 +0800 CST m=+4230.097108001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:46:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:46:32.728372 +0800 CST m=+4260.097311901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:47:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:47:02.7277384 +0800 CST m=+4290.096678301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:47:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:47:32.7279206 +0800 CST m=+4320.096860501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:48:02.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:48:02.7309045 +0800 CST m=+4350.099844401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:48:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:48:32.7295781 +0800 CST m=+4380.098518001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:48:53.242  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:48:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002002  Alertmanager/0.22.2
+2021/08/22 16:49:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:49:02.7292633 +0800 CST m=+4410.098203201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:49:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:49:32.728227 +0800 CST m=+4440.097166901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:50:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:50:02.728909 +0800 CST m=+4470.097848901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:50:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:50:32.7281365 +0800 CST m=+4500.097076401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:51:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:51:02.7284395 +0800 CST m=+4530.097379401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:51:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:51:32.7282238 +0800 CST m=+4560.097163701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:51:53.248  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:51:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004687  Alertmanager/0.22.2
+2021/08/22 16:52:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:52:02.7287806 +0800 CST m=+4590.097720501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:52:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:52:32.7283566 +0800 CST m=+4620.097296501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:53:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:53:02.7284145 +0800 CST m=+4650.097354401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:53:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:53:32.7290962 +0800 CST m=+4680.098036101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:54:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:54:02.7278607 +0800 CST m=+4710.096800601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:54:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:54:32.7281051 +0800 CST m=+4740.097045001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:54:53.251  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:54:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005898  Alertmanager/0.22.2
+2021/08/22 16:55:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:55:02.7280592 +0800 CST m=+4770.096999101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:55:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:55:32.728014 +0800 CST m=+4800.096953901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:56:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:56:02.7295574 +0800 CST m=+4830.098497301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:56:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:56:32.7283468 +0800 CST m=+4860.097286701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:57:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:57:02.7290696 +0800 CST m=+4890.098009501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:57:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:57:32.7284782 +0800 CST m=+4920.097418101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:57:53.267  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 04:57:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.015592  Alertmanager/0.22.2
+2021/08/22 16:58:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:58:02.7280531 +0800 CST m=+4950.096993001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:58:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:58:32.7292412 +0800 CST m=+4980.098181101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:59:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:59:02.7291354 +0800 CST m=+5010.098075301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 16:59:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 16:59:32.7283451 +0800 CST m=+5040.097285001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:00:02.734  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:00:02.7349011 +0800 CST m=+5070.103841001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:00:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:00:32.7288229 +0800 CST m=+5100.097762801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:00:53.251  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:00:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001855  Alertmanager/0.22.2
+2021/08/22 17:01:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:01:02.7282077 +0800 CST m=+5130.097147601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:01:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:01:32.7283629 +0800 CST m=+5160.097302801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:02:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:02:02.7282745 +0800 CST m=+5190.097214401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:02:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:02:32.7287358 +0800 CST m=+5220.097675701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:03:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:03:02.727996 +0800 CST m=+5250.096935901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:03:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:03:32.7289614 +0800 CST m=+5280.097901301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:03:53.255  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:03:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003718  Alertmanager/0.22.2
+2021/08/22 17:04:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:04:02.728024 +0800 CST m=+5310.096963901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:04:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:04:32.7283167 +0800 CST m=+5340.097256601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:05:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:05:02.7286299 +0800 CST m=+5370.097569801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:05:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:05:32.7279406 +0800 CST m=+5400.096880501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:06:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:06:02.7287302 +0800 CST m=+5430.097670101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:06:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:06:32.7295351 +0800 CST m=+5460.098475001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:06:53.256  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:06:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001197  Alertmanager/0.22.2
+2021/08/22 17:07:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:07:02.7284989 +0800 CST m=+5490.097438801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:07:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:07:32.7278784 +0800 CST m=+5520.096818301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:08:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:08:02.7282272 +0800 CST m=+5550.097167101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:08:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:08:32.7296044 +0800 CST m=+5580.098544301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:09:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:09:02.7286169 +0800 CST m=+5610.097556801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:09:32.735  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:09:32.7351121 +0800 CST m=+5640.104052001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:09:53.263  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:09:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006291  Alertmanager/0.22.2
+2021/08/22 17:10:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:10:02.7276972 +0800 CST m=+5670.096637101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:10:32.737  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:10:32.7376939 +0800 CST m=+5700.106633801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:11:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:11:02.7286588 +0800 CST m=+5730.097598701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:11:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:11:32.7295351 +0800 CST m=+5760.098475001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:12:02.752  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:12:02.7520432 +0800 CST m=+5790.120983101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:12:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:12:32.7283812 +0800 CST m=+5820.097321101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:12:53.262  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:12:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002308  Alertmanager/0.22.2
+2021/08/22 17:13:02.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:13:02.72795 +0800 CST m=+5850.096889901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:13:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:13:32.7288004 +0800 CST m=+5880.097740301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:14:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:14:02.7283488 +0800 CST m=+5910.097288701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:14:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:14:32.7281404 +0800 CST m=+5940.097080301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:15:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:15:02.7279562 +0800 CST m=+5970.096896101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:15:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:15:32.7293671 +0800 CST m=+6000.098307001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:15:53.263  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:15:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002115  Alertmanager/0.22.2
+2021/08/22 17:16:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:16:02.7281056 +0800 CST m=+6030.097045501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:16:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:16:32.7277687 +0800 CST m=+6060.096708601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:17:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:17:02.7295537 +0800 CST m=+6090.098493601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:17:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:17:32.7279599 +0800 CST m=+6120.096899801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:18:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:18:02.7276819 +0800 CST m=+6150.096621801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:18:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:18:32.7289905 +0800 CST m=+6180.097930401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:18:53.268  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:18:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003580  Alertmanager/0.22.2
+2021/08/22 17:19:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:19:02.7276661 +0800 CST m=+6210.096606001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:19:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:19:32.7282117 +0800 CST m=+6240.097151601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:20:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:20:02.7283268 +0800 CST m=+6270.097266701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:20:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:20:32.7280836 +0800 CST m=+6300.097023501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:21:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:21:02.7280819 +0800 CST m=+6330.097021801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:21:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:21:32.7287196 +0800 CST m=+6360.097659501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:21:53.269  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:21:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002650  Alertmanager/0.22.2
+2021/08/22 17:22:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:22:02.7289063 +0800 CST m=+6390.097846201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:22:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:22:32.7294039 +0800 CST m=+6420.098343801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:23:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:23:02.7277725 +0800 CST m=+6450.096712401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:23:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:23:32.7279717 +0800 CST m=+6480.096911601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:24:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:24:02.7276624 +0800 CST m=+6510.096602301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:24:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:24:32.7283946 +0800 CST m=+6540.097334501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:24:53.269  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:24:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001455  Alertmanager/0.22.2
+2021/08/22 17:25:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:25:02.7287961 +0800 CST m=+6570.097736001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:25:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:25:32.7283584 +0800 CST m=+6600.097298301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:26:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:26:02.7286407 +0800 CST m=+6630.097580601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:26:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:26:32.7277402 +0800 CST m=+6660.096680101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:27:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:27:02.7284036 +0800 CST m=+6690.097343501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:27:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:27:32.7281004 +0800 CST m=+6720.097040301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:27:53.271  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:27:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002237  Alertmanager/0.22.2
+2021/08/22 17:28:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:28:02.7278654 +0800 CST m=+6750.096805301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:28:32.753  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:28:32.7534692 +0800 CST m=+6780.122409101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:29:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:29:02.728496 +0800 CST m=+6810.097435901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:29:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:29:32.7290561 +0800 CST m=+6840.097996001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:30:02.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:30:02.7303284 +0800 CST m=+6870.099268301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:30:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:30:32.7282247 +0800 CST m=+6900.097164601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:30:53.329  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:30:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.044215  Alertmanager/0.22.2
+2021/08/22 17:31:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:31:02.7287168 +0800 CST m=+6930.097656701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:31:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:31:32.7282049 +0800 CST m=+6960.097144801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:32:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:32:02.7286341 +0800 CST m=+6990.097574001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:32:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:32:32.7289119 +0800 CST m=+7020.097851801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:33:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:33:02.729085 +0800 CST m=+7050.098024901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:33:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:33:32.7292506 +0800 CST m=+7080.098190501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:33:53.282  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:33:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006840  Alertmanager/0.22.2
+2021/08/22 17:34:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:34:02.7282791 +0800 CST m=+7110.097219001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:34:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:34:32.7287543 +0800 CST m=+7140.097694201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:35:02.737  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:35:02.7360783 +0800 CST m=+7170.105018201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:35:32.750  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:35:32.7505748 +0800 CST m=+7200.119514701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:36:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:36:02.7283175 +0800 CST m=+7230.097257401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:36:32.736  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:36:32.7365192 +0800 CST m=+7260.105459101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:36:53.390  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:36:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.109995  Alertmanager/0.22.2
+2021/08/22 17:37:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:37:02.7283046 +0800 CST m=+7290.097244501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:37:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:37:32.7288523 +0800 CST m=+7320.097792201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:38:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:38:02.7279487 +0800 CST m=+7350.096888601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:38:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:38:32.7278319 +0800 CST m=+7380.096771801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:39:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:39:02.7277976 +0800 CST m=+7410.096737501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:39:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:39:32.7291469 +0800 CST m=+7440.098086801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:39:53.284  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:39:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005407  Alertmanager/0.22.2
+2021/08/22 17:40:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:40:02.7281942 +0800 CST m=+7470.097134101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:40:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:40:32.7278829 +0800 CST m=+7500.096822801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:41:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:41:02.7278975 +0800 CST m=+7530.096837401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:41:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:41:32.7306098 +0800 CST m=+7560.099549701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:42:02.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:42:02.731844 +0800 CST m=+7590.100783901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:42:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:42:32.7285812 +0800 CST m=+7620.097521101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:42:53.282  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:42:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002455  Alertmanager/0.22.2
+2021/08/22 17:43:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:43:02.7280296 +0800 CST m=+7650.096969501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:43:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:43:32.7288062 +0800 CST m=+7680.097746101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:44:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:44:02.7282703 +0800 CST m=+7710.097210201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:44:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:44:32.7286072 +0800 CST m=+7740.097547101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:45:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:45:02.7279236 +0800 CST m=+7770.096863501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:45:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:45:32.7290771 +0800 CST m=+7800.098017001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:45:53.283  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:45:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001777  Alertmanager/0.22.2
+2021/08/22 17:46:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:46:02.727742 +0800 CST m=+7830.096681901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:46:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:46:32.7287514 +0800 CST m=+7860.097691301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:47:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:47:02.7289254 +0800 CST m=+7890.097865301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:47:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:47:32.7276762 +0800 CST m=+7920.096616101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:48:02.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:48:02.7314179 +0800 CST m=+7950.100357801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:48:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:48:32.7277029 +0800 CST m=+7980.096642801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:48:53.291  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:48:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006264  Alertmanager/0.22.2
+2021/08/22 17:49:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:49:02.7288974 +0800 CST m=+8010.097837301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:49:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:49:32.7277969 +0800 CST m=+8040.096736801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:50:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:50:02.7279663 +0800 CST m=+8070.096906201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:50:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:50:32.7305447 +0800 CST m=+8100.099484601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:51:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:51:02.7285593 +0800 CST m=+8130.097499201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:51:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:51:32.728501 +0800 CST m=+8160.097440901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:51:53.443  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:51:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.133505  Alertmanager/0.22.2
+2021/08/22 17:52:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:52:02.7277857 +0800 CST m=+8190.096725601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:52:32.748  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:52:32.7477982 +0800 CST m=+8220.116738101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:53:02.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:53:02.7302266 +0800 CST m=+8250.099166501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:53:32.732  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:53:32.7328466 +0800 CST m=+8280.101786501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:54:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:54:02.7277753 +0800 CST m=+8310.096715201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:54:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:54:32.7277673 +0800 CST m=+8340.096707201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:54:53.297  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:54:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.007065  Alertmanager/0.22.2
+2021/08/22 17:55:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:55:02.7284278 +0800 CST m=+8370.097367701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:55:32.747  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:55:32.7470263 +0800 CST m=+8400.115966201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:56:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:56:02.7280425 +0800 CST m=+8430.096982401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:56:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:56:32.7279451 +0800 CST m=+8460.096885001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:57:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:57:02.7279273 +0800 CST m=+8490.096867201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:57:32.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:57:32.731657 +0800 CST m=+8520.100596901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:57:53.297  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 05:57:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004008  Alertmanager/0.22.2
+2021/08/22 17:58:02.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:58:02.7310658 +0800 CST m=+8550.100005701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:58:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:58:32.7282542 +0800 CST m=+8580.097194101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:59:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:59:02.7278612 +0800 CST m=+8610.096801101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 17:59:32.741  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 17:59:32.7418928 +0800 CST m=+8640.110832701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:00:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:00:02.7288989 +0800 CST m=+8670.097838801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:00:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:00:32.7283872 +0800 CST m=+8700.097327101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:00:53.299  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:00:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003002  Alertmanager/0.22.2
+2021/08/22 18:01:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:01:02.7284799 +0800 CST m=+8730.097419801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:01:32.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:01:32.7318924 +0800 CST m=+8760.100832301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:02:02.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:02:02.7306177 +0800 CST m=+8790.099557601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:02:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:02:32.7277528 +0800 CST m=+8820.096692701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:03:02.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:03:02.7306005 +0800 CST m=+8850.099540401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:03:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:03:32.7285572 +0800 CST m=+8880.097497101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:03:53.299  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:03:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001999  Alertmanager/0.22.2
+2021/08/22 18:04:02.734  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:04:02.7327469 +0800 CST m=+8910.101686801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:04:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:04:32.7278083 +0800 CST m=+8940.096748201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:05:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:05:02.7283995 +0800 CST m=+8970.097339401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:05:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:05:32.7303727 +0800 CST m=+9000.099312601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:06:02.734  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:06:02.7345667 +0800 CST m=+9030.103506601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:06:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:06:32.7279349 +0800 CST m=+9060.096874801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:06:53.300  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:06:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002268  Alertmanager/0.22.2
+2021/08/22 18:07:02.757  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:07:02.7575267 +0800 CST m=+9090.126466601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:07:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:07:32.7284432 +0800 CST m=+9120.097383101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:08:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:08:02.7280343 +0800 CST m=+9150.096974201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:08:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:08:32.7296036 +0800 CST m=+9180.098543501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:09:02.732  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:09:02.7320132 +0800 CST m=+9210.100953101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:09:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:09:32.7277404 +0800 CST m=+9240.096680301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:09:53.309  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:09:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004000  Alertmanager/0.22.2
+2021/08/22 18:10:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:10:02.7281503 +0800 CST m=+9270.097090201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:10:32.749  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:10:32.7492593 +0800 CST m=+9300.118199201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:11:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:11:02.7281344 +0800 CST m=+9330.097074301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:11:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:11:32.728103 +0800 CST m=+9360.097042901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:12:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:12:02.7286693 +0800 CST m=+9390.097609201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:12:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:12:32.7277022 +0800 CST m=+9420.096642101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:12:53.311  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:12:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005993  Alertmanager/0.22.2
+2021/08/22 18:13:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:13:02.72796 +0800 CST m=+9450.096899901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:13:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:13:32.7279984 +0800 CST m=+9480.096938301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:14:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:14:02.7286666 +0800 CST m=+9510.097606501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:14:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:14:32.7278944 +0800 CST m=+9540.096834301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:15:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:15:02.727929 +0800 CST m=+9570.096868901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:15:32.740  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:15:32.7405187 +0800 CST m=+9600.109458601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:15:53.349  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:15:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.013242  Alertmanager/0.22.2
+2021/08/22 18:16:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:16:02.7287914 +0800 CST m=+9630.097731301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:16:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:16:32.7297936 +0800 CST m=+9660.098733501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:17:02.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:17:02.7305395 +0800 CST m=+9690.099479401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:17:32.732  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:17:32.7294858 +0800 CST m=+9720.098425701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:18:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:18:02.7276609 +0800 CST m=+9750.096600801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:18:32.738  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:18:32.738219 +0800 CST m=+9780.107158901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:18:53.309  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:18:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001857  Alertmanager/0.22.2
+2021/08/22 18:19:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:19:02.728005 +0800 CST m=+9810.096944901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:19:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:19:32.7281063 +0800 CST m=+9840.097046201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:20:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:20:02.7296129 +0800 CST m=+9870.098552801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:20:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:20:32.7284453 +0800 CST m=+9900.097385201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:21:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:21:02.7285353 +0800 CST m=+9930.097475201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:21:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:21:32.7278094 +0800 CST m=+9960.096749301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:21:53.317  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:21:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.007325  Alertmanager/0.22.2
+2021/08/22 18:22:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:22:02.7282788 +0800 CST m=+9990.097218701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:22:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:22:32.7294361 +0800 CST m=+10020.098376001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:23:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:23:02.7282897 +0800 CST m=+10050.097229601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:23:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:23:32.7277891 +0800 CST m=+10080.096729001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:24:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:24:02.7283949 +0800 CST m=+10110.097334801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:24:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:24:32.7284487 +0800 CST m=+10140.097388601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:24:53.386  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:24:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.038828  Alertmanager/0.22.2
+2021/08/22 18:25:02.736  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:25:02.7368689 +0800 CST m=+10170.105808801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:25:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:25:32.7286236 +0800 CST m=+10200.097563501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:26:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:26:02.7283874 +0800 CST m=+10230.097327301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:26:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:26:32.7279491 +0800 CST m=+10260.096889001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:27:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:27:02.7283228 +0800 CST m=+10290.097262701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:27:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:27:32.7283354 +0800 CST m=+10320.097275301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:27:53.318  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:27:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004242  Alertmanager/0.22.2
+2021/08/22 18:28:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:28:02.728285 +0800 CST m=+10350.097224901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:28:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:28:32.727936 +0800 CST m=+10380.096875901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:29:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:29:02.7281085 +0800 CST m=+10410.097048401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:29:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:29:32.7280446 +0800 CST m=+10440.096984501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:30:02.733  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:30:02.7337118 +0800 CST m=+10470.102651701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:30:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:30:32.7284132 +0800 CST m=+10500.097353101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:30:53.326  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:30:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.009959  Alertmanager/0.22.2
+2021/08/22 18:31:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:31:02.7280876 +0800 CST m=+10530.097027501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:31:32.734  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:31:32.7330098 +0800 CST m=+10560.101949701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:32:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:32:02.7294046 +0800 CST m=+10590.098344501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:32:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:32:32.7278412 +0800 CST m=+10620.096781101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:33:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:33:02.727683 +0800 CST m=+10650.096622901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:33:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:33:32.7283656 +0800 CST m=+10680.097305501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:33:53.384  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:33:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.061840  Alertmanager/0.22.2
+2021/08/22 18:34:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:34:02.7286042 +0800 CST m=+10710.097544101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:34:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:34:32.7277087 +0800 CST m=+10740.096648601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:35:02.734  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:35:02.7348594 +0800 CST m=+10770.103799301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:35:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:35:32.727677 +0800 CST m=+10800.096616901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:36:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:36:02.728399 +0800 CST m=+10830.097338901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:36:32.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:36:32.7310887 +0800 CST m=+10860.100028601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:36:53.327  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:36:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.008755  Alertmanager/0.22.2
+2021/08/22 18:37:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:37:02.7286859 +0800 CST m=+10890.097625801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:37:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:37:32.72802 +0800 CST m=+10920.096959901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:38:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:38:02.7277383 +0800 CST m=+10950.096678201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:38:32.734  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:38:32.7342729 +0800 CST m=+10980.103212801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:39:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:39:02.7280982 +0800 CST m=+11010.097038101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:39:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:39:32.7285543 +0800 CST m=+11040.097494201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:39:53.326  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:39:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004320  Alertmanager/0.22.2
+2021/08/22 18:40:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:40:02.7286124 +0800 CST m=+11070.097552301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:40:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:40:32.7278808 +0800 CST m=+11100.096820701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:41:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:41:02.7282948 +0800 CST m=+11130.097234701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:41:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:41:32.7279124 +0800 CST m=+11160.096852301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:42:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:42:02.7279367 +0800 CST m=+11190.096876601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:42:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:42:32.7283281 +0800 CST m=+11220.097268001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:42:53.328  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:42:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003734  Alertmanager/0.22.2
+2021/08/22 18:43:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:43:02.7289441 +0800 CST m=+11250.097884001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:43:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:43:32.7290253 +0800 CST m=+11280.097965201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:44:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:44:02.7284675 +0800 CST m=+11310.097407401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:44:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:44:32.7280922 +0800 CST m=+11340.097032101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:45:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:45:02.7278522 +0800 CST m=+11370.096792101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:45:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:45:32.7277157 +0800 CST m=+11400.096655601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:45:53.393  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:45:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.026016  Alertmanager/0.22.2
+2021/08/22 18:46:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:46:02.7295275 +0800 CST m=+11430.098467401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:46:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:46:32.7281062 +0800 CST m=+11460.097046101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:47:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:47:02.7280745 +0800 CST m=+11490.097014401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:47:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:47:32.728185 +0800 CST m=+11520.097124901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:48:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:48:02.7283218 +0800 CST m=+11550.097261701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:48:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:48:32.7293346 +0800 CST m=+11580.098274501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:48:53.396  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:48:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.046032  Alertmanager/0.22.2
+2021/08/22 18:49:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:49:02.7299049 +0800 CST m=+11610.098844801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:49:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:49:32.7286408 +0800 CST m=+11640.097580701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:50:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:50:02.7276811 +0800 CST m=+11670.096621001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:50:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:50:32.727917 +0800 CST m=+11700.096856901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:51:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:51:02.7278738 +0800 CST m=+11730.096813701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:51:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:51:32.7279107 +0800 CST m=+11760.096850601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:51:53.331  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:51:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001850  Alertmanager/0.22.2
+2021/08/22 18:52:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:52:02.7278288 +0800 CST m=+11790.096768701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:52:32.746  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:52:32.7467133 +0800 CST m=+11820.115653201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:53:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:53:02.7281795 +0800 CST m=+11850.097119401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:53:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:53:32.7280139 +0800 CST m=+11880.096953801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:54:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:54:02.7279848 +0800 CST m=+11910.096924701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:54:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:54:32.7284953 +0800 CST m=+11940.097435201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:54:53.335  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:54:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003969  Alertmanager/0.22.2
+2021/08/22 18:55:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:55:02.7278168 +0800 CST m=+11970.096756701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:55:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:55:32.7305274 +0800 CST m=+12000.099467301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:56:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:56:02.7282636 +0800 CST m=+12030.097203501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:56:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:56:32.7278755 +0800 CST m=+12060.096815401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:57:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:57:02.7298847 +0800 CST m=+12090.098824601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:57:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:57:32.7278158 +0800 CST m=+12120.096755701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:57:53.339  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 06:57:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.004211  Alertmanager/0.22.2
+2021/08/22 18:58:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:58:02.7277643 +0800 CST m=+12150.096704201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:58:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:58:32.7295614 +0800 CST m=+12180.098501301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:59:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:59:02.7285643 +0800 CST m=+12210.097504201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 18:59:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 18:59:32.7277208 +0800 CST m=+12240.096660701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:00:02.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:00:02.7283644 +0800 CST m=+12270.097304301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:00:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:00:32.7283544 +0800 CST m=+12300.097294301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:00:53.337  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 07:00:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001107  Alertmanager/0.22.2
+2021/08/22 19:01:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:01:02.7296188 +0800 CST m=+12330.098558701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:01:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:01:32.7282695 +0800 CST m=+12360.097209401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:02:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:02:02.7287199 +0800 CST m=+12390.097659801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:02:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:02:32.7282919 +0800 CST m=+12420.097231801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:03:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:03:02.7286001 +0800 CST m=+12450.097540001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:03:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:03:32.7279858 +0800 CST m=+12480.096925701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:03:53.350  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 07:03:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006204  Alertmanager/0.22.2
+2021/08/22 19:04:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:04:02.7288942 +0800 CST m=+12510.097834101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:04:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:04:32.7281275 +0800 CST m=+12540.097067401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:05:02.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:05:02.7281368 +0800 CST m=+12570.097076701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:05:32.730  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:05:32.7302131 +0800 CST m=+12600.099153001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:06:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:06:02.7282007 +0800 CST m=+12630.097140601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:06:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:06:32.7277441 +0800 CST m=+12660.096684001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:06:53.345  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 07:06:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003456  Alertmanager/0.22.2
+2021/08/22 19:07:02.743  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:07:02.7438343 +0800 CST m=+12690.112774201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:07:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:07:32.7280381 +0800 CST m=+12720.096978001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:08:02.830  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:08:02.8303313 +0800 CST m=+12750.199271201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:08:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:08:32.7284027 +0800 CST m=+12780.097342601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:09:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:09:02.7283367 +0800 CST m=+12810.097276601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:09:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:09:32.7282421 +0800 CST m=+12840.097182001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:09:53.348  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 07:09:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003227  Alertmanager/0.22.2
+2021/08/22 19:10:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:10:02.7282011 +0800 CST m=+12870.097141001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:10:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:10:32.7294908 +0800 CST m=+12900.098430701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:11:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:11:02.7284871 +0800 CST m=+12930.097427001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:11:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:11:32.7279181 +0800 CST m=+12960.096858001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:12:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:12:02.7283484 +0800 CST m=+12990.097288301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:12:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:12:32.7279729 +0800 CST m=+13020.096912801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:12:53.348  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 07:12:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001609  Alertmanager/0.22.2
+2021/08/22 19:13:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:13:02.7279855 +0800 CST m=+13050.096925401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:13:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:13:32.7284267 +0800 CST m=+13080.097366601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:14:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:14:02.7280435 +0800 CST m=+13110.096983401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:14:32.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:14:32.7278469 +0800 CST m=+13140.096786801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:15:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:15:02.7278374 +0800 CST m=+13170.096777301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:15:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:15:32.7281842 +0800 CST m=+13200.097124101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:15:53.351  [M] [router.go:1014]  10.0.0.2 - - [22/Aug/2021 07:15:53] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002338  Alertmanager/0.22.2
+2021/08/22 19:16:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:16:02.7285742 +0800 CST m=+13230.097514101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:16:32.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:16:32.7281899 +0800 CST m=+13260.097129801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:17:02.728  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:17:02.7286186 +0800 CST m=+13290.097558501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:17:32.729  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:17:32.7295185 +0800 CST m=+13320.098458401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/22 19:18:02.727  [D] [asset.go:54]  check sync asset: false, now: 2021-08-22 19:18:02.7277978 +0800 CST m=+13350.096737701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 09:03:22.797  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 09:03:22.7976593 +0800 CST m=+0.118089501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 09:03:24.489  [I] [parser.go:413]  generate router from comments
+2021/08/29 09:03:24.508  [I] [server.go:208]  https server Running on https://:8888
+2021/08/29 09:03:28.235  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 09:03:28] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.094783  Alertmanager/0.22.2

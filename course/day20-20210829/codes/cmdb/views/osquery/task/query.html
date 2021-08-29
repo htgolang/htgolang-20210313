@@ -1,0 +1,50 @@
+<div class="mb-1">
+    <a class="btn btn-primary btn-sm" href="{{ urlfor `OsqueryTaskController.Create` }}">新增</a>
+    <div class="float-right">
+        <form class="form-inline" action="{{ urlfor `OsqueryTaskController.Query`}}" method="POST">
+            <label class="sr-only">查询内容: </label>
+            <input type="text" class="form-control form-control-sm mr-2" value="{{ .q }}" placeholder="查询" name="q"/>
+            <input type="submit" class="btn btn-info btn-sm" value="查询" />
+        </form>
+    </div>
+</div>
+
+<table class="table table-bordered table-sm table-striped table-hover">
+    <thead>
+        <tr>
+            <th>任务名称</th>
+            <th>任务类型</th>
+            <th>终端数量</th>
+            <th>运行中数量</th>
+            <th>已完成数量</th>
+            <th>创建时间</th>
+            <th>完成时间</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .objects }}
+        <tr>
+            <td>{{ .Name }}</td>
+            <td>{{ .Type }}</td>
+            <td>{{ $.osqueryTaskService.GetJobTotal .Id }}</td>
+            <td>{{ $.osqueryTaskService.GetJobRunning .Id }}</td>
+            <td>{{ $.osqueryTaskService.GetJobComplated .Id }}</td>
+            <td>{{ date .CreatedAt "Y-m-d H:i:s"}}</td>
+            <td>
+                {{ if .ComplatedAt }}
+                    {{ date .ComplatedAt "Y-m-d H:i:s"}}
+                {{ end }}
+            </td>
+            <td>
+                <a class="btn btn-sm btn-warning" href="{{ urlfor `OsqueryTaskController.Result` }}?id={{ .Id }}">查看</a>
+                <a class="btn btn-sm btn-danger" href="{{ urlfor `OsqueryTaskController.Delete` }}?id={{ .Id }}">删除</a>
+            </td>
+        </tr>
+        {{ else }}
+        <tr>
+            <td colspan="8">暂无数据</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>

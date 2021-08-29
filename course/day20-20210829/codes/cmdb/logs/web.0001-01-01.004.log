@@ -1,0 +1,11 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:55852: remote error: tls: unknown certificate
+2021/08/29 16:13:18.417  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:13:18] "GET /asset/query HTTP/2.0 200 0" 0.083706  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:13:19.629  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /osqueryagent/query HTTP/2.0 404 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:13:19.639  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:13:19] "GET /osqueryagent/query HTTP/2.0 404 0" 0.014748 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:13:21.608  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:13:21] "GET /asset/query HTTP/2.0 200 0" 0.041579  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:13:22.598  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /osquerytask/query HTTP/2.0 404 0" 0.000000 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:13:22.601  [M] [router.go:1014]  ::1 - - [29/Aug/2021 04:13:22] "GET /osquerytask/query HTTP/2.0 404 0" 0.007204 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 16:13:44.731  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:13:44.7312946 +0800 CST m=+30.067098501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:14:00.297  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 16:14:00.2978268 +0800 CST m=+0.085475001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 16:14:02.024  [I] [parser.go:413]  generate router from comments
+2021/08/29 16:14:02.034  [I] [server.go:208]  https server Running on https://:8888

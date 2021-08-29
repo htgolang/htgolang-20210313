@@ -1,0 +1,63 @@
+
+<div class="row">
+    <div class="col-4 offset-4">
+        {{ range $k, $v := .errors.default }}
+            <div style="color:red;">{{ $v }}</div>
+        {{ end }}
+        {{ if .success }}
+            <div style="color:green;">{{ .success }}</div>
+        {{ end }}
+        <form action="{{ urlfor `AssetController.Config` }}" method="POST">
+            <div class="form-group row">
+                <label class="col-form-label col-3"></label>
+                <div class="col-8">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="enable" id="radio_enable" value="1" {{ if .form.Enable }}checked="checked"{{ end}} />
+                        <label class="form-check-label" for="radio_enable">启用</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="enable" id="radio_disenable" value="0" {{ if not .form.Enable }}checked="checked"{{ end}} />
+                    <label class="form-check-label" for="radio_disenable">禁用</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-form-label col-3">扫描周期: </label>
+                <div class="col-8">
+                    <select name="interval" class="form-control">
+                        <option value="60" {{ if eq 60 .form.Interval }}selected="selected"{{ end}}>1分钟</option>
+                        <option value="300" {{ if eq 300 .form.Interval }}selected="selected"{{ end}}>5分钟</option>
+                        <option value="1800" {{ if eq 1800 .form.Interval }}selected="selected"{{ end}}>30分钟</option>
+                        <option value="3600" {{ if eq 3600 .form.Interval }}selected="selected"{{ end}}>1小时</option>
+                        <option value="43200" {{ if eq 43200 .form.Interval }}selected="selected"{{ end}}>12小时</option>
+                        <option value="86400" {{ if eq 86400 .form.Interval }}selected="selected"{{ end}}>24小时</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-form-label col-3">地址范围: </label>
+                <div class="col-8">
+                    <textarea class="form-control {{ if .errors.addr }}is-invalid{{ end }}" name="addr">{{ .form.Addr }}</textarea>
+                    {{ range $k, $v := .errors.addr }}
+                        <div class="invalid-feedback">{{ $v }}</div>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-form-label col-3">端口范围: </label>
+                <div class="col-8">
+                    <textarea class="form-control {{ if .errors.ports }}is-invalid{{ end }}" name="ports">{{ .form.Ports }}</textarea>
+                    {{ range $k, $v := .errors.ports }}
+                        <div class="invalid-feedback">{{ $v }}</div>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-11">
+                    <input type="submit" class="btn btn-primary float-right" value="更新" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:60619: remote error: tls: unknown certificate
+2021/08/29 17:01:40.003  [D] [template.go:71]  template Execute err: template: osquery/task/create.html:22:73: executing "osquery/task/create.html" at <.form.Type>: can't evaluate field form in type *models.OsqueryTaskType
+2021/08/29 17:01:40.010  [E] [router.go:896]  template: osquery/task/create.html:22:73: executing "osquery/task/create.html" at <.form.Type>: can't evaluate field form in type *models.OsqueryTaskType
+2021/08/29 17:01:40.012  [M] [router.go:1014]  ::1 - - [29/Aug/2021 05:01:39] "GET /osquerytask/create HTTP/2.0 200 0" 0.024051  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 17:02:06.871  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:02:06.8718737 +0800 CST m=+30.147558901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:02:23.481  [M] [router.go:1014]  ::1 - - [29/Aug/2021 05:02:23] "GET /osquerytask/create HTTP/2.0 200 0" 0.024493  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 17:02:36.871  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:02:36.8717541 +0800 CST m=+60.147439301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:03:02.155  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 05:03:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001000  Alertmanager/0.22.2
+2021/08/29 17:03:06.872  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:03:06.8725205 +0800 CST m=+90.148205701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:03:36.875  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:03:36.8751301 +0800 CST m=+120.150815301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:04:06.871  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:04:06.8719748 +0800 CST m=+150.147660001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:04:36.873  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:04:36.8737371 +0800 CST m=+180.149422301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:05:06.873  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:05:06.87397 +0800 CST m=+210.149655201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:05:36.873  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:05:36.8731308 +0800 CST m=+240.148816001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:06:02.154  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 05:06:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003000  Alertmanager/0.22.2
+2021/08/29 17:06:06.871  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:06:06.8717728 +0800 CST m=+270.147458001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:06:36.874  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:06:36.8739216 +0800 CST m=+300.149606801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:07:06.871  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:07:06.8718884 +0800 CST m=+330.147573601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:07:36.872  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:07:36.8727117 +0800 CST m=+360.148396901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:08:06.872  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:08:06.8726483 +0800 CST m=+390.148333501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:08:36.872  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:08:36.8720017 +0800 CST m=+420.147686901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:08:50.136  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 17:08:50.136055 +0800 CST m=+0.097720501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 17:08:51.675  [I] [parser.go:413]  generate router from comments
+2021/08/29 17:08:51.679  [I] [server.go:208]  https server Running on https://:8888

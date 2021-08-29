@@ -1,0 +1,94 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:55353: remote error: tls: unknown certificate
+2021/08/29 18:32:55.915  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:32:55] "GET /osquerytask/result?id=5 HTTP/2.0 200 0" 0.044135  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:03.069  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /osqueryagent/query HTTP/2.0 404 0" 0.000000 https://localhost:8888/osquerytask/result?id=5 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:03.090  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:03] "GET /osqueryagent/query HTTP/2.0 404 0" 0.024637 https://localhost:8888/osquerytask/result?id=5 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:04.836  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:04] "GET /osquerytask/result?id=5 HTTP/2.0 200 0" 0.013408  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:06.525  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:06] "GET /asset/query HTTP/2.0 200 0" 0.068676 https://localhost:8888/osquerytask/result?id=5 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:08.362  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:08] "GET /osquerytask/query HTTP/2.0 200 0" 0.018966 https://localhost:8888/asset/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:09.711  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:09] "GET /osquerytask/result?id=1 HTTP/2.0 200 0" 0.021394 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:16.687  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /osqueryagent/query HTTP/2.0 404 0" 0.000000 https://localhost:8888/osquerytask/result?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:16.691  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:16] "GET /osqueryagent/query HTTP/2.0 404 0" 0.007657 https://localhost:8888/osquerytask/result?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:18.178  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:18] "GET /osquerytask/result?id=1 HTTP/2.0 200 0" 0.006127 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:19.130  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:19] "GET /prometheusagent/query HTTP/2.0 200 0" 0.027149 https://localhost:8888/osquerytask/result?id=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:20.677  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:20] "GET /osquerytask/query HTTP/2.0 200 0" 0.020441 https://localhost:8888/prometheusagent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:21.775  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:21] "GET /osquerytask/create HTTP/2.0 200 0" 0.019811 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:33:23.2046965 +0800 CST m=+30.122246801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:33:26.559  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "POST /osquerytask/create HTTP/2.0 302 79" 0.000000 https://localhost:8888/osquerytask/create Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:26.560  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:26] "POST /osquerytask/create HTTP/2.0 302 79" 0.081756 https://localhost:8888/osquerytask/create Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:26.584  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:26] "GET /osquerytask/query HTTP/2.0 200 0" 0.015341 https://localhost:8888/osquerytask/create Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:28.316  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:33:28] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.010065 https://localhost:8888/osquerytask/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:33:53.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:33:53.2050867 +0800 CST m=+60.122637001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:34:02.229  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:34:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001313  Alertmanager/0.22.2
+2021/08/29 18:34:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:34:23.2041825 +0800 CST m=+90.121732801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:34:53.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:34:53.2056736 +0800 CST m=+120.123223901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:35:23.203  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:35:23.2037706 +0800 CST m=+150.121320901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:35:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:35:53.2047371 +0800 CST m=+180.122287401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:36:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:36:23.205382 +0800 CST m=+210.122932301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:36:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:36:53.2045965 +0800 CST m=+240.122146801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:37:02.227  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:37:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.002247  Alertmanager/0.22.2
+2021/08/29 18:37:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:37:23.204233 +0800 CST m=+270.121783301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:37:49.928  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:37:49] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.022134  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:37:53.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:37:53.2052541 +0800 CST m=+300.122804401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:38:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:38:23.2040887 +0800 CST m=+330.121639001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:38:53.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:38:53.205125 +0800 CST m=+360.122675301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:39:14.684  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:39:14] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.024920  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:39:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:39:23.2042904 +0800 CST m=+390.121840701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:39:53.210  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:39:53.2101298 +0800 CST m=+420.127680101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:40:02.239  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:40:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.010698  Alertmanager/0.22.2
+2021/08/29 18:40:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:40:23.2048533 +0800 CST m=+450.122403601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:40:44.172  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:40:44] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.022756  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:40:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:40:53.2042079 +0800 CST m=+480.121758201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:41:01.932  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:41:01] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.018351  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:41:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:41:23.2043915 +0800 CST m=+510.121941801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:41:26.133  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:41:26] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.022800  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:41:47.161  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:41:47] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.033357  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:41:53.235  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:41:53.2353608 +0800 CST m=+540.152911101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:42:13.240  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:42:13] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.043993  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:42:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:42:23.2052739 +0800 CST m=+570.122824201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:42:51.560  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:42:51] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.032560  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:42:53.203  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:42:53.2038902 +0800 CST m=+600.121440501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:43:02.233  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:43:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.001307  Alertmanager/0.22.2
+2021/08/29 18:43:11.277  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:43:11] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.034984  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:43:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:43:23.2040854 +0800 CST m=+630.121635701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:43:45.274  [M] [router.go:1014]  ::1 - - [29/Aug/2021 06:43:45] "GET /osquerytask/result?id=6 HTTP/2.0 200 0" 0.029856  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 18:43:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:43:53.2041308 +0800 CST m=+660.121681101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:44:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:44:23.2040245 +0800 CST m=+690.121574801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:44:53.206  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:44:53.2065156 +0800 CST m=+720.124065901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:45:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:45:23.2053149 +0800 CST m=+750.122865201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:45:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:45:53.2043353 +0800 CST m=+780.121885601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:46:02.241  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:46:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.005816  Alertmanager/0.22.2
+2021/08/29 18:46:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:46:23.2058984 +0800 CST m=+810.123448701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:46:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:46:53.2041818 +0800 CST m=+840.121732101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:47:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:47:23.2052253 +0800 CST m=+870.122775601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:47:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:47:53.2044868 +0800 CST m=+900.122037101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:48:23.203  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:48:23.2038211 +0800 CST m=+930.121371401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:48:53.208  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:48:53.2080452 +0800 CST m=+960.125595501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:49:02.240  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:49:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003129  Alertmanager/0.22.2
+2021/08/29 18:49:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:49:23.2047559 +0800 CST m=+990.122306201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:49:53.203  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:49:53.2038816 +0800 CST m=+1020.121431901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:50:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:50:23.2053325 +0800 CST m=+1050.122882801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:50:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:50:53.2049705 +0800 CST m=+1080.122520801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:51:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:51:23.2059339 +0800 CST m=+1110.123484201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:51:53.203  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:51:53.2037912 +0800 CST m=+1140.121341501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:52:02.292  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:52:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.048566  Alertmanager/0.22.2
+2021/08/29 18:52:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:52:23.2043594 +0800 CST m=+1170.121909701, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:52:53.242  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:52:53.242539 +0800 CST m=+1200.160089301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:53:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:53:23.2046022 +0800 CST m=+1230.122152501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:53:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:53:53.2040456 +0800 CST m=+1260.121595901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:54:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:54:23.2045535 +0800 CST m=+1290.122103801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:54:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:54:53.2038013 +0800 CST m=+1320.121351601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:55:02.246  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 06:55:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.003225  Alertmanager/0.22.2
+2021/08/29 18:55:23.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:55:23.2041223 +0800 CST m=+1350.121672601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:55:53.213  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:55:53.213613 +0800 CST m=+1380.131163301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:56:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:56:23.205343 +0800 CST m=+1410.122893301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:56:53.204  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:56:53.2046113 +0800 CST m=+1440.122161601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:57:23.205  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:57:23.204318 +0800 CST m=+1470.121868301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:58:19.714  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:58:19.7148124 +0800 CST m=+0.080280101, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:58:19.819  [E] [template.go:227]  parse template err: osquery/task/result.html template: osquery/task/result.html:50: unexpected <range> in range
+2021/08/29 18:58:19.821  [W] [hooks.go:81]  template: osquery/task/result.html:50: unexpected <range> in range
+2021/08/29 18:58:39.671  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:58:39.6717571 +0800 CST m=+0.088257501, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:58:39.776  [E] [template.go:227]  parse template err: osquery/task/result.html template: osquery/task/result.html:58: unexpected <range> in range
+2021/08/29 18:58:39.782  [W] [hooks.go:81]  template: osquery/task/result.html:58: unexpected <range> in range
+2021/08/29 18:58:53.570  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 18:58:53.5703093 +0800 CST m=+0.087409201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 18:58:56.002  [I] [parser.go:413]  generate router from comments
+2021/08/29 18:58:56.018  [I] [server.go:208]  https server Running on https://:8888

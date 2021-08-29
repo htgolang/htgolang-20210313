@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-4 offset-4">
+        {{ range $k, $v := .errors.default }}
+        <div style="color:red;">{{ $v }}</div>
+    {{ end }}
+    <form action="{{ urlfor `OsqueryTaskController.Create` }}" method="POST">
+        <div class="form-group row">
+            <label class="col-form-label col-2">名称: </label>
+            <div class="col-8">
+                <input type="input" class="form-control {{ if .errors.name }}is-invalid{{ end }}" name="name" placeholder="名称" value="{{ .form.Name }}" />
+                {{ range $k, $v := .errors.name }}
+                    <div class="invalid-feedback">{{ $v }}</div>
+                {{ end }}
+            </div>
+
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">任务类型: </label>
+            <div class="col-8">
+                <select name="type" class="form-control">
+                    {{ range $k, $v := .types }}
+                        <option value="{{ $v.Key}}" {{ if eq $v.Key $.form.Type }}selected="selected"{{ end }}>{{ $v.Name }}</option>
+                    {{ end }}
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-label col-2">执行目标: </label>
+            <div class="col-8">
+                <select name="uuids" class="form-control {{ if .errors.targets }}is-invalid{{ end }}" multiple="multiple">
+                    {{ range $k, $v := .targets }}
+                        <option value="{{ $v.UUID }}" {{ if in_string_slice $v.UUID $.form.UUIDs }}selected="selected"{{ end }}>{{ $v.Hostname }}({{ $v.Addr }})</option>
+                    {{ end }}
+                </select>
+                {{ range $k, $v := .errors.targets }}
+                    <div class="invalid-feedback">{{ $v }}</div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-10">
+                <input type="submit" class="btn btn-primary float-right" value="创建" />
+            </div>
+        </div>
+    </form>
+</div>

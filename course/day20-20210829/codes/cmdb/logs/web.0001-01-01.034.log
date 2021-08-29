@@ -1,0 +1,24 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: TLS handshake error from [::1]:54879: remote error: tls: unknown certificate
+2021/08/29 19:16:37.310  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /osqueryagent/query HTTP/2.0 404 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:16:37.332  [M] [router.go:1014]  ::1 - - [29/Aug/2021 07:16:37] "GET /osqueryagent/query HTTP/2.0 404 0" 0.036180  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:16:39.297  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET /osqueryagent/query HTTP/2.0 404 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:16:39.329  [M] [router.go:1014]  ::1 - - [29/Aug/2021 07:16:39] "GET /osqueryagent/query HTTP/2.0 404 0" 0.042813  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:16:40.851  [M] [router.go:1014]  ::1 - - [01/Jan/0001 12:00:00] "GET / HTTP/2.0 302 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:16:40.854  [M] [router.go:1014]  ::1 - - [29/Aug/2021 07:16:40] "GET / HTTP/2.0 302 0" 0.023077  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:16:40.887  [M] [router.go:1014]  ::1 - - [29/Aug/2021 07:16:40] "GET /user/query HTTP/2.0 200 0" 0.024283  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:16:45.931  [M] [router.go:1014]  ::1 - - [29/Aug/2021 07:16:45] "GET /osquerytask/query HTTP/2.0 200 0" 0.028508 https://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021/08/29 19:17:02.281  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 07:17:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.007475  Alertmanager/0.22.2
+2021/08/29 19:17:04.319  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:17:04.3193415 +0800 CST m=+30.135810901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:17:34.321  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:17:34.3214739 +0800 CST m=+60.137943301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:18:04.319  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:18:04.3197582 +0800 CST m=+90.136227601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:18:34.320  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:18:34.3208336 +0800 CST m=+120.137303001, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:19:04.318  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:19:04.318858 +0800 CST m=+150.135327401, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:19:34.321  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:19:34.3212185 +0800 CST m=+180.137687901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:20:02.271  [M] [router.go:1014]  10.0.0.2 - - [29/Aug/2021 07:20:02] "POST /v1/alert/trigger/ HTTP/1.1 200 649" 0.006131  Alertmanager/0.22.2
+2021/08/29 19:20:04.321  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:20:04.3216758 +0800 CST m=+210.138145201, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:20:34.320  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:20:34.3202455 +0800 CST m=+240.136714901, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:21:04.318  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:21:04.3189832 +0800 CST m=+270.135452601, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:21:34.318  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:21:34.3185674 +0800 CST m=+300.135036801, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:22:18.396  [D] [asset.go:54]  check sync asset: false, now: 2021-08-29 19:22:18.3962656 +0800 CST m=+0.084449301, prevTime: 1970-01-01 08:00:00 +0800 CST
+2021/08/29 19:22:20.848  [I] [parser.go:413]  generate router from comments
+2021/08/29 19:22:20.854  [I] [server.go:208]  https server Running on https://:8888

@@ -1,0 +1,76 @@
+
+<div class="card mb-2">
+    <div class="card-header">
+      任务信息
+    </div>
+    <div class="card-body">
+        <table class="table table-borderless">
+            <tr>
+                <th>
+                    任务名称: {{ .task.Name }}
+                </th>
+                <th>
+                    任务类型: {{ .taskType.Name }}
+                </th>
+                <th>
+                    {{ date .task.CreatedAt "Y-m-d H:i:s"}}
+                </th>
+                <th>
+                    完成时间：{{ if .task.ComplatedAt }}
+                            {{ date .task.ComplatedAt "Y-m-d H:i:s"}}
+                        {{ end }}
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    终端数量： {{ .osqueryTaskService.GetJobTotal .task.Id }}
+                </th>
+                <th>
+                    运行中数量：{{ .osqueryTaskService.GetJobRunning .task.Id }}
+                </th>
+                <th>
+                    已完成数量：{{ .osqueryTaskService.GetJobComplated .task.Id }}
+                </th>
+                <th>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>
+{{ range $jobIndex, $job := .jobs }}
+<div class="card mb-2">
+    <div class="card-header">
+        {{ with $agent := $.osqueryAgentService.GetByUUID $job.UUID }}
+            Job信息({{ $agent.Hostname}} / {{ $agent.Addr }})
+        {{ end }}
+        | 状态 {{ $job.Status }}
+        |完成时间 {{ if $job.ComplatedAt }}
+                        {{ date $job.ComplatedAt "Y-m-d H:i:s"}}
+                    {{ end }}
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-sm table-striped table-hover">
+            <thead>
+                <tr>
+                    {{ range $k, $v := $.taskType.Columns }}
+                        <th>{{ index $v 1 }}</th>
+                    {{ end }}
+                </tr>
+            </thead>
+            <tbody>
+                {{ range $rowIndex, $row := $job.ResultRows }}
+                <tr>
+                    {{ range $k, $v := $.taskType.Columns }}
+                        <td>{{ map_get $row (index $v 0) }}</td>
+                    {{ end }}
+                </tr>
+                {{ else }}
+                <tr>
+                    <td colspan="{{ len $.taskType.Columns }}">暂无数据</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+</div>
+{{ end }}

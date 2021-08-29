@@ -1,0 +1,41 @@
+<div class="mb-1">
+    <a class="btn btn-primary btn-sm" href="{{ urlfor `AssetController.Config` }}">配置</a>
+    <a class="btn btn-success btn-sm {{ if .scanning }}disabled{{ end }}" href="{{ urlfor `AssetController.Scan` }}">扫描</a>
+    <div class="float-right">
+        <form class="form-inline" action="{{ urlfor `AssetController.Query`}}" method="POST">
+            <label class="sr-only">查询内容: </label>
+            <input type="text" class="form-control form-control-sm mr-2" value="{{ .q }}" placeholder="查询" name="q"/>
+            <input type="submit" class="btn btn-info btn-sm" value="查询" />
+        </form>
+    </div>
+</div>
+
+<table class="table table-bordered table-sm table-striped table-hover">
+    <thead>
+        <tr>
+            <th>地址</th>
+            <th>描述</th>
+            <th>状态</th>
+            <th>发现时间</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .objects }}
+        <tr>
+            <td>{{ .Addr }}</td>
+            <td>{{ .Description }}</td>
+            <td>{{ .Status }}</td>
+            <td>{{ date .CreatedAt "Y-m-d H:i:s" }}</td>
+            <td>
+                <a class="btn btn-sm btn-warning" href="{{ urlfor `AssetController.Modify` }}?id={{ .Id }}">编辑</a>
+                <a class="btn btn-sm btn-danger" href="{{ urlfor `AssetController.Delete` }}?id={{ .Id }}">删除</a>
+            </td>
+        </tr>
+        {{ else }}
+        <tr>
+            <td colspan="5">暂无数据</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
